@@ -14,11 +14,15 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.EditorAnnotation").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute", "jetbrains.mps.lang.core.structure.INamedConcept").references("editor").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.DefaultOutputDirectory").super_("org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory").parents("org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory").create();
+      case 1:
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("path").create();
+      case 2:
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.EditorAnnotation").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute", "jetbrains.mps.lang.core.structure.INamedConcept").references("editor", "outputTo").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.mps.editor2svg.structure.EditorAnnotation"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.mps.editor2svg.structure.DefaultOutputDirectory", "org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory", "org.campagnelab.mps.editor2svg.structure.EditorAnnotation"};
 }

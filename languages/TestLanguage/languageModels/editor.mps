@@ -18,9 +18,14 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.EditorCellModel" typeId="tpc2.1073389214265" id="893392931326328840" nodeInfo="ng" />
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="893392931326328834" nodeInfo="nn" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="893392931326328866" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="MyConceptEditor2" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="893392931327223512" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="OUTPUT" />
+      <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="893392931327233665" resolveInfo="DATA" />
     </node>
+  </root>
+  <root type="3t4d.DiagramOutputDirectory" typeId="3t4d.893392931327129896" id="893392931327233665" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DATA" />
+    <property name="path" nameId="3t4d.893392931327129956" value="/data" />
   </root>
 </model>
 

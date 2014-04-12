@@ -15,6 +15,8 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
+        return Collections.<ConceptEditor>singletonList(new DiagramOutputDirectory_Editor());
+      case 1:
         return Collections.<ConceptEditor>singletonList(new EditorAnnotation_Editor());
       default:
     }
@@ -32,5 +34,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"org.campagnelab.mps.editor2svg.structure.EditorAnnotation"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory", "org.campagnelab.mps.editor2svg.structure.EditorAnnotation"};
 }

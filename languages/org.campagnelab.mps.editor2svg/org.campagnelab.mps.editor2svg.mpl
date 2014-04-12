@@ -3,9 +3,12 @@
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
+      <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2svg.accessory)" />
+  </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.editor2svg#8751972264247094546" uuid="dcf04043-d992-430c-a03d-cd21b993eafa">
       <models>
