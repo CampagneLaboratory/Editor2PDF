@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.mps.editor2svg.constraints.ConstraintsAspectDescriptor" />
+  <root nodeRef="r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2svg.constraints)/8751972264247719107">
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="18" startPosition="41" endLine="19" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="23" startPosition="43" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="28" startPosition="200" endLine="29" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="29" startPosition="96" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="31" startPosition="51" endLine="32" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="33" startPosition="5" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="34" startPosition="0" endLine="35" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8751972264247761410" fileName="EditorAnnotation_Constraints.java" startLine="40" startPosition="39" endLine="41" endPosition="177" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="46" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EditorAnnotation_Constraints#()V" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="30" startPosition="0" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8751972264247759916" fileName="EditorAnnotation_Constraints.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="8751972264247747425" fileName="EditorAnnotation_Constraints.java" startLine="38" startPosition="154" endLine="43" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="27" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="18" startPosition="41" endLine="19" endPosition="71" />
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="23" startPosition="43" endLine="24" endPosition="16" />
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="31" startPosition="51" endLine="32" endPosition="67" />
+    <scopeInfo nodeId="8751972264247759917" fileName="EditorAnnotation_Constraints.java" startLine="40" startPosition="39" endLine="41" endPosition="177" />
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="8751972264247759916" fileName="EditorAnnotation_Constraints.java" startLine="40" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="8751972264247759916" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="8751972264247719160" fileName="EditorAnnotation_Constraints.java" startLine="38" startPosition="154" endLine="43" endPosition="17" />
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="28" startPosition="200" endLine="35" endPosition="18">
+      <varInfo nodeId="8751972264247719107" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="8751972264247719107" varName="childConcept" />
+      <varInfo nodeId="8751972264247719107" varName="link" />
+      <varInfo nodeId="8751972264247719107" varName="node" />
+      <varInfo nodeId="8751972264247719107" varName="operationContext" />
+      <varInfo nodeId="8751972264247719107" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="27" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="8751972264247719107" varName="checkingNodeContext" />
+      <varInfo nodeId="8751972264247719107" varName="childConcept" />
+      <varInfo nodeId="8751972264247719107" varName="link" />
+      <varInfo nodeId="8751972264247719107" varName="node" />
+      <varInfo nodeId="8751972264247719107" varName="operationContext" />
+      <varInfo nodeId="8751972264247719107" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8751972264247759916" fileName="EditorAnnotation_Constraints.java" startLine="39" startPosition="98" endLine="43" endPosition="5" unitName="org.campagnelab.mps.editor2svg.constraints.EditorAnnotation_Constraints$1" />
+    <unitInfo nodeId="8751972264247719107" fileName="EditorAnnotation_Constraints.java" startLine="17" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.mps.editor2svg.constraints.EditorAnnotation_Constraints" />
+  </root>
+</debugInfo>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="org.campagnelab.mps.editor2svg.generator.template.main.QueriesGenerated" />
+  <root nodeRef="r:5e0319ac-b4d4-48f2-91d9-9d49c39de5cd(org.campagnelab.mps.editor2svg.generator.template.main@generator)/8751972264247094547">
+    <nodeInfo nodeId="8751972264247983410" fileName="QueriesGenerated.java" startLine="12" startPosition="150" endLine="13" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8751972264247981396" fileName="QueriesGenerated.java" startLine="13" startPosition="55" endLine="14" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="8751972264247981390" fileName="QueriesGenerated.java" startLine="12" startPosition="150" endLine="14" endPosition="30" />
+  </root>
+</debugInfo>
+
