@@ -10,7 +10,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="e9pq1zgmn3gh8sbbzqphl1u5ggfjv0t" />
   <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" hash="58h1iu2fzsw4eddmgvo0go8la2iqsdv" />
   <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" hash="-5hx7y14kyd1w9z35ji67uygr3sdq19h" />
-  <dep model="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2svg.behavior)" hash="-2ijuyrmf3ktsiiprzj0w9yxswibdo6t" />
+  <dep model="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2svg.behavior)" hash="3mrcl5fcx511is5fi5nyjnz1vubopyr" />
   <dep model="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2svg.structure)" hash="5i50ix2d6d423qe603z3rd346tga7zp" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-dh3h1y2xoptj5lgq10sd9knoeyuxwuf" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-72duuo4h0yyy6mr9x5p7p1bgk48vgfo" />

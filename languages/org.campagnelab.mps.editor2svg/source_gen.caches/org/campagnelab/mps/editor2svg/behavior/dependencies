@@ -18,9 +18,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.ParentSettings" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
     <classNode dependClassName="org.apache.batik.dom.svg.SVGDOMImplementation" />
-    <classNode dependClassName="org.apache.batik.dom.svg12.SVG12DOMImplementation" />
     <classNode dependClassName="org.apache.batik.dom.util.DOMUtilities" />
     <classNode dependClassName="org.apache.batik.svggen.SVGGraphics2D" />
     <classNode dependClassName="org.apache.log4j.LogManager" />

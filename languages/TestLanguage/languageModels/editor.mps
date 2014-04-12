@@ -19,7 +19,7 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="893392931326328834" nodeInfo="nn" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="893392931326328866" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="MyConceptEditor" />
+      <property name="name" nameId="tpck.1169194664001" value="MyConceptEditor2" />
     </node>
   </root>
 </model>

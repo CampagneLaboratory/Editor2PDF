@@ -15,7 +15,7 @@
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8751972264247280618" nodeInfo="nn" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="5156137522246199368" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Myoutput8" />
+      <property name="name" nameId="tpck.1169194664001" value="Myoutput10" />
     </node>
   </root>
 </model>
