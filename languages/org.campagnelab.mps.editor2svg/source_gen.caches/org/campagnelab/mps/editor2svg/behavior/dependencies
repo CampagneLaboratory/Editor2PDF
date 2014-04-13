@@ -39,7 +39,13 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2svg.behavior.EditorAnnotation_Behavior" file="EditorAnnotation_Behavior.java">
-    <classNode dependClassName="java.awt.Graphics" />
+    <classNode dependClassName="com.itextpdf.awt.PdfGraphics2D" />
+    <classNode dependClassName="com.itextpdf.text.Document" />
+    <classNode dependClassName="com.itextpdf.text.Rectangle" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfContentByte" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfTemplate" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfWriter" />
+    <classNode dependClassName="java.awt.Graphics2D" />
     <classNode dependClassName="java.io.BufferedOutputStream" />
     <classNode dependClassName="java.io.File" />
     <classNode dependClassName="java.io.FileInputStream" />
@@ -66,7 +72,6 @@
     <classNode dependClassName="org.apache.batik.transcoder.TranscoderException" />
     <classNode dependClassName="org.apache.batik.transcoder.TranscoderInput" />
     <classNode dependClassName="org.apache.batik.transcoder.TranscoderOutput" />
-    <classNode dependClassName="org.apache.fop.svg.PDFDocumentGraphics2D" />
     <classNode dependClassName="org.apache.fop.svg.PDFTranscoder" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />

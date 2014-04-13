@@ -20,9 +20,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.Writer;
 import java.io.PrintWriter;
 import org.apache.log4j.Priority;
-import org.apache.fop.svg.PDFDocumentGraphics2D;
-import java.awt.Graphics;
 import java.io.FileOutputStream;
+import com.itextpdf.text.Rectangle;
+import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.pdf.PdfContentByte;
+import com.itextpdf.text.pdf.PdfTemplate;
+import java.awt.Graphics2D;
+import com.itextpdf.awt.PdfGraphics2D;
 import org.apache.batik.transcoder.Transcoder;
 import org.apache.fop.svg.PDFTranscoder;
 import java.io.InputStream;
@@ -87,19 +91,27 @@ public class EditorAnnotation_Behavior {
     editorCell.synchronizeViewWithModel();
     editorCell.relayout();
 
-    DOMUtilities domUtil;
     try {
-      PDFDocumentGraphics2D graphics = new PDFDocumentGraphics2D();
-      Graphics g = (Graphics) graphics;
       File pdfFile = new File(SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path") + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
       FileOutputStream stream = new FileOutputStream(pdfFile);
-
-      Writer writer = new PrintWriter(pdfFile);
-      graphics.setupDocument(stream, editorCell.getWidth(), editorCell.getHeight());
-      ParentSettings settings = new ParentSettings();
       editorCell.relayout();
-      editorCell.paint(g, settings);
-      stream.close();
+
+      int width = editorCell.getWidth() + editorCell.getX();
+      int height = editorCell.getHeight() + editorCell.getY();
+      com.itextpdf.text.Document document = new com.itextpdf.text.Document(new Rectangle(editorCell.getWidth(), editorCell.getHeight()));
+      document.setMargins(0, 0, 0, 0);
+      PdfWriter writer = PdfWriter.getInstance(document, stream);
+      document.open();
+      PdfContentByte cb = writer.getDirectContent();
+      PdfTemplate template = cb.createTemplate(width, height);
+      ParentSettings settings = new ParentSettings();
+      Graphics2D g2d = new PdfGraphics2D(template, width, height, false);
+      // <node> 
+      editorCell.paint(g2d, settings);
+      g2d.dispose();
+      cb.addTemplate(template, -editorCell.getX(), 0);
+
+      document.close();
     } catch (Exception e) {
       if (LOG.isEnabledFor(Priority.ERROR)) {
         LOG.error("Exception", e);
