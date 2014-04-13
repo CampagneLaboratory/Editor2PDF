@@ -28,4 +28,9 @@ See the following figures to learn how to use the Editor2PDF:
 
 And the result can be seen [here](figures/MyClass.pdf) 
 
+New to MPS? 
+-----------
+See this book:
+The MPS Language Workbench: Volume I. 2014. Fabien Campagne (http://books.campagnelab.org).
+![MPSBook Cover](http://campagnelab.org/files/MPS_Book-Cover-Volume1-small.png) 
 
