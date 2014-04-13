@@ -116,11 +116,13 @@ public class RefreshRenderings_Intention implements IntentionFactory {
           if (LOG.isInfoEnabled()) {
             LOG.info("cell:" + cell);
           }
-          SNodeOperations.getModel(concept).getRepository().getModelAccess().runReadInEDT(new Runnable() {
-            public void run() {
-              EditorAnnotation_Behavior.call_renderNodeEditor_8751972264248786149(annotation, annotation, cell);
-            }
-          });
+          if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
+            SNodeOperations.getModel(concept).getRepository().getModelAccess().runReadInEDT(new Runnable() {
+              public void run() {
+                EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
+              }
+            });
+          }
 
         }
       });

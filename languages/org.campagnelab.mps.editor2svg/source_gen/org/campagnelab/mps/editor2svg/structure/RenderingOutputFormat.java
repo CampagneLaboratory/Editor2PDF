@@ -28,7 +28,7 @@ public enum RenderingOutputFormat {
   }
 
   public static RenderingOutputFormat getDefault() {
-    return RenderingOutputFormat.SVG;
+    return RenderingOutputFormat.PDF;
   }
 
   public static RenderingOutputFormat parseValue(String value) {

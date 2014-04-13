@@ -15,6 +15,7 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.campagnelab.mps.editor2svg.behavior.EditorAnnotation_Behavior;
 import jetbrains.mps.intentions.IntentionDescriptor;
 import org.apache.log4j.Logger;
@@ -81,10 +82,10 @@ public class Render_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "0", "0")) {
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "0", "1")) {
         return "Render to SVG ";
       }
-      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "1", "0")) {
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "1", "1")) {
         return "Render to PDF ";
       }
       return "Unknown conversion type";
@@ -97,15 +98,14 @@ public class Render_Intention implements IntentionFactory {
       editorContext.select(node);
       final EditorCell cell = (EditorCell) editorContext.getSelectedCell();
       editorContext.getSelectionManager().clearSelection();
-      SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation"));
-      if (SPropertyOperations.hasValue(annotation, "outputFormat", "0", "0")) {
-        EditorAnnotation_Behavior.call_renderNodeEditor_8751972264248786149(annotation, annotation, cell);
-      }
-      if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "0")) {
-        EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
-      }
-
-      // <node> 
+      final SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation"));
+      SNodeOperations.getModel(node).getRepository().getModelAccess().runReadAction(new Runnable() {
+        public void run() {
+          if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
+            EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
+          }
+        }
+      });
     }
 
     public IntentionDescriptor getDescriptor() {

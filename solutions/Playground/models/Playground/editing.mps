@@ -39,7 +39,6 @@
       <node role="color" roleId="lpry.4191445539799470732" type="lpry.ColorReference" typeId="lpry.4191445539799302575" id="893392931328362034" nodeInfo="ng">
         <link role="color" roleId="lpry.4191445539799302810" targetNodeId="1t7x.~Color%dBLACK" resolveInfo="BLACK" />
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="1682788713720030752" nodeInfo="ng" />
     </node>
     <node role="shapes" roleId="lpry.5898776707557489223" type="lpry.Square" typeId="lpry.5898776707557474722" id="893392931328362042" nodeInfo="ng">
       <property name="upperLeftX" nameId="lpry.5898776707557474723" value="0" />

@@ -46,18 +46,9 @@
     <classNode dependClassName="com.itextpdf.text.pdf.PdfTemplate" />
     <classNode dependClassName="com.itextpdf.text.pdf.PdfWriter" />
     <classNode dependClassName="java.awt.Graphics2D" />
-    <classNode dependClassName="java.io.BufferedOutputStream" />
     <classNode dependClassName="java.io.File" />
-    <classNode dependClassName="java.io.FileInputStream" />
     <classNode dependClassName="java.io.FileOutputStream" />
-    <classNode dependClassName="java.io.IOException" />
-    <classNode dependClassName="java.io.InputStream" />
-    <classNode dependClassName="java.io.OutputStream" />
-    <classNode dependClassName="java.io.PrintWriter" />
-    <classNode dependClassName="java.io.StringWriter" />
-    <classNode dependClassName="java.io.Writer" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
@@ -65,20 +56,10 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.ParentSettings" />
-    <classNode dependClassName="org.apache.batik.dom.svg.SVGDOMImplementation" />
-    <classNode dependClassName="org.apache.batik.dom.util.DOMUtilities" />
-    <classNode dependClassName="org.apache.batik.svggen.SVGGraphics2D" />
-    <classNode dependClassName="org.apache.batik.transcoder.Transcoder" />
-    <classNode dependClassName="org.apache.batik.transcoder.TranscoderException" />
-    <classNode dependClassName="org.apache.batik.transcoder.TranscoderInput" />
-    <classNode dependClassName="org.apache.batik.transcoder.TranscoderOutput" />
-    <classNode dependClassName="org.apache.fop.svg.PDFTranscoder" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.apache.log4j.Priority" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode dependClassName="org.w3c.dom.DOMImplementation" />
-    <classNode dependClassName="org.w3c.dom.Document" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2svg.behavior.EditorAnnotation_BehaviorDescriptor" file="EditorAnnotation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
