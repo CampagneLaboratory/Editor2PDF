@@ -31,7 +31,7 @@ See the following figures to learn how to use the Editor2PDF:
 ![Step 1](figures/Tutorial1.png)
 ![Step 2](figures/Tutorial2.png)
 
-And the result can be seen [here](figures/MyClass.pdf) 
+And the result can be seen [here](figures/MyClass.pdf). Note that this is a fully vectorial PDF that will render wihout loss of resolution in press.
 
 New to MPS? 
 -----------
