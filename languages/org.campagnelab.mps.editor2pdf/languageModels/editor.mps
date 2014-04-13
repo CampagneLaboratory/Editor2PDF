@@ -11,7 +11,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="3t4d.8751972264247112684" resolveInfo="EditorAnnotation" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8751972264247490256" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8751972264247490263" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="&gt; Render Below Editor To " />
+        <property name="text" nameId="tpc2.1073389577007" value="&gt; Render Below Editor To" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="8751972264247962869" nodeInfo="nn">
           <property name="color" nameId="tpc2.1186403713874" value="orange" />
         </node>

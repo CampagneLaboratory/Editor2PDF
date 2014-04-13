@@ -5,4 +5,7 @@ package Playground.editing;
 
 public class MyClass {
   private int a;
+
+  public static interface  {
+  }
 }
