@@ -6,9 +6,7 @@
       <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2pdf.accessory)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.editor2pdf#8751972264247094546" uuid="dcf04043-d992-430c-a03d-cd21b993eafa">
       <models>
@@ -53,10 +51,6 @@
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <runtime>
-    <dependency reexport="false">c0488c1e-322f-4f38-92d4-5520a7ce96c1(com.mbeddr.plantuml.pluginSolution)</dependency>
-    <dependency reexport="false">c3d03cfa-5f27-4e2d-9d8b-9274ab9e5e40(org.campagnelab.mps.editor2svg.runtime)</dependency>
-  </runtime>
   <extendedLanguages>
     <extendedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</extendedLanguage>
   </extendedLanguages>

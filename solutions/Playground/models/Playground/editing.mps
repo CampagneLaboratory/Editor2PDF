@@ -22,9 +22,9 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1682788713718902065" nodeInfo="nn" />
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8751972264247280618" nodeInfo="nn" />
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="5156137522246199368" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Myoutput10" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="7053933157530016409" nodeInfo="ng">
       <property name="outputFormat" nameId="3t4d.5378718574870043633" value="1" />
+      <property name="name" nameId="tpck.1169194664001" value="ou" />
       <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="5378718574870348268" resolveInfo="DATA" />
     </node>
   </root>

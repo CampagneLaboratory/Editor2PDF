@@ -15,6 +15,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public void init() {
     IntentionsManager.getInstance().registerIntentionFactory(new RefreshRenderings_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new Render_Intention());
-    IntentionsManager.getInstance().registerIntentionFactory(new ToggleEditor2SVG_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new TogglePDFRendering_Intention());
   }
 }
