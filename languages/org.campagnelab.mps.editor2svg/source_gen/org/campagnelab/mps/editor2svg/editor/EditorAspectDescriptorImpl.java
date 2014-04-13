@@ -17,7 +17,11 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new DiagramOutputDirectory_Editor());
       case 1:
+        return Collections.<ConceptEditor>singletonList(new DiagramRef_Editor());
+      case 2:
         return Collections.<ConceptEditor>singletonList(new EditorAnnotation_Editor());
+      case 3:
+        return Collections.<ConceptEditor>singletonList(new SvgCollection_Editor());
       default:
     }
     return Collections.emptyList();
@@ -34,5 +38,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory", "org.campagnelab.mps.editor2svg.structure.EditorAnnotation"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"org.campagnelab.mps.editor2svg.structure.DiagramOutputDirectory", "org.campagnelab.mps.editor2svg.structure.DiagramRef", "org.campagnelab.mps.editor2svg.structure.EditorAnnotation", "org.campagnelab.mps.editor2svg.structure.SvgCollection"};
 }

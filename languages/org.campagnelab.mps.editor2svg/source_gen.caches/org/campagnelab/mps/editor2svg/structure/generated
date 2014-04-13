@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9gk5r46v20zk0eecy7368rxj4aet9j7">
+<dependencies version="2" modelHash="-onx01pz7y3b37jenxbxdcrnrkdk5y1">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-azzr309h14jc8esf0b78xmy287ekk6c" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-erhs8245rrxarsir75oeypz6lamscet" />
@@ -10,6 +10,8 @@
     <dep root="8751972264247112684" />
     <dep root="893392931327129896" />
     <dep root="893392931327136866" />
+    <dep root="893392931327268188" />
+    <dep root="893392931327268246" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
@@ -19,7 +21,9 @@
     <file name="StructureAspectDescriptor.java" />
   </common>
   <source id="8751972264247112684" name="EditorAnnotation" hash="-dcp70dv63qk2jmoynq80e2tgwi8645w" />
-  <source id="893392931327129896" name="DiagramOutputDirectory" hash="-5x13c3rpfb19toijrdy9ewcwpxfgomu" />
+  <source id="893392931327129896" name="DiagramOutputDirectory" hash="-dy3jzqpx5dpkvs0mzl3cyovjk72uyfg" />
   <source id="893392931327136866" name="DefaultOutputDirectory" hash="-a4xbsgro8s0yr4etgftltweksg8e44f" />
+  <source id="893392931327268188" name="SvgCollection" hash="3pr1mfkncyvw5n4ulyvsc35zfrtils7" />
+  <source id="893392931327268246" name="DiagramRef" hash="4lxwf0uj0wky52de8iofbd4fww36tat" />
 </dependencies>
 

@@ -42,6 +42,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327129896" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DiagramOutputDirectory" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Output" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Output directory for SVG Renderings" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="893392931327129956" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="path" />
@@ -54,6 +56,32 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327136866" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DefaultOutputDirectory" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="893392931327129896" resolveInfo="DiagramOutputDirectory" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327268188" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SvgCollection" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="svg-collection" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Collection of SVG editor annotations" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="893392931327268244" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="diagrams" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="893392931327268246" resolveInfo="DiagramRef" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="893392931327268242" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327268246" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="DiagramRef" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="893392931327268247" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="diagram" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8751972264247112684" resolveInfo="EditorAnnotation" />
+    </node>
   </root>
 </model>
 

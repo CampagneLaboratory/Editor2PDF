@@ -30,8 +30,9 @@ public class EditorAnnotation_Behavior {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
 
     /*
-      editorCell.synchronizeViewWithModel();
     */
+    editorCell.synchronizeViewWithModel();
+    editorCell.relayout();
 
     DOMUtilities domUtil;
     try {

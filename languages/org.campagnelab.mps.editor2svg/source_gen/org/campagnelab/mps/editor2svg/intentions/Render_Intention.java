@@ -80,7 +80,7 @@ public class Render_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Render to SVG!";
+      return "Render to SVG";
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {
