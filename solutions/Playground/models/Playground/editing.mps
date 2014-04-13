@@ -10,7 +10,6 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="3t4d" modelUID="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2svg.structure)" version="-1" implicit="yes" />
-  <import index="toj1" modelUID="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2svg.accessory)" version="-1" implicit="yes" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" implicit="yes" />
   <import index="lpry" modelUID="r:c5af9f55-6095-48ca-b66b-70da9c3f57fb(jetbrains.mps.samples.Shapes.structure)" version="-1" implicit="yes" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="8751972264247280617" nodeInfo="ig">
@@ -23,6 +22,8 @@
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8751972264247280618" nodeInfo="nn" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="5156137522246199368" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Myoutput10" />
+      <property name="outputFormat" nameId="3t4d.5378718574870043633" value="1" />
+      <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="5378718574870348268" resolveInfo="DATA" />
     </node>
   </root>
   <root type="lpry.Canvas" typeId="lpry.5898776707557467933" id="893392931328361954" nodeInfo="ng">
@@ -45,8 +46,12 @@
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="893392931328362058" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="shapes" />
-      <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="toj1.893392931327213069" resolveInfo="DEFAULT" />
+      <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="5378718574870348268" resolveInfo="DATA" />
     </node>
+  </root>
+  <root type="3t4d.DiagramOutputDirectory" typeId="3t4d.893392931327129896" id="5378718574870348268" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DATA" />
+    <property name="path" nameId="3t4d.893392931327129956" value="/data" />
   </root>
 </model>
 

@@ -1,8 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeRef="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/374542228674168501">
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="13" startPosition="54" endLine="14" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="19" startPosition="29" endLine="20" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="20" startPosition="22" endLine="21" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="21" startPosition="56" endLine="22" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="22" startPosition="20" endLine="23" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="23" startPosition="52" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="24" startPosition="16" endLine="25" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="30" startPosition="42" endLine="31" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="31" startPosition="29" endLine="32" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="11" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="panel" />
+    <nodeInfo nodeId="374542228674168501" fileName="null.java" startLine="19" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="13" startPosition="54" endLine="14" endPosition="37" />
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="30" startPosition="42" endLine="32" endPosition="24">
+      <varInfo nodeId="374542228674168501" varName="canvas" />
+    </scopeInfo>
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="374542228674168501" varName="graphics" />
+    </scopeInfo>
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="374542228674168501" varName="args" />
+    </scopeInfo>
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="19" startPosition="29" endLine="25" endPosition="26" />
+    <scopeInfo nodeId="374542228674168501" fileName="null.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
+    <unitInfo nodeId="374542228674168501" fileName="null.java" startLine="11" startPosition="29" endLine="16" endPosition="3" unitName="Playground.editing.null$1" />
+    <unitInfo nodeId="374542228674168501" fileName="null.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="Playground.editing.null" />
+  </root>
+  <root nodeRef="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/374542228674205838">
+    <unitInfo nodeId="374542228674205838" fileName="null.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Playground.editing.null" />
+  </root>
   <root nodeRef="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/8751972264247280617">
     <nodeInfo nodeId="5156137522246049040" fileName="MyClass.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="a" />
     <unitInfo nodeId="8751972264247280617" fileName="MyClass.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="Playground.editing.MyClass" />
+  </root>
+  <root nodeRef="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/893392931328361954">
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="14" startPosition="54" endLine="15" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328362024" fileName="MyCanvas.java" startLine="15" startPosition="37" endLine="16" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328362024" fileName="MyCanvas.java" startLine="16" startPosition="37" endLine="17" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328362042" fileName="MyCanvas.java" startLine="17" startPosition="40" endLine="18" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328362042" fileName="MyCanvas.java" startLine="18" startPosition="35" endLine="19" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="24" startPosition="29" endLine="25" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="25" startPosition="30" endLine="26" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="26" startPosition="56" endLine="27" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="27" startPosition="20" endLine="28" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="28" startPosition="52" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="29" startPosition="16" endLine="30" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="35" startPosition="42" endLine="36" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="36" startPosition="37" endLine="37" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="893392931328362024" fileName="MyCanvas.java" startLine="15" startPosition="37" endLine="17" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="893392931328362042" fileName="MyCanvas.java" startLine="17" startPosition="40" endLine="19" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="13" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="24" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="12" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="panel" />
+    <scopeInfo nodeId="893392931328362024" fileName="MyCanvas.java" startLine="15" startPosition="37" endLine="17" endPosition="40" />
+    <scopeInfo nodeId="893392931328362042" fileName="MyCanvas.java" startLine="17" startPosition="40" endLine="19" endPosition="40" />
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="35" startPosition="42" endLine="37" endPosition="24">
+      <varInfo nodeId="893392931328361954" varName="canvas" />
+    </scopeInfo>
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="893392931328361954" varName="args" />
+    </scopeInfo>
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="14" startPosition="54" endLine="19" endPosition="40" />
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="24" startPosition="29" endLine="30" endPosition="26" />
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="13" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="893392931328361954" varName="graphics" />
+    </scopeInfo>
+    <scopeInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="24" startPosition="0" endLine="32" endPosition="0" />
+    <unitInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="12" startPosition="29" endLine="21" endPosition="3" unitName="Playground.editing.MyCanvas$1" />
+    <unitInfo nodeId="893392931328361954" fileName="MyCanvas.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="Playground.editing.MyCanvas" />
   </root>
 </debugInfo>
 

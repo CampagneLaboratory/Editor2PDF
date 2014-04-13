@@ -15,6 +15,10 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8751972264247112684" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EditorAnnotation" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5378718574870043633" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="outputFormat" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="5378718574870043612" resolveInfo="RenderingOutputFormat" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8751972264247713726" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="editor" />
@@ -81,6 +85,18 @@
       <property name="role" nameId="tpce.1071599776563" value="diagram" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8751972264247112684" resolveInfo="EditorAnnotation" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="5378718574870043612" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="RenderingOutputFormat" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5378718574870043613" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="SVG" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5378718574870043630" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="PDF" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
     </node>
   </root>
 </model>

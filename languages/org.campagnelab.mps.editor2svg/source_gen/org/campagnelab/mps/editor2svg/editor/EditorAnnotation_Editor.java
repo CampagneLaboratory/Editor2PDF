@@ -36,9 +36,10 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_rijbc_c0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_rijbc_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_rijbc_e0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_rijbc_f0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_rijbc_f0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_rijbc_g0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_rijbc_h0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_rijbc_h0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_rijbc_i0(editorContext, node));
     return editorCell;
   }
 
@@ -137,7 +138,7 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rijbc_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".svg");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_rijbc_e0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Comment(style, editorCell);
@@ -146,9 +147,30 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_rijbc_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_rijbc_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("outputFormat");
+    provider.setNoTargetText("<no outputFormat>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_outputFormat");
+    Style style = new StyleImpl();
+    BaseLanguageStyle_StyleSheet.apply_Comment(style, editorCell);
+    editorCell.getStyle().putAll(style);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_rijbc_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
-    editorCell.setCellId("Constant_rijbc_f0");
+    editorCell.setCellId("Constant_rijbc_g0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.BACKGROUND_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.orange));
@@ -157,9 +179,9 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_rijbc_g0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_rijbc_h0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_rijbc_g0");
+    editorCell.setCellId("Constant_rijbc_h0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
@@ -167,19 +189,19 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_rijbc_h0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_rijbc_i0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_rijbc_h0");
+    editorCell.setCellId("Collection_rijbc_i0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.BRACKETS_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
     editorCell.getStyle().putAll(style);
     editorCell.setUsesBraces(true);
-    editorCell.addEditorCell(this.createAttributedNodeCell_rijbc_a7a(editorContext, node));
+    editorCell.addEditorCell(this.createAttributedNodeCell_rijbc_a8a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createAttributedNodeCell_rijbc_a7a(EditorContext editorContext, SNode node) {
+  private EditorCell createAttributedNodeCell_rijbc_a8a(EditorContext editorContext, SNode node) {
     IOperationContext opContext = editorContext.getOperationContext();
     EditorManager manager = EditorManager.getInstanceFromContext(opContext);
     EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class);

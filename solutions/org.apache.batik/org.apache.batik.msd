@@ -27,10 +27,6 @@
       <sourceRoot location="batik-util.jar" />
       <sourceRoot location="batik-xml.jar" />
       <sourceRoot location="js.jar" />
-      <sourceRoot location="xalan-2.6.0.jar" />
-      <sourceRoot location="xerces_2_5_0.jar" />
-      <sourceRoot location="xml-apis-ext.jar" />
-      <sourceRoot location="xml-apis.jar" />
       <sourceRoot location="batik-transcoder.jar" />
       <sourceRoot location="batik-parser.jar" />
       <sourceRoot location="batik-rasterizer-ext.jar" />

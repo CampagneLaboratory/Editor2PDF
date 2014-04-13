@@ -13,6 +13,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.campagnelab.mps.editor2svg.behavior.EditorAnnotation_Behavior;
 import jetbrains.mps.intentions.IntentionDescriptor;
@@ -80,7 +81,13 @@ public class Render_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Render to SVG";
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "0", "0")) {
+        return "Render to SVG ";
+      }
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation")), "outputFormat", "1", "0")) {
+        return "Render to PDF ";
+      }
+      return "Unknown conversion type";
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {
@@ -91,7 +98,13 @@ public class Render_Intention implements IntentionFactory {
       final EditorCell cell = (EditorCell) editorContext.getSelectedCell();
       editorContext.getSelectionManager().clearSelection();
       SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2svg.structure.EditorAnnotation"));
-      EditorAnnotation_Behavior.call_renderNodeEditor_8751972264248786149(annotation, annotation, cell);
+      if (SPropertyOperations.hasValue(annotation, "outputFormat", "0", "0")) {
+        EditorAnnotation_Behavior.call_renderNodeEditor_8751972264248786149(annotation, annotation, cell);
+      }
+      if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "0")) {
+        EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
+      }
+
       // <node> 
     }
 

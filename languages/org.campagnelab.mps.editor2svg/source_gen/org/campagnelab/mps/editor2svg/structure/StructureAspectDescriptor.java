@@ -20,7 +20,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 2:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.DiagramRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("diagram").create();
       case 3:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.EditorAnnotation").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute", "jetbrains.mps.lang.core.structure.INamedConcept").references("editor", "outputTo").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.EditorAnnotation").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute", "jetbrains.mps.lang.core.structure.INamedConcept").properties("outputFormat").references("editor", "outputTo").create();
       case 4:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.editor2svg.structure.SvgCollection").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"diagrams"}, new boolean[]{true}).alias("svg-collection", "Collection of SVG editor annotations").create();
       default:

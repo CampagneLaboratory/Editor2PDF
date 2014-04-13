@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9k7hczukhd1a4cslzx6ud2j9egeuvu4">
+<dependencies version="2" modelHash="-4vanluify9vhtuhjgxlie3b9iybc5h5">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="-7vo4x12gh5jaw0pkgbfb34ltxjxjvan" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-erhs8245rrxarsir75oeypz6lamscet" />
+  <dep model="r:7167ea39-4474-4333-92a9-38da0777e4f4(jetbrains.mps.samples.Shapes.generator.template.main@generator)" hash="-b0fayl8pht6zgcew3313i3pdd15c05p" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-dh3h1y2xoptj5lgq10sd9knoeyuxwuf" />
-  <common hash="-6ofheflki0g44ltjndb56hux9ihkrgk" dependsOnNodes="true">
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-72duuo4h0yyy6mr9x5p7p1bgk48vgfo" />
+  <common hash="-2d298jiudpm3khvvtlkpeiyg13ia3pu" dependsOnNodes="true">
+    <dep root="374542228674168501" />
+    <dep root="374542228674205838" />
+    <dep root="5378718574870348268" />
     <dep root="8751972264247280617" />
+    <dep root="893392931328361954" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="8751972264247280617" name="MyClass" hash="-729hcjh9xgfblufvz578jkjm2tkhye0">
+  <source id="8751972264247280617" name="MyClass" hash="-5kgd05y3jcnkrk5m4g41n3kows6ooil">
     <file name="MyClass.java" />
+  </source>
+  <source id="893392931328361954" name="MyCanvas" hash="-3t42gaw27w2yno0hudke7ozm84jwhm0">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:7167ea39-4474-4333-92a9-38da0777e4f4(jetbrains.mps.samples.Shapes.generator.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="MyCanvas.java" />
+  </source>
+  <source id="5378718574870348268" name="DATA" hash="-bys4q0lq1j35801pm62b2y13a0qpa5j">
+    <file name="DATA" />
+  </source>
+  <source id="374542228674168501" hash="am9jonko7msn88vo8xoh4i7jm2clw45">
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <file name="null.java" />
+  </source>
+  <source id="374542228674205838" hash="-arsbpppsfwpg8n7tmqk2f011q4le6ks">
+    <file name="null.java" />
   </source>
 </dependencies>
 

@@ -1,5 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="33" endPosition="0" unitName="org.campagnelab.mps.editor2svg.structure.StructureAspectDescriptor" />
+  <root nodeRef="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2svg.structure)/5378718574870043612">
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="19" startPosition="36" endLine="20" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="23" startPosition="60" endLine="24" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="24" startPosition="102" endLine="25" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="25" startPosition="70" endLine="26" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="26" startPosition="70" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="30" startPosition="52" endLine="31" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="35" startPosition="24" endLine="36" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="38" startPosition="69" endLine="39" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="41" startPosition="69" endLine="42" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="43" startPosition="5" endLine="44" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="49" startPosition="49" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="54" startPosition="25" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Lorg/campagnelab/mps/editor2svg/structure/RenderingOutputFormat;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="34" startPosition="64" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RenderingOutputFormat#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Lorg/campagnelab/mps/editor2svg/structure/RenderingOutputFormat;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="16" startPosition="56" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="30" startPosition="56" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="39" startPosition="77" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="14" startPosition="119" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="28" startPosition="119" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="19" startPosition="36" endLine="20" endPosition="29" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="30" startPosition="52" endLine="31" endPosition="37" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="35" startPosition="24" endLine="36" endPosition="48" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="38" startPosition="69" endLine="39" endPosition="39" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="41" startPosition="69" endLine="42" endPosition="39" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="54" startPosition="25" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="49" startPosition="49" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="23" startPosition="60" endLine="27" endPosition="16">
+      <varInfo nodeId="5378718574870043612" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="5378718574870043612" varName="name" />
+      <varInfo nodeId="5378718574870043612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="34" startPosition="64" endLine="44" endPosition="46" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="5378718574870043612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="5378718574870043612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="5378718574870043612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="5378718574870043612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="5378718574870043612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="5378718574870043612" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="5378718574870043612" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="5378718574870043612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="5378718574870043612" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="org.campagnelab.mps.editor2svg.structure.RenderingOutputFormat" />
+    <unitInfo nodeId="5378718574870043612" fileName="RenderingOutputFormat_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="org.campagnelab.mps.editor2svg.structure.RenderingOutputFormat_PropertySupport" />
+  </root>
 </debugInfo>
 

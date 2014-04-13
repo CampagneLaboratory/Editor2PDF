@@ -6,29 +6,25 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="avalon-framework-4.2.0.jar" />
-      <sourceRoot location="batik-all-1.7.jar" />
-      <sourceRoot location="commons-io-1.3.1.jar" />
-      <sourceRoot location="commons-logging-1.0.4.jar" />
-      <sourceRoot location="serializer-2.7.0.jar" />
+      <sourceRoot location="batik-all-trunk.jar" />
+      <sourceRoot location="fop.jar" />
       <sourceRoot location="xalan-2.7.0.jar" />
       <sourceRoot location="xercesImpl-2.7.1.jar" />
-      <sourceRoot location="xml-apis-1.3.04.jar" />
-      <sourceRoot location="xml-apis-ext-1.3.04.jar" />
-      <sourceRoot location="xmlgraphics-commons-1.5.jar" />
+      <sourceRoot location="xmlgraphics-commons-svn-trunk.jar" />
+      <sourceRoot location="commons-io-1.3.1.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/xmlgraphics-commons-1.5.jar" />
-    <stubModelEntry path="${module}/xml-apis-ext-1.3.04.jar" />
     <stubModelEntry path="${module}/avalon-framework-4.2.0.jar" />
-    <stubModelEntry path="${module}/xercesImpl-2.7.1.jar" />
-    <stubModelEntry path="${module}/xalan-2.7.0.jar" />
-    <stubModelEntry path="${module}/commons-io-1.3.1.jar" />
-    <stubModelEntry path="${module}/serializer-2.7.0.jar" />
-    <stubModelEntry path="${module}/xml-apis-1.3.04.jar" />
-    <stubModelEntry path="${module}/batik-all-1.7.jar" />
-    <stubModelEntry path="${module}/commons-logging-1.0.4.jar" />
+    <stubModelEntry path="${module}/fop.jar" />
+    <stubModelEntry path="${module}/xmlgraphics-commons-1.5.jar" />
   </stubModelEntries>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+  </dependencies>
+  <usedLanguages>
+    <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
+  </usedLanguages>
 </solution>
 

@@ -4,7 +4,9 @@ package org.campagnelab.mps.editor2svg.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.apache.batik.dom.util.DOMUtilities;
 import org.apache.batik.dom.svg.SVGDOMImplementation;
@@ -13,24 +15,35 @@ import org.w3c.dom.Document;
 import org.apache.batik.svggen.SVGGraphics2D;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
 import java.io.StringWriter;
-import java.io.Writer;
-import java.io.PrintWriter;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.io.Writer;
+import java.io.PrintWriter;
 import org.apache.log4j.Priority;
+import org.apache.fop.svg.PDFDocumentGraphics2D;
+import java.awt.Graphics;
+import java.io.FileOutputStream;
+import org.apache.batik.transcoder.Transcoder;
+import org.apache.fop.svg.PDFTranscoder;
+import java.io.InputStream;
+import java.io.FileInputStream;
+import org.apache.batik.transcoder.TranscoderInput;
+import java.io.OutputStream;
+import java.io.BufferedOutputStream;
+import org.apache.batik.transcoder.TranscoderOutput;
+import org.apache.batik.transcoder.TranscoderException;
+import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
 public class EditorAnnotation_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "outputTo", SConceptOperations.createNewNode("org.campagnelab.mps.editor2svg.structure.DefaultOutputDirectory", null), false);
+    SLinkOperations.setTarget(thisNode, "outputTo", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.editor2svg.structure.DefaultOutputDirectory")).first(), false);
   }
 
   public static void call_renderNodeEditor_8751972264248786149(SNode thisNode, SNode annotation, EditorCell editorCell) {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
 
-    /*
-    */
     editorCell.synchronizeViewWithModel();
     editorCell.relayout();
 
@@ -50,9 +63,15 @@ public class EditorAnnotation_Behavior {
       editorCell.relayout();
 
       StringWriter sw = new StringWriter();
-      Writer writer = new PrintWriter(new File("/data/" + SPropertyOperations.getString(annotation, "name") + ".svg"));
+      File svgFile = new File(SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path") + "/" + SPropertyOperations.getString(annotation, "name") + ".svg");
+      Writer writer = new PrintWriter(svgFile);
       graphics.stream(writer, false);
       writer.close();
+      if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "0")) {
+        File pdfFile = new File(SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path") + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
+
+        EditorAnnotation_Behavior.call_convertSvgToPdf_5378718574869928038(thisNode, svgFile, pdfFile);
+      }
     } catch (Exception e) {
       if (LOG.isEnabledFor(Priority.ERROR)) {
         LOG.error("Exception", e);
@@ -60,6 +79,65 @@ public class EditorAnnotation_Behavior {
       e.printStackTrace();
     }
 
+  }
+
+  public static void call_renderNodeEditorToPDF_3568214513158969863(SNode thisNode, SNode annotation, EditorCell editorCell) {
+    // jetbrains.mps.nodeEditor.cells.EditorCell 
+
+    editorCell.synchronizeViewWithModel();
+    editorCell.relayout();
+
+    DOMUtilities domUtil;
+    try {
+      PDFDocumentGraphics2D graphics = new PDFDocumentGraphics2D();
+      Graphics g = (Graphics) graphics;
+      File pdfFile = new File(SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path") + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
+      FileOutputStream stream = new FileOutputStream(pdfFile);
+
+      Writer writer = new PrintWriter(pdfFile);
+      graphics.setupDocument(stream, editorCell.getWidth(), editorCell.getHeight());
+      ParentSettings settings = new ParentSettings();
+      editorCell.relayout();
+      editorCell.paint(g, settings);
+      stream.close();
+    } catch (Exception e) {
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Exception", e);
+      }
+      e.printStackTrace();
+    }
+
+  }
+
+  public static void call_convertSvgToPdf_5378718574869928038(SNode thisNode, File svg, File pdf) {
+    try {
+      Transcoder transcoder = new PDFTranscoder();
+      InputStream in = new FileInputStream(svg);
+      try {
+        TranscoderInput input = new TranscoderInput(in);
+        // Setup output 
+        OutputStream out = new FileOutputStream(pdf);
+        out = new BufferedOutputStream(out);
+        try {
+          TranscoderOutput output = new TranscoderOutput(out);
+          // Do the transformation 
+          transcoder.transcode(input, output);
+        } finally {
+          out.close();
+        }
+      } finally {
+        in.close();
+      }
+
+    } catch (TranscoderException e) {
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Transcoding SVG to PDF failed", e);
+      }
+    } catch (IOException e) {
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Exception converting SVG to PDF", e);
+      }
+    }
   }
 
   protected static Logger LOG = LogManager.getLogger(EditorAnnotation_Behavior.class);
