@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="p6a5an8h2x21b70x5wsd5w49f9yug1">
+<dependencies version="2" modelHash="-5fi45ythvret4t4vktnfhqki5uredgn">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-erhs8245rrxarsir75oeypz6lamscet" />
   <dep model="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2svg.typesystem)" hash="18jndhyx8aemnv7x2nky9ruty46pvuw" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-dh3h1y2xoptj5lgq10sd9knoeyuxwuf" />
-  <dep model="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2svg.editor)" hash="-280lxttmfwaophi0nnx931vbqr8gdgw" />
+  <dep model="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2svg.editor)" hash="6lozi3rfcmzs6rlxkuk29bagbh1g7xk" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-72duuo4h0yyy6mr9x5p7p1bgk48vgfo" />
   <common dependsOnNodes="true">
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
