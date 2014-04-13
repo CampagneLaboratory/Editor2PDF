@@ -9,6 +9,11 @@ Usage
 -----
 This language provides an annotation that makes it possible to mark an editor cell for rendering to PDF format. Adding the annotation is possible on any MPS concept (BaseConcept and descendants). To render to PDF, you need to provide an output directory and a file basename. After you have completed this step, you can use the intention "Render to PDF" available on the annotation as many times as you need to regenerate the PDF output. The PDF output will display the content of the editor as it appears in MPS.
 
+Remember that you must add a dependency on the org.campagnelab.mps.editor2pdf
+language before you can use the annotation. This must be done in every model where you
+need to use the annotation. The intentions will only display if this step has been performed correctly.
+See the book at the bottom if you are not sure how to do this.
+
 Credits
 -------
 PDF files are generated with IText. See http://itext.com/. Editor2PDF was developed by Fabien Campagne to help make figures for the second volume of the MPS Language Workbench book series (see below).
