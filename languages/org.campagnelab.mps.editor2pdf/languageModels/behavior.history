@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ytcp" modelUID="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2svg.editor)" version="-1" />
+      <model index="jy6y" modelUID="r:5e0319ac-b4d4-48f2-91d9-9d49c39de5cd(org.campagnelab.mps.editor2svg.generator.template.main@generator)" version="-1" />
+      <model index="5upj" modelUID="r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2svg.constraints)" version="-1" />
+      <model index="529j" modelUID="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2svg.intentions)" version="-1" />
+      <model index="3t4d" modelUID="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2svg.structure)" version="-1" />
+      <model index="ha1n" modelUID="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2svg.behavior)" version="-1" />
+      <model index="toj1" modelUID="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2svg.accessory)" version="-1" />
+      <model index="u3sz" modelUID="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2svg.typesystem)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2svg.editor)" newModel="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2pdf.editor)" />
+    <RenameModel oldModel="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2svg.behavior)" newModel="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)" />
+    <RenameModel oldModel="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2svg.structure)" newModel="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)" />
+    <RenameModel oldModel="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2svg.intentions)" newModel="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)" />
+    <RenameModel oldModel="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2svg.typesystem)" newModel="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2pdf.typesystem)" />
+    <RenameModel oldModel="r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2svg.constraints)" newModel="r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2pdf.constraints)" />
+    <RenameModel oldModel="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2svg.accessory)" newModel="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2pdf.accessory)" />
+    <RenameModel oldModel="r:5e0319ac-b4d4-48f2-91d9-9d49c39de5cd(org.campagnelab.mps.editor2svg.generator.template.main@generator)" newModel="r:5e0319ac-b4d4-48f2-91d9-9d49c39de5cd(org.campagnelab.mps.editor2pdf.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
