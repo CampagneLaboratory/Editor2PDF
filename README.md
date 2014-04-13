@@ -11,7 +11,7 @@ This language provides an annotation that makes it possible to mark an editor ce
 
 Credits
 -------
-PDF files are generated with IText. See http://itext.com/
+PDF files are generated with IText. See http://itext.com/. Editor2PDF was developed by Fabien Campagne to help make figures for the second volume of the MPS Language Workbench book series (see below).
 
 License
 -------
@@ -30,7 +30,8 @@ And the result can be seen [here](figures/MyClass.pdf)
 
 New to MPS? 
 -----------
-See this book:
+MPS is a powerful platform, but it can be difficult to learn on your own. This book can help:
+
 The MPS Language Workbench: Volume I. 2014. Fabien Campagne (http://books.campagnelab.org).
 ![MPSBook Cover](http://campagnelab.org/files/MPS_Book-Cover-Volume1-small.png) 
 
