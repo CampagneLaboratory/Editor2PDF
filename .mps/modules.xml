@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/TestLanguage/TestLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2svg.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Playground/Playground.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.itext/com.itext.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
+
