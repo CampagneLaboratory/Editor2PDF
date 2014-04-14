@@ -13,9 +13,9 @@
     <nodeInfo nodeId="3568214513158969873" fileName="EditorAnnotation_Behavior.java" startLine="33" startPosition="49" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="3568214513158969874" fileName="EditorAnnotation_Behavior.java" startLine="34" startPosition="0" endLine="35" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3568214513158969878" fileName="EditorAnnotation_Behavior.java" startLine="35" startPosition="42" endLine="36" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3568214513158969882" fileName="EditorAnnotation_Behavior.java" startLine="36" startPosition="26" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="3568214513158969945" fileName="EditorAnnotation_Behavior.java" startLine="38" startPosition="9" endLine="39" endPosition="194" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3568214513158969940" fileName="EditorAnnotation_Behavior.java" startLine="39" startPosition="194" endLine="40" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8278742719497850460" fileName="EditorAnnotation_Behavior.java" startLine="36" startPosition="26" endLine="37" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3568214513158969945" fileName="EditorAnnotation_Behavior.java" startLine="38" startPosition="9" endLine="39" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3568214513158969940" fileName="EditorAnnotation_Behavior.java" startLine="39" startPosition="102" endLine="40" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3568214513158969935" fileName="EditorAnnotation_Behavior.java" startLine="40" startPosition="62" endLine="41" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4863116963792326992" fileName="EditorAnnotation_Behavior.java" startLine="41" startPosition="28" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4863116963791973056" fileName="EditorAnnotation_Behavior.java" startLine="42" startPosition="0" endLine="43" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -34,26 +34,31 @@
     <nodeInfo nodeId="4863116963792169767" fileName="EditorAnnotation_Behavior.java" startLine="55" startPosition="20" endLine="56" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4863116963792166520" fileName="EditorAnnotation_Behavior.java" startLine="56" startPosition="54" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4863116963791844108" fileName="EditorAnnotation_Behavior.java" startLine="57" startPosition="0" endLine="58" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="60" startPosition="45" endLine="61" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3568214513158970017" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="7" endLine="63" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3568214513158970021" fileName="EditorAnnotation_Behavior.java" startLine="64" startPosition="5" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="68" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="27" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="27" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8278742719497917242" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="32" endLine="60" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="63" startPosition="45" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3568214513158970017" fileName="EditorAnnotation_Behavior.java" startLine="65" startPosition="7" endLine="66" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3568214513158970021" fileName="EditorAnnotation_Behavior.java" startLine="67" startPosition="5" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="71" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="8278742719497917242" fileName="EditorAnnotation_Behavior.java" startLine="58" startPosition="23" endLine="61" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8278742719497917242" fileName="EditorAnnotation_Behavior.java" startLine="58" startPosition="23" endLine="61" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="27" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="27" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="3568214513158969886" fileName="EditorAnnotation_Behavior.java" startLine="37" startPosition="0" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_renderNodeEditorToPDF_3568214513158969863#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;)V" />
-    <scopeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="60" startPosition="45" endLine="61" endPosition="34" />
+    <nodeInfo nodeId="3568214513158969886" fileName="EditorAnnotation_Behavior.java" startLine="37" startPosition="190" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_renderNodeEditorToPDF_3568214513158969863#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;)V" />
+    <scopeInfo nodeId="8278742719497917242" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="32" endLine="60" endPosition="72" />
+    <scopeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="63" startPosition="45" endLine="64" endPosition="34" />
     <scopeInfo nodeId="8751972264248786097" fileName="EditorAnnotation_Behavior.java" startLine="27" startPosition="43" endLine="29" endPosition="59" />
-    <scopeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="27" endLine="62" endPosition="7" />
+    <scopeInfo nodeId="8278742719497917242" fileName="EditorAnnotation_Behavior.java" startLine="58" startPosition="23" endLine="61" endPosition="7" />
+    <scopeInfo nodeId="3568214513158970014" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="27" endLine="65" endPosition="7" />
     <scopeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="8751972264248785944" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3568214513158970010" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="0" endLine="63" endPosition="26">
+    <scopeInfo nodeId="3568214513158970010" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="0" endLine="66" endPosition="26">
       <varInfo nodeId="3568214513158970011" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="3568214513158970013" fileName="EditorAnnotation_Behavior.java" startLine="59" startPosition="27" endLine="63" endPosition="26" />
-    <scopeInfo nodeId="3568214513158969887" fileName="EditorAnnotation_Behavior.java" startLine="38" startPosition="9" endLine="58" endPosition="23">
+    <scopeInfo nodeId="3568214513158970013" fileName="EditorAnnotation_Behavior.java" startLine="62" startPosition="27" endLine="66" endPosition="26" />
+    <scopeInfo nodeId="3568214513158969887" fileName="EditorAnnotation_Behavior.java" startLine="38" startPosition="9" endLine="61" endPosition="7">
       <varInfo nodeId="4863116963790796466" varName="cb" />
       <varInfo nodeId="4863116963790796450" varName="document" />
       <varInfo nodeId="4863116963791450969" varName="g2d" />
@@ -65,13 +70,15 @@
       <varInfo nodeId="4863116963791973059" varName="width" />
       <varInfo nodeId="4863116963790796457" varName="writer" />
     </scopeInfo>
-    <scopeInfo nodeId="3568214513158969870" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="126" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="3568214513158969870" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="126" endLine="68" endPosition="0">
+      <varInfo nodeId="8278742719497850463" varName="dir" />
+    </scopeInfo>
+    <scopeInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="32" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="3568214513158969864" varName="annotation" />
       <varInfo nodeId="3568214513158969866" varName="editorCell" />
       <varInfo nodeId="8751972264248785944" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="26" startPosition="0" endLine="70" endPosition="0" unitName="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" />
+    <unitInfo nodeId="8751972264248785944" fileName="EditorAnnotation_Behavior.java" startLine="26" startPosition="0" endLine="73" endPosition="0" unitName="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" />
   </root>
   <root nodeRef="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/893392931327136867">
     <nodeInfo nodeId="893392931327137040" fileName="DefaultOutputDirectory_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

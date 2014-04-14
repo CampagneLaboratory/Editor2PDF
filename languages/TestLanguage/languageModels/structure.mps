@@ -7,7 +7,6 @@
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3t4d" modelUID="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)" version="1" implicit="yes" />
-  <import index="toj1" modelUID="r:d376ffa8-75bb-460c-bf06-44c46254ce0d(org.campagnelab.mps.editor2pdf.accessory)" version="0" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931326326643" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MyConcept" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
@@ -15,9 +14,9 @@
       <property name="name" nameId="tpck.1169194664001" value="myAttribute" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="893392931326326695" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="MyConcept2" />
-      <link role="outputTo" roleId="3t4d.893392931327136863" targetNodeId="toj1.893392931327213069" resolveInfo="DEFAULT" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3t4d.EditorAnnotation" typeId="3t4d.8751972264247112684" id="8278742719497818989" nodeInfo="ng">
+      <property name="outputFormat" nameId="3t4d.5378718574870043633" value="1" />
+      <property name="name" nameId="tpck.1169194664001" value="STRUCTURE" />
     </node>
   </root>
 </model>

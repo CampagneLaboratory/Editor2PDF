@@ -34,9 +34,9 @@ public class EditorAnnotation_Behavior {
 
     editorCell.synchronizeViewWithModel();
     editorCell.relayout();
-
+    String dir = ((SLinkOperations.getTarget(annotation, "outputTo", false) == null) ? "." : SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path"));
     try {
-      File pdfFile = new File(SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path") + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
+      File pdfFile = new File(dir + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
       FileOutputStream stream = new FileOutputStream(pdfFile);
       editorCell.relayout();
 
@@ -56,6 +56,9 @@ public class EditorAnnotation_Behavior {
       cb.addTemplate(template, -editorCell.getX(), 0);
 
       document.close();
+      if (LOG.isInfoEnabled()) {
+        LOG.info("Editor PDF rendered to " + pdfFile.getAbsolutePath());
+      }
     } catch (Exception e) {
       if (LOG.isEnabledFor(Priority.ERROR)) {
         LOG.error("Exception", e);
