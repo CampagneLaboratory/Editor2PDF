@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6kr9gi5s5m1p6mo6tmf7rowxen2b4xa">
+<dependencies version="2" modelHash="2wwc1eaa06cyezz79ncomrt3fk18nd2">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-erhs8245rrxarsir75oeypz6lamscet" />
   <dep model="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2pdf.typesystem)" hash="cnn525u2ygwy6z3h16x4atgqdw4wlzz" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-dh3h1y2xoptj5lgq10sd9knoeyuxwuf" />
