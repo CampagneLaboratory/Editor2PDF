@@ -119,7 +119,7 @@ public class RefreshRenderings_Intention implements IntentionFactory {
           if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
             SNodeOperations.getModel(concept).getRepository().getModelAccess().runReadInEDT(new Runnable() {
               public void run() {
-                EditorAnnotation_Behavior.call_renderNodeEditorToPDF_9022082025460195780(annotation, annotation, cell);
+                EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
               }
             });
           }
