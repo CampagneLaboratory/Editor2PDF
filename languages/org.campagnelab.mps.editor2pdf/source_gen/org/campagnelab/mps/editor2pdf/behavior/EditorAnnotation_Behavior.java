@@ -8,7 +8,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.nodeEditor.cells.EditorCell;
+import jetbrains.mps.openapi.editor.cells.EditorCell;
+import java.awt.Graphics;
+import jetbrains.mps.nodeEditor.cells.ParentSettings;
+import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
+import java.util.Iterator;
 import java.io.File;
 import java.io.FileOutputStream;
 import com.itextpdf.text.Document;
@@ -16,14 +21,9 @@ import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfTemplate;
-import jetbrains.mps.nodeEditor.cells.ParentSettings;
 import java.awt.Graphics2D;
 import com.itextpdf.awt.PdfGraphics2D;
-import org.apache.log4j.Level;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import java.awt.Graphics;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
+import org.apache.log4j.Priority;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -33,10 +33,39 @@ public class EditorAnnotation_Behavior {
     SPropertyOperations.set(thisNode, "outputFormat", "1");
   }
 
-  public static void call_renderNodeEditorToPDF_3568214513158969863(SNode thisNode, SNode annotation, EditorCell editorCell, SNode node) {
+  public static void call_visit_9022082025460316141(SNode thisNode, EditorCell cell, Graphics g2d, ParentSettings settings) {
+    if (cell instanceof EditorCell_Collection) {
+      EditorAnnotation_Behavior.call_visit_9022082025460320294(thisNode, ((EditorCell_Collection) cell), g2d, settings);
+    } else {
+      // <node> 
+      jetbrains.mps.nodeEditor.cells.EditorCell aCell = ((jetbrains.mps.nodeEditor.cells.EditorCell) cell);
+      aCell.paint(g2d, settings);
+    }
+    if (cell instanceof EditorCell_Component) {
+      EditorAnnotation_Behavior.call_visit_9022082025460322112(thisNode, ((EditorCell_Component) cell), g2d, settings);
+    }
+  }
+
+  public static void call_visit_9022082025460320294(SNode thisNode, EditorCell_Collection collection, Graphics g2d, ParentSettings settings) {
+    // <node> 
+    Iterator<EditorCell> it = collection.iterator();
+    while (it.hasNext()) {
+      EditorCell cell = it.next();
+      EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, cell, g2d, settings);
+    }
+  }
+
+  public static void call_visit_9022082025460322112(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
+    // <node> 
+    g2d.translate(component.getX(), component.getY());
+    component.getComponent().paint(g2d);
+    g2d.translate(-component.getX(), -component.getY());
+  }
+
+  public static void call_renderNodeEditorToPDF_9022082025460195780(SNode thisNode, SNode annotation, EditorCell editorCell) {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
-    editorCell.synchronizeViewWithModel();
-    editorCell.relayout();
+
+    // <node> 
     String dir = ((SLinkOperations.getTarget(annotation, "outputTo", false) == null) ? "." : SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path"));
     try {
       File pdfFile = new File(dir + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
@@ -54,9 +83,7 @@ public class EditorAnnotation_Behavior {
       ParentSettings settings = new ParentSettings();
       Graphics2D g2d = new PdfGraphics2D(template, width, height, false);
       // <node> 
-      editorCell.paint(g2d, settings);
-      jetbrains.mps.openapi.editor.cells.EditorCell sibling = editorCell;
-      EditorAnnotation_Behavior.call_visit_1499009118377424987(thisNode, sibling, g2d, settings);
+      EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, editorCell, g2d, settings);
       g2d.dispose();
       cb.addTemplate(template, -editorCell.getX(), 0);
 
@@ -65,68 +92,12 @@ public class EditorAnnotation_Behavior {
         LOG.info("Editor PDF rendered to " + pdfFile.getAbsolutePath());
       }
     } catch (Exception e) {
-      if (LOG.isEnabledFor(Level.ERROR)) {
+      if (LOG.isEnabledFor(Priority.ERROR)) {
         LOG.error("Exception", e);
       }
       e.printStackTrace();
     }
 
-  }
-
-  public static void call_visit_3759470177048772467(SNode thisNode, EditorCell_Collection collection, Graphics g2d, ParentSettings settings) {
-    if (collection == null) {
-      return;
-    }
-    for (jetbrains.mps.openapi.editor.cells.EditorCell c : Sequence.fromIterable(collection.getContentCells())) {
-      EditorAnnotation_Behavior.call_visit_1499009118377424987(thisNode, c, g2d, settings);
-    }
-
-  }
-
-  public static void call_visit_1499009118377419565(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
-    if (component == null) {
-      return;
-    }
-    EditorCell_Component comp = ((EditorCell_Component) component);
-    if (LOG.isInfoEnabled()) {
-      LOG.info("Painting component: " + comp);
-    }
-    comp.getComponent().paint(g2d);
-
-  }
-
-  public static void call_visit_1499009118377424987(SNode thisNode, jetbrains.mps.openapi.editor.cells.EditorCell cell, Graphics g2d, ParentSettings settings) {
-    if (cell == null) {
-      return;
-    }
-    EditorCell specificCell = ((EditorCell) cell);
-    specificCell.paint(g2d);
-
-  }
-
-  public static void call_visitEditorCell_1499009118377383561(SNode thisNode, EditorCell editorCell, Graphics g2d, ParentSettings settings) {
-    if (editorCell == null) {
-      return;
-    }
-    editorCell.paint(g2d, settings);
-    EditorCell sibling = editorCell;
-
-    do {
-      if (sibling != null) {
-        if (LOG.isInfoEnabled()) {
-          LOG.info("visiting sibling:" + sibling);
-        }
-        if (sibling instanceof EditorCell_Component) {
-          EditorCell_Component comp = ((EditorCell_Component) sibling);
-          if (LOG.isInfoEnabled()) {
-            LOG.info("Painting component: " + comp);
-          }
-          comp.getComponent().paint(g2d);
-        }
-        EditorAnnotation_Behavior.call_visitEditorCell_1499009118377383561(thisNode, sibling.getFirstChild(), g2d, settings);
-      }
-
-    } while (sibling != null && ((sibling = sibling.getNextSibling()) != null));
 
   }
 

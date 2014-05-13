@@ -1,91 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Arrays" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.PdfCollection_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.DefaultOutputDirectory_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.DiagramOutputDirectory_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.DiagramRef_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_BehaviorDescriptor" />
-    <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.PdfCollection_BehaviorDescriptor" />
+    <classNode dependClassName="java.util.Arrays" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.DefaultOutputDirectory_Behavior" file="DefaultOutputDirectory_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.DefaultOutputDirectory_BehaviorDescriptor" file="DefaultOutputDirectory_BehaviorDescriptor.java">
+    <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.DiagramOutputDirectory_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.DiagramOutputDirectory_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.DiagramOutputDirectory_BehaviorDescriptor" file="DiagramOutputDirectory_BehaviorDescriptor.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.DiagramRef_BehaviorDescriptor" file="DiagramRef_BehaviorDescriptor.java">
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" file="EditorAnnotation_Behavior.java">
-    <classNode dependClassName="com.itextpdf.awt.PdfGraphics2D" />
-    <classNode dependClassName="com.itextpdf.text.Document" />
-    <classNode dependClassName="com.itextpdf.text.Rectangle" />
-    <classNode dependClassName="com.itextpdf.text.pdf.PdfContentByte" />
-    <classNode dependClassName="com.itextpdf.text.pdf.PdfTemplate" />
-    <classNode dependClassName="com.itextpdf.text.pdf.PdfWriter" />
-    <classNode dependClassName="java.awt.Graphics" />
     <classNode dependClassName="java.awt.Graphics2D" />
-    <classNode dependClassName="java.io.File" />
-    <classNode dependClassName="java.io.FileOutputStream" />
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfWriter" />
+    <classNode dependClassName="org.apache.log4j.Priority" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Component" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.ParentSettings" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell_Collection" />
     <classNode dependClassName="org.apache.log4j.Level" />
-    <classNode dependClassName="org.apache.log4j.LogManager" />
-    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="com.itextpdf.text.Rectangle" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfTemplate" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Component" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="java.io.FileOutputStream" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell_Collection" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="com.itextpdf.awt.PdfGraphics2D" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.ParentSettings" />
+    <classNode dependClassName="com.itextpdf.text.pdf.PdfContentByte" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="com.itextpdf.text.Document" />
+    <classNode dependClassName="java.awt.Graphics" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_BehaviorDescriptor" file="EditorAnnotation_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.PdfCollection_BehaviorDescriptor" file="PdfCollection_BehaviorDescriptor.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
 </dependenciesRoot>
 

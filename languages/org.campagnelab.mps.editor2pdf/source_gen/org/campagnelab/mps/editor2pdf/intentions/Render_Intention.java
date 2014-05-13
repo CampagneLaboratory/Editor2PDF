@@ -96,13 +96,14 @@ public class Render_Intention implements IntentionFactory {
         LOG.info("About to call renderNodeEditor   ");
       }
       editorContext.select(node);
-      final EditorCell cell = (EditorCell) editorContext.getSelectedCell();
+      EditorCell cell = (EditorCell) editorContext.getSelectedCell();
+      final Object cellOpenApi = editorContext.getSelectedCell();
       editorContext.getSelectionManager().clearSelection();
       final SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"));
       SNodeOperations.getModel(node).getRepository().getModelAccess().runReadAction(new Runnable() {
         public void run() {
           if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
-            EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell, node);
+            EditorAnnotation_Behavior.call_renderNodeEditorToPDF_9022082025460195780(annotation, annotation, (EditorCell) cellOpenApi);
           }
         }
       });

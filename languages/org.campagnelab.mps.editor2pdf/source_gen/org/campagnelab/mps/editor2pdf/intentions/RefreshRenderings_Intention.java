@@ -23,7 +23,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior;
 import jetbrains.mps.intentions.IntentionDescriptor;
@@ -105,13 +104,9 @@ public class RefreshRenderings_Intention implements IntentionFactory {
           return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) != null) && SetSequence.fromSet(names).contains(SPropertyOperations.getString(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), "name"));
         }
       }).visitAll(new IVisitor<SNode>() {
-        public void visit(final SNode n) {
-          if (LOG.isInfoEnabled()) {
-            LOG.info("node:" + n);
-          }
-          SelectionUtil.selectNode(editorContext, n);
-          editorContext.getEditorComponent().getRootCell();
-          final SNode annotation = AttributeOperations.getAttribute(n, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"));
+        public void visit(SNode concept) {
+          editorContext.select(concept);
+          final SNode annotation = AttributeOperations.getAttribute(concept, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"));
 
           if (LOG.isInfoEnabled()) {
             LOG.info("Rendering " + SPropertyOperations.getString(annotation, "name"));
@@ -122,9 +117,9 @@ public class RefreshRenderings_Intention implements IntentionFactory {
             LOG.info("cell:" + cell);
           }
           if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
-            SNodeOperations.getModel(n).getRepository().getModelAccess().runReadInEDT(new Runnable() {
+            SNodeOperations.getModel(concept).getRepository().getModelAccess().runReadInEDT(new Runnable() {
               public void run() {
-                EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell, n);
+                EditorAnnotation_Behavior.call_renderNodeEditorToPDF_9022082025460195780(annotation, annotation, cell);
               }
             });
           }
