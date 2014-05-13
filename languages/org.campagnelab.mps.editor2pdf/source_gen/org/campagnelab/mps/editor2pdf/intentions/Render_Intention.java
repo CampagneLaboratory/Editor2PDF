@@ -102,7 +102,7 @@ public class Render_Intention implements IntentionFactory {
       SNodeOperations.getModel(node).getRepository().getModelAccess().runReadAction(new Runnable() {
         public void run() {
           if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
-            EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell);
+            EditorAnnotation_Behavior.call_renderNodeEditorToPDF_3568214513158969863(annotation, annotation, cell, node);
           }
         }
       });
