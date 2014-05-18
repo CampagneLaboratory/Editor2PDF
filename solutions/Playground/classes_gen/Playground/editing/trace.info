@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <root nodeRef="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/8751972264247280617">
-    <nodeInfo nodeId="5156137522246049040" fileName="MyClass.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="a" />
-    <unitInfo nodeId="1682788713718902064" fileName="MyClass.java" startLine="9" startPosition="0" endLine="11" endPosition="0" unitName="Playground.editing.MyClass$null" />
-    <unitInfo nodeId="8751972264247280617" fileName="MyClass.java" startLine="6" startPosition="0" endLine="12" endPosition="0" unitName="Playground.editing.MyClass" />
-  </root>
-</debugInfo>
-

@@ -23,7 +23,7 @@ import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfTemplate;
 import java.awt.Graphics2D;
 import com.itextpdf.awt.PdfGraphics2D;
-import org.apache.log4j.Priority;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -92,7 +92,7 @@ public class EditorAnnotation_Behavior {
         LOG.info("Editor PDF rendered to " + pdfFile.getAbsolutePath());
       }
     } catch (Exception e) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("Exception", e);
       }
       e.printStackTrace();

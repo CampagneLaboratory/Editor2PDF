@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-2952dxksa27r92krrqe2w1yt4qj9q88">
-  <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="-7vo4x12gh5jaw0pkgbfb34ltxjxjvan" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-dh3h1y2xoptj5lgq10sd9knoeyuxwuf" />
-  <common hash="-139nrtv7hllk5wg321x7g0r0ovtbjkx" dependsOnNodes="true">
+<dependencies version="2" modelHash="-4c9ia5gun52ds96hgkwbb0ix5ot9thu">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="-398wneljc23gzmveeyotba38l97fx03" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:7167ea39-4474-4333-92a9-38da0777e4f4(jetbrains.mps.samples.Shapes.generator.template.main@generator)" hash="7drmgppd4mqlmh2dbq6hcl7kt8bpvjm" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="dg83flauqm6rsxutp5f3tlsrb9cnpon" dependsOnNodes="true">
     <dep root="5378718574870348268" />
     <dep root="8751972264247280617" />
+    <dep root="9022082025460772285" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="8751972264247280617" name="MyClass" hash="-954e30id1uudv0lrvf282g4g0ruzk13">
+  <source id="8751972264247280617" name="MyClass" hash="as6rxc6b08q9zy6jnaahlhbg3wfnlzp">
     <file name="MyClass.java" />
   </source>
-  <source id="5378718574870348268" name="DATA" hash="-bys4q0lq1j35801pm62b2y13a0qpa5j">
-    <file name="DATA" />
+  <source id="5378718574870348268" name="FIGURES" hash="-3b3mdsnavqxlc0mv5m6lbchjj4nnnrj">
+    <file name="FIGURES" />
+  </source>
+  <source id="9022082025460772285" name="Some" hash="-cck5cj6pdqod7n6etx91m5pozdw2991">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:7167ea39-4474-4333-92a9-38da0777e4f4(jetbrains.mps.samples.Shapes.generator.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="Some.java" />
   </source>
 </dependencies>
 

@@ -60,7 +60,6 @@
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorHint" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.editor.DiagramOutputDirectory_Editor" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.editor.DiagramRef_Editor" />
