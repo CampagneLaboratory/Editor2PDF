@@ -8,12 +8,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.openapi.editor.cells.EditorCell;
-import java.awt.Graphics;
-import jetbrains.mps.nodeEditor.cells.ParentSettings;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
-import java.util.Iterator;
+import jetbrains.mps.nodeEditor.cells.EditorCell;
 import java.io.File;
 import java.io.FileOutputStream;
 import com.itextpdf.text.Document;
@@ -21,6 +16,7 @@ import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfTemplate;
+import jetbrains.mps.nodeEditor.cells.ParentSettings;
 import java.awt.Graphics2D;
 import com.itextpdf.awt.PdfGraphics2D;
 import org.apache.log4j.Level;
@@ -33,39 +29,11 @@ public class EditorAnnotation_Behavior {
     SPropertyOperations.set(thisNode, "outputFormat", "1");
   }
 
-  public static void call_visit_9022082025460316141(SNode thisNode, EditorCell cell, Graphics g2d, ParentSettings settings) {
-    if (cell instanceof EditorCell_Collection) {
-      EditorAnnotation_Behavior.call_visit_9022082025460320294(thisNode, ((EditorCell_Collection) cell), g2d, settings);
-    } else {
-      // <node> 
-      jetbrains.mps.nodeEditor.cells.EditorCell aCell = ((jetbrains.mps.nodeEditor.cells.EditorCell) cell);
-      aCell.paint(g2d, settings);
-    }
-    if (cell instanceof EditorCell_Component) {
-      EditorAnnotation_Behavior.call_visit_9022082025460322112(thisNode, ((EditorCell_Component) cell), g2d, settings);
-    }
-  }
-
-  public static void call_visit_9022082025460320294(SNode thisNode, EditorCell_Collection collection, Graphics g2d, ParentSettings settings) {
-    // <node> 
-    Iterator<EditorCell> it = collection.iterator();
-    while (it.hasNext()) {
-      EditorCell cell = it.next();
-      EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, cell, g2d, settings);
-    }
-  }
-
-  public static void call_visit_9022082025460322112(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
-    // <node> 
-    g2d.translate(component.getX(), component.getY());
-    component.getComponent().paint(g2d);
-    g2d.translate(-component.getX(), -component.getY());
-  }
-
-  public static void call_renderNodeEditorToPDF_9022082025460195780(SNode thisNode, SNode annotation, EditorCell editorCell) {
+  public static void call_renderNodeEditorToPDF_3568214513158969863(SNode thisNode, SNode annotation, EditorCell editorCell) {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
 
-    // <node> 
+    editorCell.synchronizeViewWithModel();
+    editorCell.relayout();
     String dir = ((SLinkOperations.getTarget(annotation, "outputTo", false) == null) ? "." : SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path"));
     try {
       File pdfFile = new File(dir + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
@@ -83,7 +51,7 @@ public class EditorAnnotation_Behavior {
       ParentSettings settings = new ParentSettings();
       Graphics2D g2d = new PdfGraphics2D(template, width, height, false);
       // <node> 
-      EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, editorCell, g2d, settings);
+      editorCell.paint(g2d, settings);
       g2d.dispose();
       cb.addTemplate(template, -editorCell.getX(), 0);
 
@@ -97,7 +65,6 @@ public class EditorAnnotation_Behavior {
       }
       e.printStackTrace();
     }
-
 
   }
 
