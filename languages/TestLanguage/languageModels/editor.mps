@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)">
+<model modelUID="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)" doNotGenerate="true">
   <persistence version="8" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
