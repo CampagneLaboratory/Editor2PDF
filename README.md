@@ -22,6 +22,11 @@ License
 -------
 Editor2PDF is distributed under the terms of the AFFERO GENERAL PUBLIC LICENSE, in agreement with the open-source license of iText.
 
+Installation
+------------
+
+Download the plugin [zip file](https://github.com/CampagneLaboratory/Editor2PDF/blob/master/build/artifacts/Editor2PDF/Editor2PDF.zip?raw=true).  In MPS, select Preferences>Plugins then use the option "Install plugin from disk...". Select the zip file you downloaded. Activate the plugin if necessary and restart MPS.
+
 Tutorial
 --------
 
