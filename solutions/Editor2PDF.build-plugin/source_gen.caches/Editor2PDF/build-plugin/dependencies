@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="Editor2PDF.build-plugin.Editor2PDF" file="Editor2PDF.xml" />
+</dependenciesRoot>
+
