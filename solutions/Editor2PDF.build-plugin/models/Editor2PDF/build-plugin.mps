@@ -3,13 +3,16 @@
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
+  <language namespace="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" />
   <import index="ffeo" modelUID="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" version="-1" />
   <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="3" implicit="yes" />
+  <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="3009304464428357460" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Editor2PDF" />
+    <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.Editor2PDF" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <property name="fileName" nameId="3ior.4915877860348071612" value="Editor2PDF.xml" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="3009304464428357461" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="3009304464428357462" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="3009304464428357463" nodeInfo="ng">
@@ -18,6 +21,16 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="3009304464428357470" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.editor2pdf.home" />
       <node role="defaultPath" roleId="3ior.7389400916848144618" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3009304464429228218" nodeInfo="ng" />
+    </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="614101652699509219" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="version" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="614101652699509431" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="614101652699509430" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="614101652699509429" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.0" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="3009304464428357464" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.4301118715654192646" resolveInfo="mps" />
@@ -29,7 +42,13 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="3009304464428357495" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3009304464428357496" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3009304464428357497" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="Editor2PDF.zip" />
+            <property name="text" nameId="3ior.4903714810883755350" value="Editor2PDF-" />
+          </node>
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="614101652699509851" nodeInfo="ng">
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="614101652699509219" resolveInfo="version" />
+          </node>
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="614101652699509850" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value=".zip" />
           </node>
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="3009304464428357498" nodeInfo="ng">
@@ -87,15 +106,30 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="3009304464428357485" nodeInfo="ng">
-      <property name="id" nameId="kdzh.6592112598314498927" value="Editor2PDF" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.Editor2PDF" />
+      <node role="xml" roleId="kdzh.1359186315025500371" type="iuxj.XmlElement" typeId="iuxj.6666499814681415858" id="6642819616994420405" nodeInfo="ng">
+        <property name="tagName" nameId="iuxj.6666499814681415862" value="idea-version" />
+        <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="6642819616994420683" nodeInfo="ng">
+          <property name="attrName" nameId="iuxj.6666499814681447926" value="until-build" />
+          <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="6642819616994420687" nodeInfo="ng">
+            <property name="text" nameId="iuxj.6666499814681541920" value="136.1" />
+          </node>
+        </node>
+        <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="6642819616994420598" nodeInfo="ng">
+          <property name="attrName" nameId="iuxj.6666499814681447926" value="since-build" />
+          <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="6642819616994420677" nodeInfo="ng">
+            <property name="text" nameId="iuxj.6666499814681541920" value="135.1" />
+          </node>
+        </node>
+      </node>
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3009304464428357486" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3009304464428357487" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="Editor2PDF" />
+          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.Editor2PDF" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3009304464428357488" nodeInfo="ng">
-        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3009304464428357489" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="1.0" />
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="614101652699509538" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="614101652699509219" resolveInfo="version" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="3009304464428357490" nodeInfo="ng">
@@ -115,7 +149,7 @@
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3009304464429249623" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3009304464429249726" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="Editor2PDF" />
+          <property name="text" nameId="3ior.4903714810883755350" value="This software makes it possible to attach an annotation to an arbitrary MPS editor cell and render the cell to a PDF file output. The software uses iText to output PDF." />
         </node>
       </node>
     </node>
