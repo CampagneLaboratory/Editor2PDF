@@ -6,7 +6,6 @@ package org.campagnelab.mps.editor2pdf.behavior;
 public class DefaultOutputDirectory_BehaviorDescriptor extends DiagramOutputDirectory_BehaviorDescriptor {
   public DefaultOutputDirectory_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.editor2pdf.structure.DefaultOutputDirectory";

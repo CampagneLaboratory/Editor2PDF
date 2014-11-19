@@ -26,11 +26,9 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_rijbc_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_rijbc_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_rijbc_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_rijbc_a");
@@ -45,7 +43,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_rijbc_h0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_rijbc_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "> Render Below Editor To");
     editorCell.setCellId("Constant_rijbc_a0");
@@ -55,7 +52,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_rijbc_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("outputTo");
@@ -77,20 +73,16 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_rijbc_a1a extends InlineCellProvider {
     public _Inline_rijbc_a1a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_rijbc_a0b0(editorContext, node);
     }
-
     private EditorCell createProperty_rijbc_a0b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -110,7 +102,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_rijbc_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_rijbc_c0");
@@ -121,7 +112,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_rijbc_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -139,7 +129,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_rijbc_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_rijbc_e0");
@@ -149,7 +138,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_rijbc_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("outputFormat");
@@ -170,7 +158,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_rijbc_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_rijbc_g0");
@@ -181,7 +168,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_rijbc_h0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_rijbc_h0");
@@ -193,14 +179,12 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createAttributedNodeCell_rijbc_a7a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createAttributedNodeCell_rijbc_a7a(EditorContext editorContext, SNode node) {
     IOperationContext opContext = editorContext.getOperationContext();
     EditorManager manager = EditorManager.getInstanceFromContext(opContext);
     EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class);
     return editorCell;
   }
-
   private EditorCell createCollection_rijbc_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_rijbc_a_0");
@@ -210,7 +194,6 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_rijbc_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefCell_rijbc_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("outputTo");
@@ -232,20 +215,16 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_rijbc_a0a extends InlineCellProvider {
     public _Inline_rijbc_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_rijbc_a0a0(editorContext, node);
     }
-
     private EditorCell createProperty_rijbc_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -265,14 +244,12 @@ public class EditorAnnotation_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_rijbc_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_rijbc_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_rijbc_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");

@@ -31,68 +31,53 @@ import org.apache.log4j.LogManager;
 
 public class RefreshRenderings_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public RefreshRenderings_Intention() {
   }
-
   public String getConcept() {
     return "org.campagnelab.mps.editor2pdf.structure.PdfCollection";
   }
-
   public String getPresentation() {
     return "RefreshRenderings";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.mps.editor2pdf.intentions.RefreshRenderings_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.mps.editor2pdf";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "diagrams", true)).count() > 0;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)", "893392931327280422");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new RefreshRenderings_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Refresh Renderings";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       final Set<String> names = SetSequence.fromSet(new HashSet<String>());
       for (SNode svgExport : ListSequence.fromList(SLinkOperations.getTargets(node, "diagrams", true))) {
@@ -128,11 +113,9 @@ public class RefreshRenderings_Intention implements IntentionFactory {
       });
 
     }
-
     public IntentionDescriptor getDescriptor() {
       return RefreshRenderings_Intention.this;
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(RefreshRenderings_Intention.class);
 }

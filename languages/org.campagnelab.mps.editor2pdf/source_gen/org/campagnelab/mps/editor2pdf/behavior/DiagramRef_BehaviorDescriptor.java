@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class DiagramRef_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public DiagramRef_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.editor2pdf.structure.DiagramRef";

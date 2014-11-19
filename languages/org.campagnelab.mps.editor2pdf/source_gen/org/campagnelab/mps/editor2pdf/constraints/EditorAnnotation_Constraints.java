@@ -18,12 +18,10 @@ public class EditorAnnotation_Constraints extends BaseConstraintsDescriptor {
   public EditorAnnotation_Constraints() {
     super("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -34,7 +32,6 @@ public class EditorAnnotation_Constraints extends BaseConstraintsDescriptor {
 
     return result;
   }
-
   public static boolean static_canBeAChild(final SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     return ListSequence.fromList(SNodeOperations.getAncestors(parentNode, null, false)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -42,6 +39,5 @@ public class EditorAnnotation_Constraints extends BaseConstraintsDescriptor {
       }
     }).isEmpty();
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2pdf.constraints)", "8751972264247719159");
 }

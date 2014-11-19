@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="TestLanguage.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="MyConcept_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="TestLanguage.behavior.MyConcept_BehaviorDescriptor" />
-</debugInfo>
-

@@ -10,11 +10,9 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 public class EditorAnnotation_BehaviorDescriptor extends NodeAttribute_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public EditorAnnotation_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation";

@@ -22,57 +22,44 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class TogglePDFRendering_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public TogglePDFRendering_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.lang.core.structure.BaseConcept";
   }
-
   public String getPresentation() {
     return "TogglePDFRendering";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.mps.editor2pdf.intentions.TogglePDFRendering_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.mps.editor2pdf";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return true;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)", "8751972264247518445");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new TogglePDFRendering_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       if (SNodeOperations.isInstanceOf(node, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) {
         return "Remove PDF Rendering";
@@ -87,7 +74,6 @@ public class TogglePDFRendering_Intention implements IntentionFactory {
         return "Remove PDF Rendering";
       }
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       if (SNodeOperations.isInstanceOf(node, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) {
         AttributeOperations.setAttribute(SNodeOperations.getParent(node), new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"), null);
@@ -111,7 +97,6 @@ public class TogglePDFRendering_Intention implements IntentionFactory {
         AttributeOperations.setAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"), null);
       }
     }
-
     public IntentionDescriptor getDescriptor() {
       return TogglePDFRendering_Intention.this;
     }

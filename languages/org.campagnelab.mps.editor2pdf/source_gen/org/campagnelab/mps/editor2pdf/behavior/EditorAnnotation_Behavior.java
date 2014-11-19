@@ -32,7 +32,6 @@ public class EditorAnnotation_Behavior {
     SLinkOperations.setTarget(thisNode, "outputTo", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.editor2pdf.structure.DefaultOutputDirectory")).first(), false);
     SPropertyOperations.set(thisNode, "outputFormat", "1");
   }
-
   public static void call_visit_9022082025460316141(SNode thisNode, EditorCell cell, Graphics g2d, ParentSettings settings) {
     if (cell instanceof EditorCell_Collection) {
       EditorAnnotation_Behavior.call_visit_9022082025460320294(thisNode, ((EditorCell_Collection) cell), g2d, settings);
@@ -45,7 +44,6 @@ public class EditorAnnotation_Behavior {
       EditorAnnotation_Behavior.call_visit_9022082025460322112(thisNode, ((EditorCell_Component) cell), g2d, settings);
     }
   }
-
   public static void call_visit_9022082025460320294(SNode thisNode, EditorCell_Collection collection, Graphics g2d, ParentSettings settings) {
     // <node> 
     Iterator<EditorCell> it = collection.iterator();
@@ -54,14 +52,12 @@ public class EditorAnnotation_Behavior {
       EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, cell, g2d, settings);
     }
   }
-
   public static void call_visit_9022082025460322112(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
     // <node> 
     g2d.translate(component.getX(), component.getY());
     component.getComponent().paint(g2d);
     g2d.translate(-component.getX(), -component.getY());
   }
-
   public static void call_renderNodeEditorToPDF_9022082025460195780(SNode thisNode, SNode annotation, EditorCell editorCell) {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
 
@@ -100,6 +96,5 @@ public class EditorAnnotation_Behavior {
 
 
   }
-
   protected static Logger LOG = LogManager.getLogger(EditorAnnotation_Behavior.class);
 }
