@@ -10,6 +10,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
@@ -23,74 +24,59 @@ import org.apache.log4j.LogManager;
 
 public class Render_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public Render_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.lang.core.structure.BaseConcept";
   }
-
   public String getPresentation() {
     return "Render";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.mps.editor2pdf.intentions.Render_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.mps.editor2pdf";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return true;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) != null;
+    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) != null;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)", "8230146836249937609");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new Render_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), "outputFormat", "0", "1")) {
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))), MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0x4aa50c0bd1ec9bf1L, "outputFormat"), "0", "1")) {
         return "Render to SVG ";
       }
-      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), "outputFormat", "1", "1")) {
+      if (SPropertyOperations.hasValue(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))), MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0x4aa50c0bd1ec9bf1L, "outputFormat"), "1", "1")) {
         return "Render to PDF ";
       }
       return "Unknown conversion type";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       if (LOG.isInfoEnabled()) {
         LOG.info("About to call renderNodeEditor   ");
@@ -99,20 +85,18 @@ public class Render_Intention implements IntentionFactory {
       EditorCell cell = (EditorCell) editorContext.getSelectedCell();
       final Object cellOpenApi = editorContext.getSelectedCell();
       editorContext.getSelectionManager().clearSelection();
-      final SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"));
+      final SNode annotation = AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")));
       SNodeOperations.getModel(node).getRepository().getModelAccess().runReadAction(new Runnable() {
         public void run() {
-          if (SPropertyOperations.hasValue(annotation, "outputFormat", "1", "1")) {
+          if (SPropertyOperations.hasValue(annotation, MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0x4aa50c0bd1ec9bf1L, "outputFormat"), "1", "1")) {
             EditorAnnotation_Behavior.call_renderNodeEditorToPDF_9022082025460195780(annotation, annotation, (EditorCell) cellOpenApi);
           }
         }
       });
     }
-
     public IntentionDescriptor getDescriptor() {
       return Render_Intention.this;
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(Render_Intention.class);
 }

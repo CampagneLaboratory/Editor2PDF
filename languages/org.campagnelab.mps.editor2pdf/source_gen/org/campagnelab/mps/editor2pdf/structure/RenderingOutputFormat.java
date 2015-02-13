@@ -11,26 +11,21 @@ public enum RenderingOutputFormat {
   PDF("PDF", 1);
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return "" + this.myValue;
   }
-
   public static List<RenderingOutputFormat> getConstants() {
     List<RenderingOutputFormat> list = ListSequence.fromList(new LinkedList<RenderingOutputFormat>());
     ListSequence.fromList(list).addElement(RenderingOutputFormat.SVG);
     ListSequence.fromList(list).addElement(RenderingOutputFormat.PDF);
     return list;
   }
-
   public static RenderingOutputFormat getDefault() {
     return RenderingOutputFormat.PDF;
   }
-
   public static RenderingOutputFormat parseValue(String value) {
     if (value == null) {
       return RenderingOutputFormat.getDefault();
@@ -43,14 +38,11 @@ public enum RenderingOutputFormat {
     }
     return RenderingOutputFormat.getDefault();
   }
-
   private int myValue;
-
   RenderingOutputFormat(String name, int value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public int getValue() {
     return this.myValue;
   }

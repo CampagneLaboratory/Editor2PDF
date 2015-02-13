@@ -34,7 +34,7 @@
         <version>${version}</version>
         <vendor url="https://github.com/CampagneLaboratory/Editor2PDF/">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="136.1" since-build="135.1" />
+        <idea-version until-build="140.1" since-build="139.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -146,7 +146,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -168,6 +168,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.classLike.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
@@ -177,6 +178,8 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.runtime.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.pattern.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.project.jar" />
@@ -188,12 +191,13 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.util.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
-      <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.facet.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.script.jar" />
       <library file="${artifacts.mps}/lib/mps-closures.jar" />
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
       <library file="${artifacts.mps}/lib/mps-core.jar" />
@@ -223,16 +227,16 @@
   <target name="java.compile.org.campagnelab.mps.editor2pdf" depends="java.compile.com.itext, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
       </src>
       <classpath>
         <pathelement path="${build.tmp}/java/out/com.itext" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -245,10 +249,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -269,21 +272,24 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf">
+      <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.mps.editor2pdf#8751972264247094546" depends="java.compile.com.itext, java.compile.org.campagnelab.mps.editor2pdf, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
       </src>
       <classpath>
         <pathelement path="${build.tmp}/java/out/com.itext" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -297,10 +303,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -320,12 +325,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546">
+      <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.com.itext">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.itext" />
-    <javac destdir="${build.tmp}/java/out/com.itext" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/com.itext" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" />
@@ -336,6 +344,9 @@
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itextpdf-5.5.0.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/com.itext">
+      <fileset dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">

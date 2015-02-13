@@ -2,16 +2,18 @@
 <dependenciesRoot>
   <dependency className="TestLanguage.Language" file="Language.java">
     <classNode dependClassName="TestLanguage.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="TestLanguage.structure.StructureAspectDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModule" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
-    <classNode dependClassName="jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
 </dependenciesRoot>

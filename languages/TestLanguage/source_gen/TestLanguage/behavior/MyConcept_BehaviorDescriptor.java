@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class MyConcept_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public MyConcept_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "TestLanguage.structure.MyConcept";

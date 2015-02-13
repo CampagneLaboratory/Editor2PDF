@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:22c1cce5-96b2-4618-b8b5-def644c59c2a(TestLanguage.plugin)/893392931327122413">
-    <nodeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ICON" />
-    <nodeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="15" startPosition="37" endLine="16" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getComponent#()Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="null_Tool#(Lcom/intellij/openapi/project/Project;)V" />
-    <scopeInfo nodeId="893392931327122641" fileName="null_Tool.java" startLine="19" startPosition="36" endLine="19" endPosition="36" />
-    <scopeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="15" startPosition="37" endLine="16" endPosition="65" />
-    <scopeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
-      <varInfo nodeId="893392931327122413" varName="project" />
-    </scopeInfo>
-    <unitInfo nodeId="893392931327122413" fileName="null_Tool.java" startLine="12" startPosition="0" endLine="22" endPosition="0" unitName="TestLanguage.plugin.null_Tool" />
+    <file name="null_Tool.java">
+      <node id="893392931327122413" at="13,0,14,0" concept="2" trace="ICON" />
+      <node id="893392931327122413" at="14,37,15,65" concept="3" />
+      <node id="893392931327122413" at="17,0,19,0" concept="1" trace="getComponent#()Ljavax/swing/JComponent;" />
+      <node id="893392931327122413" at="14,0,17,0" concept="0" trace="null_Tool#(Lcom/intellij/openapi/project/Project;)V" />
+      <scope id="893392931327122641" at="17,36,17,36" />
+      <scope id="893392931327122413" at="14,37,15,65" />
+      <scope id="893392931327122413" at="17,0,19,0" />
+      <scope id="893392931327122413" at="14,0,17,0">
+        <var name="project" id="893392931327122413" />
+      </scope>
+      <unit id="893392931327122413" at="12,0,20,0" name="TestLanguage.plugin.null_Tool" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

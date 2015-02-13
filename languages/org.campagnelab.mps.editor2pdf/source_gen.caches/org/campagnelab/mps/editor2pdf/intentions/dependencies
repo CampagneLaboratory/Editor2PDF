@@ -2,11 +2,9 @@
 <dependenciesRoot>
   <dependency className="org.campagnelab.mps.editor2pdf.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
     <classNode dependClassName="jetbrains.mps.intentions.IntentionsManager" />
-    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.intentions.RefreshRenderings_Intention" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.intentions.Render_Intention" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.intentions.TogglePDFRendering_Intention" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
     <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.intentions.RefreshRenderings_Intention" file="RefreshRenderings_Intention.java">
@@ -17,6 +15,7 @@
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionDescriptor" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionType" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
@@ -31,12 +30,12 @@
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
-    <classNode extendsClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode extendsClassName="jetbrains.mps.intentions.IntentionFactory" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.intentions.Render_Intention" file="Render_Intention.java">
@@ -46,6 +45,7 @@
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionDescriptor" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionType" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor" />
@@ -54,12 +54,12 @@
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
-    <classNode extendsClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode extendsClassName="jetbrains.mps.intentions.IntentionFactory" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.intentions.TogglePDFRendering_Intention" file="TogglePDFRendering_Intention.java">
@@ -68,6 +68,7 @@
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionDescriptor" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionType" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
@@ -78,9 +79,10 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
-    <classNode extendsClassName="jetbrains.mps.intentions.IntentionExecutable" />
     <classNode extendsClassName="jetbrains.mps.intentions.IntentionFactory" />
   </dependency>
 </dependenciesRoot>

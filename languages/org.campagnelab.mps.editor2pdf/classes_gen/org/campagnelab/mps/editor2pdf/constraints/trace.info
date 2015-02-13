@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="10,0,30,0" name="org.campagnelab.mps.editor2pdf.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:00a765fe-ba96-4e98-831a-0d72872191a3(org.campagnelab.mps.editor2pdf.constraints)/8751972264247719107">
+    <file name="EditorAnnotation_Constraints.java">
+      <node id="8751972264247719107" at="20,41,21,98" concept="9" />
+      <node id="8751972264247719107" at="24,43,25,16" concept="5" />
+      <node id="8751972264247719107" at="28,200,29,96" concept="4" />
+      <node id="8751972264247719107" at="29,96,30,0" concept="6" />
+      <node id="8751972264247719107" at="31,51,32,67" concept="1" />
+      <node id="8751972264247719107" at="33,5,34,0" concept="6" />
+      <node id="8751972264247719107" at="34,0,35,18" concept="5" />
+      <node id="8751972264247761410" at="39,39,40,271" concept="5" />
+      <node id="8751972264247719107" at="44,0,45,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8751972264247719107" at="20,0,23,0" concept="0" trace="EditorAnnotation_Constraints#()V" />
+      <node id="8751972264247719107" at="30,0,33,5" concept="2" />
+      <node id="8751972264247759916" at="39,0,42,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8751972264247719107" at="23,0,27,0" concept="3" trace="hasOwnCanBeChildMethod#()Z" />
+      <node id="8751972264247747425" at="37,154,42,17" concept="5" />
+      <node id="8751972264247719107" at="37,0,44,0" concept="8" trace="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+      <node id="8751972264247719107" at="27,0,37,0" concept="3" trace="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="8751972264247719107" at="20,41,21,98" />
+      <scope id="8751972264247719107" at="24,43,25,16" />
+      <scope id="8751972264247719107" at="31,51,32,67" />
+      <scope id="8751972264247759917" at="39,39,40,271" />
+      <scope id="8751972264247719107" at="20,0,23,0" />
+      <scope id="8751972264247759916" at="39,0,42,0">
+        <var name="it" id="8751972264247759916" />
+      </scope>
+      <scope id="8751972264247719107" at="23,0,27,0" />
+      <scope id="8751972264247719160" at="37,154,42,17" />
+      <scope id="8751972264247719107" at="28,200,35,18">
+        <var name="result" id="8751972264247719107" />
+      </scope>
+      <scope id="8751972264247719107" at="37,0,44,0">
+        <var name="childConcept" id="8751972264247719107" />
+        <var name="link" id="8751972264247719107" />
+        <var name="node" id="8751972264247719107" />
+        <var name="operationContext" id="8751972264247719107" />
+        <var name="parentNode" id="8751972264247719107" />
+      </scope>
+      <scope id="8751972264247719107" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8751972264247719107" />
+        <var name="childConcept" id="8751972264247719107" />
+        <var name="link" id="8751972264247719107" />
+        <var name="node" id="8751972264247719107" />
+        <var name="operationContext" id="8751972264247719107" />
+        <var name="parentNode" id="8751972264247719107" />
+      </scope>
+      <unit id="8751972264247759916" at="38,102,42,5" name="org.campagnelab.mps.editor2pdf.constraints.EditorAnnotation_Constraints$1" />
+      <unit id="8751972264247719107" at="19,0,46,0" name="org.campagnelab.mps.editor2pdf.constraints.EditorAnnotation_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

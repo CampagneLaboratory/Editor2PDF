@@ -7,20 +7,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62684776-c257-47ab-93cb-7fe8bc69c993" name="Default" comment="Add build-plugin solution to make it possible to create an MPS plugin for the Editor2SVG language.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/classes_gen/Editor2PDF/build-plugin/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/Editor2PDF.xml" afterPath="$PROJECT_DIR$/Editor2PDF.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/artifacts/Editor2PDF/Editor2PDF.zip" afterPath="$PROJECT_DIR$/build/artifacts/Editor2PDF/Editor2PDF.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mps/migration.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen/org/campagnelab/mps/editor2pdf/generator/template/main/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/classes_gen/Editor2PDF/build-plugin/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/plugin/_Pasted_Image_9_12_13_1_39_PM-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/classes_gen/Playground/editing/SomeOtherClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/classes_gen/Playground/editing/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Playground/editing/dependencies" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Playground/editing/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen/Playground/editing/MyClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen/Playground/editing/SomeOtherClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen/Playground/editing/trace.info" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor$_Inline_mogkiu_a1a.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor$_Inline_mogkiu_a1a.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints$1.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor$_Inline_rijbc_a1a.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor$_Inline_rijbc_a1a.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/Language.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor$diagramsListHandler_x3d6mm_e0.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor$diagramsListHandler_x3d6mm_e0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$1.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2$1.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation$1.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$1.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$2.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Editor2PDF.xml" afterPath="$PROJECT_DIR$/Editor2PDF.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/Language.java" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/Language.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/MyConcept_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/MyConcept_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/Playground.msd" afterPath="$PROJECT_DIR$/solutions/Playground/Playground.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/TestLanguage.mpl" afterPath="$PROJECT_DIR$/languages/TestLanguage/TestLanguage.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/behavior.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/dependencies" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/com.itext/com.itext.msd" afterPath="$PROJECT_DIR$/solutions/com.itext/com.itext.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen.caches/TestLanguage/dependencies" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen.caches/TestLanguage/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/models/Playground/editing.mps" afterPath="$PROJECT_DIR$/solutions/Playground/models/Playground/editing.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen.caches/TestLanguage/generated" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen.caches/TestLanguage/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen.caches/org/campagnelab/mps/editor2pdf/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen.caches/org/campagnelab/mps/editor2pdf/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/typesystem/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/typesystem/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/intentions.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/intentions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/plugin/null_Tool.java" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/plugin/null_Tool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/delegate/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/delegate/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/plugin/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/plugin/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/classes_gen/TestLanguage/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/delegate/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/delegate/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/plugin/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/plugin/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="Editor2PDF.iws" />
     <ignored path=".mps/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +159,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:c8cb8b57-ab0b-480e-bff8-207e3aa4e778(TempModel_1410019154221849000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;4466573181586449790&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;3110885809568287791&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;3110885809568432935&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;3110885809568432936&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;3110885809568432937&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;3110885809568432938&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;3110885809568437861&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;3110885809568437862&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Make&quot; typeId=&quot;caxt.5582028874771853091&quot; id=&quot;3110885809568437863&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;3110885809568437864&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8742883276846800913&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8742883276846800914&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8742883276846800915&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8742883276846800916&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;4663802108294952766&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;4663802108294952767&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;4663802108294952768&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;4663802108294952769&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;3837233955476239446&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;3837233955476239447&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;3837233955476239448&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;3837233955476239449&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;4466573181586449791&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="kaurqQAABAAHKCSvA9W0mEdklrWYU472jFMAAB1UZW1wTW9kZWxfMTQyMzg2MzQ1ODMwNzE2NzAwMBdIiIGs/rPYQJyuwkcBvn7X/QAALlRlbXBNb2R1bGU4ODgxYWNmZS1iM2Q4LTQwOWMtYWVjMi00NzAxYmU3ZWQ3ZmT/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABd4a2G1uUEoCswbU0X9kw3UBAAAABf/////yZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHP/////GoVUxOuEQ7qMNG8NkMbnWgAAH2pldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmT/////peTeU0ajRNqqs2j98cNO0AAAIWpldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kc/////+ZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHP/////AAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAUHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////ByiTW6DucpFMqqgH126PxpORAAApamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZC5zdHJ1Y3R1cmVw/////wcoE1pgbwN2TFyauEAw8FGgYgAAK2pldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kcy5zdHJ1Y3R1cmVw/////wcokERSBqlzTB23YDDlx3t0lwAAMGpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzLnN0cnVjdHVyZXD/////urq6ugAAAAEAARgJMsYYfl/AWP//ewAAAAAAAAAAAAIAAxgJMsYYfl/AWQAAewAAAAAAAAAAAAB9AAIYCTLGGH5fwFoAAXsAAQAAAQAAAAkAAAAAAAAAAH19" />
         </TabState>
       </list>
     </option>
@@ -54,80 +180,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultOutputDirectory" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327136866" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdfCollection" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="168">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327268188" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditorAnnotation" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/8751972264247131961" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/8751972264247112684" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyClass" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyClass" pinned="false" current-in-tab="false">
         <entry file="mps://node://Playground/Playground.editing/MyClass">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -135,8 +188,8 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="235" />
+                    <property name="caretXRelative" value="20" />
+                    <property name="caretX" value="231" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
@@ -151,7 +204,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -161,59 +214,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyConcept" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://TestLanguage/TestLanguage.structure/MyConcept">
+      <file leaf-file-name="FIGURES" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Playground/Playground.editing/FIGURES">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="235" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="71" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_outputTo" cellNumber="0" isInList="false">
-                      <node node_reference="r:09064f3b-a427-43bb-bf0f-d16b78adc750(TestLanguage.structure)/8278742719497818989" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/5378718574870348268" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorLabels />
                 <folded />
-                <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:09064f3b-a427-43bb-bf0f-d16b78adc750(TestLanguage.structure)/893392931326326643" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Language.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/Language.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="975">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="org.campagnelab.Editor2PDF" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="org.campagnelab.Editor2PDF" pinned="false" current-in-tab="true">
         <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="113">
+              <memento viewPositionX="0" viewPositionY="132">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="16" />
+                    <property name="caretX" value="139" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
-                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -221,7 +263,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -231,7 +273,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main" pinned="false" current-in-tab="false">
         <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -240,7 +282,7 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="276" />
+                    <property name="caretX" value="255" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
                       <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
@@ -251,67 +293,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Render" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="16">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="100" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/8230146836249937609" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TogglePDFRendering" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="157">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="100" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/8751972264247518445" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -347,10 +329,14 @@
       </array>
     </option>
   </component>
+  <component name="MPSVcsConfiguration">
+    <option name="ignoreGeneratedFiles" value="true" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="x" value="-3" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -359,7 +345,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPluginManager">
@@ -441,7 +427,7 @@
     </option>
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -456,6 +442,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,11 +460,94 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.editor2pdf">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.editor2pdf">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.editor2pdf#8751972264247094546">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.editor2pdf.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Playground">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Playground">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Playground.editing">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Editor2PDF.build-plugin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Editor2PDF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Editor2PDF.build-plugin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,12 +559,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="project.options.prefs.page" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Build Script.Editor2PDF">
+  <component name="RunManager" selected="Build Script.org.campagnelab.Editor2PDF">
     <configuration default="false" name="Editor2PDF" type="Build Script" factoryName="Build Script" temporary="true">
       <MyState />
       <myNode>
@@ -550,10 +620,49 @@
       </mySettings>
       <method />
     </configuration>
+    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
+      <MyState />
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModel" />
+          <option name="myModule" />
+          <option name="myLightExec" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="/var/folders/7c/dskpdg6x6f384r541lfzmjk00000gp/T/mps_test_dir0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="0" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Build Script.Editor2PDF" />
       <item index="1" class="java.lang.String" itemvalue="Build Script.org.campagnelab.Editor2PDF" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Build Script.org.campagnelab.Editor2PDF" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -594,22 +703,22 @@
     <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.4997367" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.50039715" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.49960285" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32809225" sideWeight="0.5007899" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809225" sideWeight="0.49921012" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.4997367" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32883242" sideWeight="0.76820207" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.49960285" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328594" sideWeight="0.76820207" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32809225" sideWeight="0.49921012" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -619,7 +728,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23111111" sideWeight="0.4988086" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23060797" sideWeight="0.28541338" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -668,11 +777,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add build-plugin solution to make it possible to create an MPS plugin for the Editor2SVG language." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://TestLanguage/TestLanguage.structure/MyConcept">
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
@@ -683,14 +824,586 @@
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:09064f3b-a427-43bb-bf0f-d16b78adc750(TestLanguage.structure)/893392931326326643" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="975">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c06531f7-c56e-4232-9186-1a01a21f2954(TestLanguage.editor)/893392931327233665" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+              <errorLabel errorText="?outputTo?" cellNumber="1" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
+                <parent cellId="Collection_rijbc_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
+                </parent>
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/MyClass">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/1682788713718902064" />
+              </errorLabel>
+              <errorLabel errorText="?outputTo?" cellNumber="1" isInList="false">
+                <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
+                <parent cellId="Collection_rijbc_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
+                </parent>
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="113">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
@@ -730,99 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327136866" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="168">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327268188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/8751972264247112684" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -841,115 +1461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
+    <entry file="mps://node://MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub/EditorCell_Collection">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
@@ -982,155 +1494,6 @@
             <folded />
             <enabledHints />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/893392931327136867" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/8751972264248785944" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub/EditorCell_Collection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/893392931327136867" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/8751972264248785944" />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1700,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0" useCustomHints="true">
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1402,129 +1765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/DefaultOutputDirectory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327136866" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/8751972264247131961" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/8751972264247112684" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="168">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327268188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/Render">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="16">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/8230146836249937609" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.intentions/TogglePDFRendering">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="157">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/8751972264247518445" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1533,7 +1773,7 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="0" />
-                <property name="caretX" value="276" />
+                <property name="caretX" value="255" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
                   <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
@@ -1544,7 +1784,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1560,8 +1800,8 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="235" />
+                <property name="caretXRelative" value="20" />
+                <property name="caretX" value="231" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/2774914494494532423" />
@@ -1576,63 +1816,27 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TestLanguage/TestLanguage.structure/MyConcept">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="235" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_outputTo" cellNumber="0" isInList="false">
-                  <node node_reference="r:09064f3b-a427-43bb-bf0f-d16b78adc750(TestLanguage.structure)/8278742719497818989" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:09064f3b-a427-43bb-bf0f-d16b78adc750(TestLanguage.structure)/893392931326326643" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/languages/TestLanguage/source_gen/TestLanguage/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="975">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="113">
+          <memento viewPositionX="0" viewPositionY="132">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="139" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
-                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1640,7 +1844,34 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Playground.editing/FIGURES">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="71" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/5378718574870348268" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509538" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1651,4 +1882,3 @@
     </entry>
   </component>
 </project>
-

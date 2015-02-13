@@ -11,11 +11,9 @@ import javax.swing.JComponent;
 
 public class null_Tool extends GeneratedTool {
   private static final Icon ICON = IconUtil.getIcon("_Pasted_Image_9_12_13_1_39_PM-2.png");
-
   public null_Tool(Project project) {
     super(project, "", -1, ICON, ToolWindowAnchor.BOTTOM, false);
   }
-
   public JComponent getComponent() {
   }
 }

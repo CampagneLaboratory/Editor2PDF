@@ -4,6 +4,7 @@ package org.campagnelab.mps.editor2pdf.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -29,10 +30,9 @@ import org.apache.log4j.LogManager;
 
 public class EditorAnnotation_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "outputTo", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.editor2pdf.structure.DefaultOutputDirectory")).first(), false);
-    SPropertyOperations.set(thisNode, "outputFormat", "1");
+    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0xc65f8233c99545fL, "outputTo"), ListSequence.fromList(SModelOperations.rootsIncludingImported(SNodeOperations.getModel(thisNode), MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0xc65f8233c995462L, "org.campagnelab.mps.editor2pdf.structure.DefaultOutputDirectory"))).first());
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0x4aa50c0bd1ec9bf1L, "outputFormat"), "1");
   }
-
   public static void call_visit_9022082025460316141(SNode thisNode, EditorCell cell, Graphics g2d, ParentSettings settings) {
     if (cell instanceof EditorCell_Collection) {
       EditorAnnotation_Behavior.call_visit_9022082025460320294(thisNode, ((EditorCell_Collection) cell), g2d, settings);
@@ -45,7 +45,6 @@ public class EditorAnnotation_Behavior {
       EditorAnnotation_Behavior.call_visit_9022082025460322112(thisNode, ((EditorCell_Component) cell), g2d, settings);
     }
   }
-
   public static void call_visit_9022082025460320294(SNode thisNode, EditorCell_Collection collection, Graphics g2d, ParentSettings settings) {
     // <node> 
     Iterator<EditorCell> it = collection.iterator();
@@ -54,21 +53,19 @@ public class EditorAnnotation_Behavior {
       EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, cell, g2d, settings);
     }
   }
-
   public static void call_visit_9022082025460322112(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
     // <node> 
     g2d.translate(component.getX(), component.getY());
     component.getComponent().paint(g2d);
     g2d.translate(-component.getX(), -component.getY());
   }
-
   public static void call_renderNodeEditorToPDF_9022082025460195780(SNode thisNode, SNode annotation, EditorCell editorCell) {
     // jetbrains.mps.nodeEditor.cells.EditorCell 
 
     // <node> 
-    String dir = ((SLinkOperations.getTarget(annotation, "outputTo", false) == null) ? "." : SPropertyOperations.getString(SLinkOperations.getTarget(annotation, "outputTo", false), "path"));
+    String dir = ((SLinkOperations.getTarget(annotation, MetaAdapterFactory.getReferenceLink(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0xc65f8233c99545fL, "outputTo")) == null) ? "." : SPropertyOperations.getString(SLinkOperations.getTarget(annotation, MetaAdapterFactory.getReferenceLink(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0xc65f8233c99545fL, "outputTo")), MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0xc65f8233c993928L, 0xc65f8233c993964L, "path")));
     try {
-      File pdfFile = new File(dir + "/" + SPropertyOperations.getString(annotation, "name") + ".pdf");
+      File pdfFile = new File(dir + "/" + SPropertyOperations.getString(annotation, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + ".pdf");
       FileOutputStream stream = new FileOutputStream(pdfFile);
       editorCell.relayout();
 
@@ -100,6 +97,5 @@ public class EditorAnnotation_Behavior {
 
 
   }
-
   protected static Logger LOG = LogManager.getLogger(EditorAnnotation_Behavior.class);
 }

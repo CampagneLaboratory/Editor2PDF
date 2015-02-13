@@ -1,99 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)" version="1">
-  <persistence version="8" />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
-  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="3t4d" modelUID="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)" version="1" implicit="yes" />
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8751972264247112684" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="EditorAnnotation" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5378718574870043633" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="outputFormat" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="5378718574870043612" resolveInfo="RenderingOutputFormat" />
+<model ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)">
+  <persistence version="9" />
+  <languages>
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
+        <property id="6054523464626875854" name="value" index="tnX3d" />
+      </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <reference id="1083241965437" name="defaultMember" index="Qgau1" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
+        <child id="7588428831955550186" name="multiple" index="HhnKV" />
+      </concept>
+      <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
+      <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
+        <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
+      </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1TIwiD" id="7_Pg6u6xjfG">
+    <property role="TrG5h" value="EditorAnnotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyi" id="4E_30JhV9JL" role="1TKVEl">
+      <property role="TrG5h" value="outputFormat" />
+      <ref role="AX2Wp" node="4E_30JhV9Js" resolve="RenderingOutputFormat" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8751972264247713726" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="editor" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1166049232041" resolveInfo="AbstractComponent" />
+    <node concept="1TJgyj" id="7_Pg6u6z_YY" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="editor" />
+      <ref role="20lvS9" to="tpc2:gXXWOiD" resolve="AbstractComponent" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="893392931327136863" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="outputTo" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="893392931327129896" resolveInfo="DiagramOutputDirectory" />
+    <node concept="1TJgyj" id="L_Y2cWAlhv" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="outputTo" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="L_Y2cWAj$C" resolve="DiagramOutputDirectory" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8751972264247131961" nodeInfo="ng">
-      <property name="role" nameId="tpce.7588428831955550663" value="outputSvg" />
-      <node role="multiple" roleId="tpce.7588428831955550186" type="tpce.AttributeInfo_IsMultiple" typeId="tpce.6054523464626862044" id="8751972264247160259" nodeInfo="ng">
-        <property name="value" nameId="tpce.6054523464626875854" value="false" />
+    <node concept="M6xJ_" id="7_Pg6u6xnWT" role="lGtFl">
+      <property role="Hh88m" value="outputSvg" />
+      <node concept="tn0Fv" id="7_Pg6u6xuR3" role="HhnKV">
+        <property role="tnX3d" value="false" />
       </node>
-      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="8751972264247711240" nodeInfo="ng">
-        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      <node concept="trNpa" id="7_Pg6u6z_o8" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8751972264247490117" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    <node concept="PrWs8" id="7_Pg6u6yJp5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327129896" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="DiagramOutputDirectory" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Output" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Output directory for SVG Renderings" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="893392931327129956" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="path" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+  </node>
+  <node concept="1TIwiD" id="L_Y2cWAj$C">
+    <property role="TrG5h" value="DiagramOutputDirectory" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Output" />
+    <property role="R4oN_" value="Output directory for SVG Renderings" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="L_Y2cWAj_$" role="1TKVEl">
+      <property role="TrG5h" value="path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="893392931327129954" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    <node concept="PrWs8" id="L_Y2cWAj_y" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327136866" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="DefaultOutputDirectory" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="893392931327129896" resolveInfo="DiagramOutputDirectory" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327268188" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PdfCollection" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="pdf-collection" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Collection of PDF editor annotations" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="893392931327268244" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="diagrams" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="893392931327268246" resolveInfo="DiagramRef" />
+  </node>
+  <node concept="1TIwiD" id="L_Y2cWAlhy">
+    <property role="TrG5h" value="DefaultOutputDirectory" />
+    <ref role="1TJDcQ" node="L_Y2cWAj$C" resolve="DiagramOutputDirectory" />
+  </node>
+  <node concept="1TIwiD" id="L_Y2cWAPls">
+    <property role="TrG5h" value="PdfCollection" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="pdf-collection" />
+    <property role="R4oN_" value="Collection of PDF editor annotations" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="L_Y2cWAPmk" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="diagrams" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="L_Y2cWAPmm" resolve="DiagramRef" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="893392931327268242" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    <node concept="PrWs8" id="L_Y2cWAPmi" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="893392931327268246" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="DiagramRef" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="893392931327268247" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="diagram" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8751972264247112684" resolveInfo="EditorAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="L_Y2cWAPmm">
+    <property role="TrG5h" value="DiagramRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="L_Y2cWAPmn" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="diagram" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7_Pg6u6xjfG" resolve="EditorAnnotation" />
     </node>
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="5378718574870043612" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="RenderingOutputFormat" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="5378718574870043630" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5378718574870043613" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="SVG" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+  </node>
+  <node concept="AxPO7" id="4E_30JhV9Js">
+    <property role="TrG5h" value="RenderingOutputFormat" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <ref role="Qgau1" node="4E_30JhV9JI" />
+    <node concept="M4N5e" id="4E_30JhV9Jt" role="M5hS2">
+      <property role="1uS6qo" value="SVG" />
+      <property role="1uS6qv" value="0" />
     </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5378718574870043630" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="PDF" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+    <node concept="M4N5e" id="4E_30JhV9JI" role="M5hS2">
+      <property role="1uS6qo" value="PDF" />
+      <property role="1uS6qv" value="1" />
     </node>
-  </root>
+  </node>
 </model>
 

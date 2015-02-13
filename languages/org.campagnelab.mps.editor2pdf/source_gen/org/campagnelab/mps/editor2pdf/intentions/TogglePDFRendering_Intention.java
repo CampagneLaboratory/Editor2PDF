@@ -12,7 +12,9 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
@@ -22,64 +24,51 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class TogglePDFRendering_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public TogglePDFRendering_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.lang.core.structure.BaseConcept";
   }
-
   public String getPresentation() {
     return "TogglePDFRendering";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.mps.editor2pdf.intentions.TogglePDFRendering_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.mps.editor2pdf";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return true;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)", "8751972264247518445");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new TogglePDFRendering_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      if (SNodeOperations.isInstanceOf(node, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) {
+      if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) {
         return "Remove PDF Rendering";
       }
-      if (ListSequence.fromList(SNodeOperations.getDescendants(node, "jetbrains.mps.lang.core.structure.BaseConcept", true, new String[]{})).all(new IWhereFilter<SNode>() {
+      if (ListSequence.fromList(SNodeOperations.getNodeDescendants(node, MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, "jetbrains.mps.lang.core.structure.BaseConcept"), true, new SAbstractConcept[]{})).all(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) == null);
+          return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) == null);
         }
       })) {
         return "Activate PDF Rendering";
@@ -87,16 +76,15 @@ public class TogglePDFRendering_Intention implements IntentionFactory {
         return "Remove PDF Rendering";
       }
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
-      if (SNodeOperations.isInstanceOf(node, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) {
-        AttributeOperations.setAttribute(SNodeOperations.getParent(node), new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"), null);
+      if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) {
+        AttributeOperations.setAttribute(SNodeOperations.getParent(node), new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), null);
         return;
       }
 
-      Iterable<SNode> annotatedNodes = ListSequence.fromList(SNodeOperations.getDescendants(node, "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{})).where(new IWhereFilter<SNode>() {
+      Iterable<SNode> annotatedNodes = ListSequence.fromList(SNodeOperations.getNodeDescendants(node, MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, "jetbrains.mps.lang.core.structure.BaseConcept"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) != null);
+          return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) != null);
         }
       });
       SNode nodeWithAnnotation;
@@ -105,13 +93,12 @@ public class TogglePDFRendering_Intention implements IntentionFactory {
       } else {
         nodeWithAnnotation = node;
       }
-      if ((AttributeOperations.getAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")) == null)) {
-        AttributeOperations.setAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"), SConceptOperations.createNewNode("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation", null));
+      if ((AttributeOperations.getAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))) == null)) {
+        AttributeOperations.setAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"))));
       } else {
-        AttributeOperations.setAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute("org.campagnelab.mps.editor2pdf.structure.EditorAnnotation"), null);
+        AttributeOperations.setAttribute(nodeWithAnnotation, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, "org.campagnelab.mps.editor2pdf.structure.EditorAnnotation")), null);
       }
     }
-
     public IntentionDescriptor getDescriptor() {
       return TogglePDFRendering_Intention.this;
     }
