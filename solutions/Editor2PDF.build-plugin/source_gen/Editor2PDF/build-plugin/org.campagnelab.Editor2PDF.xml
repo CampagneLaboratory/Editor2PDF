@@ -34,7 +34,7 @@
         <version>${version}</version>
         <vendor url="https://github.com/CampagneLaboratory/Editor2PDF/">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="141.1" since-build="142.1" />
+        <idea-version since-build="141.1" until-build="142.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
