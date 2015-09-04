@@ -6,107 +6,11 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62684776-c257-47ab-93cb-7fe8bc69c993" name="Default" comment="Add build-plugin solution to make it possible to create an MPS plugin for the Editor2SVG language.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor$_Inline_mogkiu_a1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor$_Inline_rijbc_a1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor$diagramsListHandler_x3d6mm_e0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention$IntentionImplementation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention$IntentionImplementation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention$IntentionImplementation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/classes_gen/org/campagnelab/mps/editor2pdf/generator/template/main/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen.caches/org/campagnelab/mps/editor2pdf/generator/template/main/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen.caches/org/campagnelab/mps/editor2pdf/generator/template/main/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen/org/campagnelab/mps/editor2pdf/generator/template/main/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/generator/source_gen/org/campagnelab/mps/editor2pdf/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/intentions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/typesystem/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen.caches/org/campagnelab/mps/editor2pdf/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_Behavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DefaultOutputDirectory_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramOutputDirectory_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/DiagramRef_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/PdfCollection_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/EditorAnnotation_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramOutputDirectory_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/DiagramRef_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/EditorAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/PdfCollection_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/IntentionsDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/RefreshRenderings_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/Render_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/TogglePDFRendering_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/RenderingOutputFormat_PropertySupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/typesystem/trace.info" afterPath="" />
+    <list default="true" id="62684776-c257-47ab-93cb-7fe8bc69c993" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Editor2PDF.xml" afterPath="$PROJECT_DIR$/Editor2PDF.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/Playground.msd" afterPath="$PROJECT_DIR$/solutions/Playground/Playground.msd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/classes_gen/Editor2PDF/build-plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/classes_gen/Editor2PDF/build-plugin/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="Editor2PDF.iws" />
@@ -124,7 +28,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="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" />
+          <option name="history" value="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" />
         </TabState>
       </list>
     </option>
@@ -149,15 +53,15 @@
         <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="117">
+              <memento viewPositionX="0" viewPositionY="397">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="303" />
-                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="447" />
+                    <property name="caretXRelative" value="24" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
-                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" />
+                    <cellInfo cellId="property_text_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -165,7 +69,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -195,7 +99,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -347,6 +251,7 @@
     </navigator>
     <panes>
       <pane id="FileSystem" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,14 +259,14 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,7 +314,6 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,12 +459,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49642575" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.27958697" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.28435266" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -571,9 +475,9 @@
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2293578" sideWeight="0.27243844" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2293578" sideWeight="0.27084988" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.720413" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.71564734" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -622,9 +526,122 @@
     <MESSAGE value="Traverse component collections to locate EditorCell_Component instances and render their JComponent. &#10;With this change, the JComponent cells also render to the output PDF. &#10;This should handle the diagrams as well when they are released in 3.1.&#10;Upgrade to 3.1 EAP3." />
     <MESSAGE value="Merge branch 'master' of github.com:CampagneLaboratory/Editor2PDF&#10;&#10;Conflicts:&#10;&#9;.mps/workspace.xml&#10;&#9;languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation_Behavior.class&#10;&#9;languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info&#10;&#9;languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor$_Inline_rijbc_a1a.class&#10;&#9;languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/EditorAnnotation_Editor.class&#10;&#9;languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/trace.info&#10;&#9;languages/org.campagnelab.mps.editor2pdf/generator/classes_gen/org/campagnelab/mps/editor2pdf/generator/template/main/trace.info&#10;&#9;languages/org.campagnelab.mps.editor2pdf/generator/source_gen/org/campagnelab/mps/editor2pdf/generator/template/main/trace.info&#10;&#9;languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info&#10;&#9;languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/editor/trace.info&#10;&#9;solutions/Playground/classes_gen/Playground/editing/trace.info&#10;&#9;solutions/Playground/source_gen/Playground/editing/trace.info&#10;" />
     <MESSAGE value="Add build-plugin solution to make it possible to create an MPS plugin for the Editor2SVG language." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add build-plugin solution to make it possible to create an MPS plugin for the Editor2SVG language." />
+    <MESSAGE value="Upgrade to MPS 3.3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade to MPS 3.3." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="117">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="303" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="117">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="303" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1235">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vc3gub_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4643216374596368420" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1698,7 +1715,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1710,15 +1727,15 @@
     <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="117">
+          <memento viewPositionX="0" viewPositionY="397">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="303" />
-                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="447" />
+                <property name="caretXRelative" value="24" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
-                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" />
+                <cellInfo cellId="property_text_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1726,7 +1743,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357464" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />

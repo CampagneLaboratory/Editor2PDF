@@ -247,15 +247,15 @@
       <property role="m$_wk" value="org.campagnelab.Editor2PDF" />
       <node concept="2pNNFK" id="5KK2jWpWIqP" role="20twgj">
         <property role="2pNNFO" value="idea-version" />
-        <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
-          <property role="2pNUuO" value="until-build" />
-          <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="141.1" />
-          </node>
-        </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
+            <property role="2pMdty" value="141.1" />
+          </node>
+        </node>
+        <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
             <property role="2pMdty" value="142.1" />
           </node>
         </node>
