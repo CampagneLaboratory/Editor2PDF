@@ -42,7 +42,7 @@
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
-        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -165,7 +165,7 @@
       <node concept="aVJcg" id="y5Izch8BaR" role="aVJcv">
         <node concept="NbPM2" id="y5Izch8BaQ" role="aVJcq">
           <node concept="3Mxwew" id="y5Izch8BaP" role="3MwsjC">
-            <property role="3MwjfP" value="1.0.0" />
+            <property role="3MwjfP" value="1.0.1" />
           </node>
         </node>
       </node>
@@ -250,13 +250,13 @@
         <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="140.1" />
+            <property role="2pMdty" value="141.1" />
           </node>
         </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
-            <property role="2pMdty" value="139.1" />
+            <property role="2pMdty" value="142.1" />
           </node>
         </node>
       </node>
@@ -423,7 +423,7 @@
       </node>
     </node>
     <node concept="2_Ic$z" id="$MLxxYnVCu" role="3989C9">
-      <property role="TZNOO" value="1.6" />
+      <property role="2_Ic$$" value="true" />
     </node>
   </node>
 </model>
