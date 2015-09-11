@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-b0plt3gry0h5rr4vodrilkrnrmjh7bc">
-  <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" hash="-3flttdsbtvc8n639ns8bg0yyigjxpts" />
-  <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" hash="-aodpcu2v9ccsm5ksczd2aic7z0p8omn" />
+<dependencies version="2" modelHash="-3go5jzq1neolb3vnvp6woigucxbwzah">
+  <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" hash="-70cib2b7uj9hfkr9koa008kqeje275a" />
+  <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" hash="ebvhxfd710kfsodx6n0vpwywl6riajd" />
   <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" hash="-7lnnusg2bwqea3pcggqtmfs6ccerfzy" />
   <dep model="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" hash="1jgxkccxcp90t814e5c6taph3va0bp8" />
   <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" hash="-4mp7mvcohghg3npifs91n63ze5vkn76" />
-  <common hash="-68xinypvw7vdgoy9kqo3nfv0p6zeij3" />
-  <source id="3009304464428357460" name="org.campagnelab.Editor2PDF" hash="-24m7hkdykaon9xddg6estjuvpwe4vq6">
+  <common hash="52mlvlkwhs4galpva89hbtmaxt9n9ok" />
+  <source id="3009304464428357460" name="org.campagnelab.Editor2PDF" hash="-7l8scqvtejltib491n9fjtm630x1ptt">
     <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" />
     <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" />

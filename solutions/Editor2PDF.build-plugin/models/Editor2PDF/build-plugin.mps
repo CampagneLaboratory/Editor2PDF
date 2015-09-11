@@ -43,6 +43,7 @@
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -151,10 +152,40 @@
     <property role="TrG5h" value="org.campagnelab.Editor2PDF" />
     <property role="2DA0ip" value="../../" />
     <property role="turDy" value="Editor2PDF.xml" />
+    <node concept="2_Ic$z" id="$MLxxYnVCu" role="3989C9">
+      <property role="2_Ic$$" value="true" />
+      <property role="TZNOO" value="1.6" />
+    </node>
     <node concept="10PD9b" id="2B3cBtBfXtl" role="10PD9s" />
     <node concept="3b7kt6" id="2B3cBtBfXtm" role="10PD9s" />
     <node concept="398rNT" id="2B3cBtBfXtn" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="2FL4Q0WwSpB" role="398pKh">
+        <node concept="2Ry0Ak" id="2FL4Q0WwSpE" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="2FL4Q0WwSpH" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="2FL4Q0WwSpK" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="2FL4Q0WwSpP" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="2FL4Q0WwSpW" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="2FL4Q0WwSq2" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="2FL4Q0WwSq7" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 3.3 EAP_jdk16.app" />
+                      <node concept="2Ry0Ak" id="2FL4Q0WwSWs" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="398rNT" id="2B3cBtBfXtu" role="1l3spd">
       <property role="TrG5h" value="org.campagnelab.editor2pdf.home" />
@@ -421,9 +452,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2_Ic$z" id="$MLxxYnVCu" role="3989C9">
-      <property role="2_Ic$$" value="true" />
     </node>
   </node>
 </model>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-3jeo4xv39w6z8g0580eylgjhstgnv2b">
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="88kpy643u38y99ert11pb39oku6qua2" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="82uhq4kkc4anwdosedt0dyknycljxna" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="es7fae02abr7byxfv87xp55e2gli35b" />
+  <common hash="-3jeo4xv39w6z8g0580eylgjhstgnv2b" dependsOnNodes="true">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+</dependencies>
+

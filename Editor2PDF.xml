@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Editor2PDF" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3 EAP_jdk16.app/Contents" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
   <property name="version" value="1.0.1" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -151,7 +151,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -233,7 +233,7 @@
   <target name="java.compile.org.campagnelab.mps.editor2pdf" depends="java.compile.com.itext, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="false" includeantruntime="false" debug="true">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="false" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
@@ -288,7 +288,7 @@
   <target name="java.compile.org.campagnelab.mps.editor2pdf#8751972264247094546" depends="java.compile.com.itext, java.compile.org.campagnelab.mps.editor2pdf, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="false" includeantruntime="false" debug="true">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="false" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
@@ -343,7 +343,7 @@
   <target name="java.compile.com.itext">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.itext" />
-    <javac destdir="${build.tmp}/java/out/com.itext" fork="false" includeantruntime="false" debug="true">
+    <javac destdir="${build.tmp}/java/out/com.itext" fork="false" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" />
