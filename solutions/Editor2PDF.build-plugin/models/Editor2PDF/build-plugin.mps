@@ -165,7 +165,7 @@
       <node concept="aVJcg" id="y5Izch8BaR" role="aVJcv">
         <node concept="NbPM2" id="y5Izch8BaQ" role="aVJcq">
           <node concept="3Mxwew" id="y5Izch8BaP" role="3MwsjC">
-            <property role="3MwjfP" value="1.0.0" />
+            <property role="3MwjfP" value="1.1.0" />
           </node>
         </node>
       </node>
@@ -191,6 +191,23 @@
         </node>
         <node concept="m$_wl" id="2B3cBtBfXtU" role="39821P">
           <ref role="m_rDy" node="2B3cBtBfXtH" resolve="org.campagnelab.Editor2PDF" />
+          <node concept="398223" id="31MsHLu$d7A" role="39821P">
+            <node concept="3_J27D" id="31MsHLu$d7C" role="Nbhlr">
+              <node concept="3Mxwew" id="31MsHLu$dr5" role="3MwsjC">
+                <property role="3MwjfP" value="fonts" />
+              </node>
+            </node>
+            <node concept="28jJK3" id="31MsHLu$dr8" role="39821P">
+              <node concept="55IIr" id="31MsHLu$dr9" role="28jJRO">
+                <node concept="2Ry0Ak" id="31MsHLu$dri" role="iGT6I">
+                  <property role="2Ry0Am" value="fonts" />
+                  <node concept="2Ry0Ak" id="31MsHLu$drp" role="2Ry0An">
+                    <property role="2Ry0Am" value="DejaVuSansMono.ttf" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="398223" id="2B3cBtBjhCL" role="39821P">
             <node concept="3_J27D" id="2B3cBtBjhCM" role="Nbhlr">
               <node concept="3Mxwew" id="2B3cBtBjhDD" role="3MwsjC">
@@ -234,6 +251,20 @@
                     <property role="2Ry0Am" value="com.itext" />
                     <node concept="2Ry0Ak" id="2B3cBtBjich" role="2Ry0An">
                       <property role="2Ry0Am" value="itextpdf-5.5.0.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="28jJK3" id="31MsHLu$dt$" role="39821P">
+              <node concept="398BVA" id="31MsHLu$HoT" role="28jJRO">
+                <ref role="398BVh" node="2B3cBtBfXtu" resolve="org.campagnelab.editor2pdf.home" />
+                <node concept="2Ry0Ak" id="31MsHLu$HoU" role="iGT6I">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="31MsHLu$HoV" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.itext" />
+                    <node concept="2Ry0Ak" id="31MsHLu$HoW" role="2Ry0An">
+                      <property role="2Ry0Am" value="fonts.jar" />
                     </node>
                   </node>
                 </node>
@@ -294,7 +325,7 @@
     <node concept="2G$12M" id="2B3cBtBfXtG" role="3989C9">
       <property role="TrG5h" value="Editor2PDF" />
       <node concept="1E1JtD" id="2B3cBtBfXt_" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.campagnelab.mps.editor2pdf" />
         <property role="3LESm3" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb" />
         <property role="2GAjPV" value="false" />
@@ -357,7 +388,7 @@
         </node>
       </node>
       <node concept="1E1JtA" id="2B3cBtBfXtF" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="com.itext" />
         <property role="3LESm3" value="fae75b6b-e1b0-446e-af11-a56ff9bea2b3" />
         <property role="2GAjPV" value="false" />
@@ -414,6 +445,22 @@
                   <property role="2Ry0Am" value="com.itext" />
                   <node concept="2Ry0Ak" id="2B3cBtBjigz" role="2Ry0An">
                     <property role="2Ry0Am" value="itextpdf-5.5.0.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="31MsHLu$uGD" role="3bR37C">
+          <node concept="1BurEX" id="31MsHLu$uGE" role="1SiIV1">
+            <node concept="398BVA" id="31MsHLu$uGx" role="1BurEY">
+              <ref role="398BVh" node="2B3cBtBfXtu" resolve="org.campagnelab.editor2pdf.home" />
+              <node concept="2Ry0Ak" id="31MsHLu$uGy" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="31MsHLu$uGz" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.itext" />
+                  <node concept="2Ry0Ak" id="31MsHLu$uG$" role="2Ry0An">
+                    <property role="2Ry0Am" value="fonts.jar" />
                   </node>
                 </node>
               </node>

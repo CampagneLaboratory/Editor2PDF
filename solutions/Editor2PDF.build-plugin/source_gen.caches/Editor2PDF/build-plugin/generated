@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-d93wuqkh8s7xmzo9z7d4gwlwu477k39" />
+<dependencies version="2" modelHash="-9vq0ndwai24dgo02y5hh8bzlaw20k0i">
+  <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" hash="-6z8k2zzwnrsx7johvzo4x4in4fmx4zw" />
+  <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" hash="-d3u2wcj719ji5w8ovm7vbax5za5f7op" />
+  <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" hash="-78ck6msrgy9wdp5iuo3qydkh34o5l4w" />
+  <dep model="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" hash="bnl25kd0j9zanqkl4v2n51bpjfrs4b9" />
+  <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" hash="b85m3bslfhef7r4ldsgcx0qpzxn7awp" />
+  <common hash="cy1nwngv2qsa13b1mci8so53mo747iq" />
+  <source id="3009304464428357460" name="org.campagnelab.Editor2PDF" hash="7zu8seqvk2khxuo69uo6vcu29abcms0">
+    <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" />
+    <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" />
+    <dep model="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" />
+    <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
+    <file name="org.campagnelab.Editor2PDF.xml" />
+  </source>
+</dependencies>
 

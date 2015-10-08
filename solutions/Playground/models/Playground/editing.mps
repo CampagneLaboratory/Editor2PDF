@@ -9,8 +9,8 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports>
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
@@ -100,6 +100,7 @@
     </node>
     <node concept="3HP615" id="1tqtQHpg6OK" role="jymVt">
       <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="sdsd" />
       <node concept="3Tm1VV" id="1tqtQHpg6OL" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="7_Pg6u6xWfE" role="1B3o_S" />
@@ -111,7 +112,7 @@
   </node>
   <node concept="KZc4b" id="4E_30JhWk7G">
     <property role="TrG5h" value="FIGURES" />
-    <property role="KZc57" value="/data" />
+    <property role="KZc57" value="/Users/fac2003/MPSProjects/git/Editor2PDF" />
   </node>
   <node concept="312cEu" id="3gGkzkuBEVv">
     <property role="TrG5h" value="SomeOtherClass" />

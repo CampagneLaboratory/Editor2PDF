@@ -40,12 +40,16 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.editor2pdf.behavior.EditorAnnotation_Behavior" file="EditorAnnotation_Behavior.java">
+    <classNode dependClassName="com.itextpdf.awt.FontMapper" />
     <classNode dependClassName="com.itextpdf.awt.PdfGraphics2D" />
     <classNode dependClassName="com.itextpdf.text.Document" />
+    <classNode dependClassName="com.itextpdf.text.Font" />
     <classNode dependClassName="com.itextpdf.text.Rectangle" />
+    <classNode dependClassName="com.itextpdf.text.pdf.BaseFont" />
     <classNode dependClassName="com.itextpdf.text.pdf.PdfContentByte" />
     <classNode dependClassName="com.itextpdf.text.pdf.PdfTemplate" />
     <classNode dependClassName="com.itextpdf.text.pdf.PdfWriter" />
+    <classNode dependClassName="java.awt.Font" />
     <classNode dependClassName="java.awt.Graphics" />
     <classNode dependClassName="java.awt.Graphics2D" />
     <classNode dependClassName="java.io.File" />

@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
-  <property name="version" value="1.0.0" />
+  <property name="version" value="1.1.0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -63,12 +63,13 @@
         <sources jar="org.campagnelab.mps.editor2pdf-src.jar" descriptor="org.campagnelab.mps.editor2pdf.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf.jar">
+    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" />
       <fileset dir="${basedir}/languages/org.campagnelab.mps.editor2pdf" includes="icons/**, resources/**" />
+      <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.mps.editor2pdf.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf-generator.jar">
+    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.editor2pdf-generator-template">
@@ -77,12 +78,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.editor2pdf-languageModels">
       <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf-src.jar">
+    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/org.campagnelab.mps.editor2pdf-src.jar" duplicate="preserve">
       <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.editor2pdf-generator-template" prefix="module/generator/template" />
@@ -96,28 +99,33 @@
         <library jar="../../lib/itext-xtra-5.5.0.jar" />
         <library jar="../../lib/itext-pdfa-5.5.0.jar" />
         <library jar="../../lib/itextpdf-5.5.0.jar" />
+        <library jar="../../lib/fonts.jar" />
         <sources jar="com.itext-src.jar" descriptor="com.itext.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/com.itext.jar">
+    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/com.itext.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.itext" />
       <fileset dir="${basedir}/solutions/com.itext" includes="icons/**, resources/**" />
+      <fileset dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/com.itext.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-com.itext-models">
       <fileset dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/com.itext-src.jar">
+    <jar destfile="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip/Editor2PDF/languages/Editor2PDF/com.itext-src.jar" duplicate="preserve">
       <fileset dir="${org.campagnelab.editor2pdf.home}/solutions/com.itext/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/solutions/com.itext/com.itext.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-com.itext-models" prefix="module/models" />
     </jar>
     <zip destfile="${build.layout}/Editor2PDF-${version}.zip">
+      <zipfileset file="${basedir}/fonts/DejaVuSansMono.ttf" prefix="Editor2PDF/fonts" />
       <zipfileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-xtra-5.5.0.jar" prefix="Editor2PDF/lib" />
       <zipfileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-pdfa-5.5.0.jar" prefix="Editor2PDF/lib" />
       <zipfileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itextpdf-5.5.0.jar" prefix="Editor2PDF/lib" />
+      <zipfileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/fonts.jar" prefix="Editor2PDF/lib" />
       <fileset dir="${build.tmp}/default/Editor2PDF-_dl__lbrace_version_rbrace_.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">org.campagnelab.Editor2PDF.version=${version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
@@ -146,7 +154,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -171,6 +179,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.classLike.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.dataFlow.analyzers.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
@@ -191,7 +200,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.util.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -246,6 +254,7 @@
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-xtra-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-pdfa-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itextpdf-5.5.0.jar" />
+        <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/fonts.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -300,6 +309,7 @@
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-xtra-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-pdfa-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itextpdf-5.5.0.jar" />
+        <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/fonts.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -342,6 +352,7 @@
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-xtra-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itext-pdfa-5.5.0.jar" />
         <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/itextpdf-5.5.0.jar" />
+        <fileset file="${org.campagnelab.editor2pdf.home}/solutions/com.itext/fonts.jar" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/com.itext">

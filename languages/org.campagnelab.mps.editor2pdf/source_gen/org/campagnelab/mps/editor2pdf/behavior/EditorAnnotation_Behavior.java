@@ -9,6 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.awt.Font;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import java.awt.Graphics;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
@@ -20,8 +21,10 @@ import java.io.FileOutputStream;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfTemplate;
+import com.itextpdf.awt.FontMapper;
 import java.awt.Graphics2D;
 import com.itextpdf.awt.PdfGraphics2D;
 import org.apache.log4j.Level;
@@ -32,6 +35,9 @@ public class EditorAnnotation_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0xc65f8233c99545fL, "outputTo"), ListSequence.fromList(SModelOperations.rootsIncludingImported(SNodeOperations.getModel(thisNode), MetaAdapterFactory.getConcept(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0xc65f8233c995462L, "org.campagnelab.mps.editor2pdf.structure.DefaultOutputDirectory"))).first());
     SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x93bc01ac08ca4f11L, 0x9c7d614d04055dfbL, 0x79754067868533ecL, 0x4aa50c0bd1ec9bf1L, "outputFormat"), "1");
+  }
+  public static Font call_getFont_1944604363739752811(SNode thisNode) {
+    return new Font("Monospaced", Font.PLAIN, 14);
   }
   public static void call_visit_9022082025460316141(SNode thisNode, EditorCell cell, Graphics g2d, ParentSettings settings) {
     if (cell instanceof EditorCell_Collection) {
@@ -56,6 +62,7 @@ public class EditorAnnotation_Behavior {
   public static void call_visit_9022082025460322112(SNode thisNode, EditorCell_Component component, Graphics g2d, ParentSettings settings) {
     // <node> 
     g2d.translate(component.getX(), component.getY());
+    g2d.setFont(EditorAnnotation_Behavior.call_getFont_1944604363739752811(thisNode));
     component.getComponent().paint(g2d);
     g2d.translate(-component.getX(), -component.getY());
   }
@@ -74,11 +81,32 @@ public class EditorAnnotation_Behavior {
       Document document = new Document(new Rectangle(editorCell.getWidth(), editorCell.getHeight()));
       document.setMargins(0, 0, 0, 0);
       PdfWriter writer = PdfWriter.getInstance(document, stream);
+      BaseFont bf;
+      // <node> 
+      // <node> 
+      // <node> 
+      if (new File("/Users/fac2003/MPSProjects/git/Editor2PDF/fonts/DejaVuSansMono.ttf").exists()) {
+        bf = BaseFont.createFont("/Users/fac2003/MPSProjects/git/Editor2PDF/fonts/DejaVuSansMono.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+      } else {
+        // in the plugin env: 
+        bf = BaseFont.createFont("/DejaVuSansMono.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+      }
+      final com.itextpdf.text.Font monospaced = new com.itextpdf.text.Font(bf, 14);
       document.open();
       PdfContentByte cb = writer.getDirectContent();
       PdfTemplate template = cb.createTemplate(width, height);
       ParentSettings settings = new ParentSettings();
-      Graphics2D g2d = new PdfGraphics2D(template, width, height, false);
+      FontMapper mapper = new FontMapper() {
+        public Font pdfToAwt(BaseFont p0, int p1) {
+          return new Font("Monospaced", Font.PLAIN, 14);
+        }
+        public BaseFont awtToPdf(Font p0) {
+          return monospaced.getBaseFont();
+        }
+      };
+      Graphics2D g2d = new PdfGraphics2D(template, width, height, mapper);
+      // <node> 
+      g2d.setFont(EditorAnnotation_Behavior.call_getFont_1944604363739752811(thisNode));
       // <node> 
       EditorAnnotation_Behavior.call_visit_9022082025460316141(thisNode, editorCell, g2d, settings);
       g2d.dispose();
