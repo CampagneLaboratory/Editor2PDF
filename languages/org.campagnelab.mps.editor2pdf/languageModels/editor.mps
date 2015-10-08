@@ -20,8 +20,10 @@
       </concept>
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -61,6 +63,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
@@ -165,6 +168,18 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="2GSP0Mv9Y_u" role="3EZMnx">
+        <property role="3F0ifm" value="font:" />
+        <node concept="pVoyu" id="2GSP0Mv9Y_R" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="2GSP0Mv9Y_T" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2GSP0Mv9Y_I" role="3EZMnx">
+        <ref role="1NtTu8" to="3t4d:2GSP0Mv9R8A" />
+      </node>
       <node concept="l2Vlx" id="L_Y2cWAjAO" role="2iSdaV" />
     </node>
   </node>
@@ -213,6 +228,15 @@
         </node>
       </node>
       <node concept="l2Vlx" id="L_Y2cWE4j3" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4Qde1YDQiSS">
+    <ref role="1XX52x" to="3t4d:2GSP0Mv9R8y" resolve="Font" />
+    <node concept="3EZMnI" id="4Qde1YDQlXI" role="2wV5jI">
+      <node concept="3F0A7n" id="4Qde1YDQlXP" role="3EZMnx">
+        <ref role="1NtTu8" to="3t4d:2GSP0Mv9R8z" resolve="filename" />
+      </node>
+      <node concept="l2Vlx" id="4Qde1YDQlXL" role="2iSdaV" />
     </node>
   </node>
 </model>
