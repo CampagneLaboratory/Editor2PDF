@@ -25,7 +25,7 @@ Editor2PDF is distributed under the terms of the AFFERO GENERAL PUBLIC LICENSE, 
 Installation
 ------------
 
-Download the plugin [zip file](https://github.com/CampagneLaboratory/Editor2PDF/blob/master/build/artifacts/Editor2PDF/Editor2PDF.zip?raw=true).  In MPS, select Preferences>Plugins then use the option "Install plugin from disk...". Select the zip file you downloaded. Activate the plugin if necessary and restart MPS.
+The recommended installation method is from the Jetbrains plugin repository, directly within MPS. Open Preferences/Settings, select plugins, choose the Browse Repositories button and look for Editor2PDF. Continue to install the plugin. Installing the plugin this way will help you get notifications when the plugin is updated.
 
 Tutorial
 --------
