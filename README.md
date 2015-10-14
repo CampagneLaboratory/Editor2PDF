@@ -47,4 +47,4 @@ The MPS Language Workbench: Volume I. 2014. Fabien Campagne (http://books.campag
 
 What's new?
 -----------
-See the project ![Change Log](https://github.com/CampagneLaboratory/Editor2PDF/wiki/Change-Log).
+See the project [Change Log](https://github.com/CampagneLaboratory/Editor2PDF/wiki/Change-Log).
