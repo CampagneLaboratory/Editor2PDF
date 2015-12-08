@@ -2,7 +2,7 @@
 <model ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -34,6 +34,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -66,6 +67,7 @@
   </registry>
   <node concept="1TIwiD" id="7_Pg6u6xjfG">
     <property role="TrG5h" value="EditorAnnotation" />
+    <property role="1pbfSe" value="363437" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="4E_30JhV9JL" role="1TKVEl">
       <property role="TrG5h" value="outputFormat" />
@@ -100,6 +102,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Output" />
     <property role="R4oN_" value="Output directory for SVG Renderings" />
+    <property role="1pbfSe" value="1224683851" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="L_Y2cWAj_$" role="1TKVEl">
       <property role="TrG5h" value="path" />
@@ -111,6 +114,7 @@
   </node>
   <node concept="1TIwiD" id="L_Y2cWAlhy">
     <property role="TrG5h" value="DefaultOutputDirectory" />
+    <property role="1pbfSe" value="1224690821" />
     <ref role="1TJDcQ" node="L_Y2cWAj$C" resolve="DiagramOutputDirectory" />
   </node>
   <node concept="1TIwiD" id="L_Y2cWAPls">
@@ -118,6 +122,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="pdf-collection" />
     <property role="R4oN_" value="Collection of PDF editor annotations" />
+    <property role="1pbfSe" value="1224822143" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="L_Y2cWAPmk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -131,6 +136,7 @@
   </node>
   <node concept="1TIwiD" id="L_Y2cWAPmm">
     <property role="TrG5h" value="DiagramRef" />
+    <property role="1pbfSe" value="1224822201" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="L_Y2cWAPmn" role="1TKVEi">
       <property role="20lmBu" value="reference" />
