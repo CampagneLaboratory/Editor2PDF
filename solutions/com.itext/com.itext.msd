@@ -17,7 +17,6 @@
     <stubModelEntry path="${module}/itext-xtra-5.5.0.jar" />
     <stubModelEntry path="${module}/itext-pdfa-5.5.0.jar" />
     <stubModelEntry path="${module}/itextpdf-5.5.0.jar" />
-    <stubModelEntry path="${module}/fonts.jar" />
   </stubModelEntries>
   <sourcePath />
   <languageVersions>

@@ -2,7 +2,7 @@
 <model ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -104,6 +104,11 @@
     <property role="R4oN_" value="Output directory for SVG Renderings" />
     <property role="1pbfSe" value="1224683851" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2GSP0Mv9R8A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="font" />
+      <ref role="20lvS9" node="2GSP0Mv9R8y" resolve="Font" />
+    </node>
     <node concept="1TJgyi" id="L_Y2cWAj_$" role="1TKVEl">
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -156,6 +161,14 @@
     <node concept="M4N5e" id="4E_30JhV9JI" role="M5hS2">
       <property role="1uS6qo" value="PDF" />
       <property role="1uS6qv" value="1" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2GSP0Mv9R8y">
+    <property role="TrG5h" value="Font" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2GSP0Mv9R8z" role="1TKVEl">
+      <property role="TrG5h" value="filename" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
