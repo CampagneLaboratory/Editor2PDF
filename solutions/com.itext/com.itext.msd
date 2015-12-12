@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="com.itext" uuid="fae75b6b-e1b0-446e-af11-a56ff9bea2b3" moduleVersion="0" compileInMPS="true">
   <models>
-    <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
-    </modelRoot>
+    <modelRoot contentPath="${module}" type="default" />
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="itext-pdfa-5.5.0.jar" />
       <sourceRoot location="itext-xtra-5.5.0.jar" />
@@ -11,6 +9,9 @@
       <excluded location="itextpdf-5.5.0-sources.jar" />
       <excluded location="itext-xtra-5.5.0-sources.jar" />
       <excluded location="itext-pdfa-5.5.0-sources.jar" />
+      <excluded location="itext-pdfa-5.5.0-javadoc.jar" />
+      <excluded location="itext-xtra-5.5.0-javadoc.jar" />
+      <excluded location="itextpdf-5.5.0-javadoc.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
