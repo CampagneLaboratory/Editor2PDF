@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">6106f611-7a74-42d1-80de-edc5c602bfd1(jetbrains.mps.lang.editor.diagram)</dependency>
     <dependency reexport="false">5a283d13-799d-4cf6-a6a7-5c3e11d79dcb(jetbrains.mps.lang.editor.diagram.runtime)</dependency>
+    <dependency reexport="false">85d7c0cc-4aa8-4799-8fba-b6f80d065fa5(org.campagnelab.refexample)</dependency>
   </dependencies>
   <languageVersions>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="4" />
@@ -29,6 +30,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" fqName="org.campagnelab.mps.editor2pdf" version="0" />
+    <language id="85d7c0cc-4aa8-4799-8fba-b6f80d065fa5" fqName="org.campagnelab.refexample" version="-1" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -58,6 +60,7 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="85d7c0cc-4aa8-4799-8fba-b6f80d065fa5(org.campagnelab.refexample)" version="0" />
   </dependencyVersions>
 </solution>
 

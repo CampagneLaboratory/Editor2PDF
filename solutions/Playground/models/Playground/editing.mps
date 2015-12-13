@@ -11,6 +11,7 @@
     <use id="58f98fef-90ad-4b72-a390-fad66ec7005a" name="jetbrains.mps.core.properties" version="0" />
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="85d7c0cc-4aa8-4799-8fba-b6f80d065fa5" name="org.campagnelab.refexample" version="-1" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -104,6 +105,13 @@
       <concept id="4701820937132281259" name="jetbrains.mps.build.structure.BuildCustomWorkflow" flags="ng" index="1y0Vig">
         <child id="4701820937132281260" name="parts" index="1y0Vin" />
       </concept>
+    </language>
+    <language id="85d7c0cc-4aa8-4799-8fba-b6f80d065fa5" name="org.campagnelab.refexample">
+      <concept id="4066661190245676734" name="org.campagnelab.refexample.structure.RefTarget" flags="ng" index="1a6_xK" />
+      <concept id="4066661190245676731" name="org.campagnelab.refexample.structure.WithRef" flags="ng" index="1a6_xP">
+        <reference id="4066661190245676732" name="ref" index="1a6_xM" />
+      </concept>
+      <concept id="4066661190245676872" name="org.campagnelab.refexample.structure.NavigateToNode" flags="ng" index="1a6_A6" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -205,6 +213,29 @@
     </node>
     <node concept="KZEQP" id="3WlLGfGCXxQ" role="KZEQR">
       <ref role="KZEQO" node="3WlLGfGCNVL" resolve="build" />
+    </node>
+  </node>
+  <node concept="1a6_xK" id="3xJFGTMtLn6">
+    <property role="TrG5h" value="T1" />
+  </node>
+  <node concept="1a6_xK" id="3xJFGTMtLn7">
+    <property role="TrG5h" value="T2" />
+  </node>
+  <node concept="1a6_A6" id="3xJFGTMtLn8">
+    <property role="TrG5h" value="SomeNode" />
+    <node concept="3ZW7eb" id="3xJFGTMtQvX" role="lGtFl">
+      <property role="2ripvU" value="0" />
+      <property role="TrG5h" value="SomeNodeWithRef" />
+      <ref role="KZaLW" node="4E_30JhWk7G" resolve="FIGURES" />
+    </node>
+  </node>
+  <node concept="1a6_xP" id="3xJFGTMtLn9">
+    <property role="TrG5h" value="HasSomeRef" />
+    <ref role="1a6_xM" node="3xJFGTMtLn7" resolve="T2" />
+    <node concept="3ZW7eb" id="3xJFGTMtLna" role="lGtFl">
+      <property role="2ripvU" value="0" />
+      <property role="TrG5h" value="HasSomeRef" />
+      <ref role="KZaLW" node="4E_30JhWk7G" resolve="FIGURES" />
     </node>
   </node>
 </model>

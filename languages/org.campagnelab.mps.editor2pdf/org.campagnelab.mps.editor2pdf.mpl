@@ -78,6 +78,7 @@
     <dependency reexport="false">1c437d4c-0780-45a3-b844-68119af353cd(org.jfreesvg)</dependency>
     <dependency reexport="true">1c437d4c-0780-45a3-b844-68119af353cd(org.jfreesvg)</dependency>
     <dependency reexport="false">34e84b8f-afa8-4364-abcd-a279fddddbe7(jetbrains.mps.editor.runtime)</dependency>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>

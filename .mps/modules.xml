@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.refexample/org.campagnelab.refexample.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Playground/Playground.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.itext/com.itext.msd" folder="" />
