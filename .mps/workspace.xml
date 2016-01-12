@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62684776-c257-47ab-93cb-7fe8bc69c993" name="Default" comment="Use a callback interface to render SVG inside the EDT thread. Add jfreesvg's jar now that we have a license for it.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/org.jfreesvg/jfreesvg-3.0.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/behavior/trace.info" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/constraints/trace.info" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/classes_gen/org/campagnelab/mps/editor2pdf/editor/trace.info" />
@@ -69,8 +68,51 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/structure/trace.info" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/trace.info" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/classes_gen/org/campagnelab/refexample/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/source_gen.caches/org/campagnelab/refexample/generator/template/main/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/source_gen.caches/org/campagnelab/refexample/generator/template/main/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/source_gen/org/campagnelab/refexample/generator/template/main/QueriesGenerated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/source_gen/org/campagnelab/refexample/generator/template/main/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/behavior/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/behavior/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/constraints/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/constraints/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/editor/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/editor/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/structure/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/structure/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/typesystem/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen.caches/org/campagnelab/refexample/typesystem/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/Language.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/behavior/NavigateToNode_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/behavior/RefTarget_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/behavior/WithRef_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/editor/EditorAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/editor/NavigateToNode_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/editor/RefTarget_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/editor/WithRef_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/structure/StructureAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/source_gen/org/campagnelab/refexample/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/classes_gen/Editor2PDF/build-plugin/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Editor2PDF.xml" afterPath="$PROJECT_DIR$/Editor2PDF.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" />
     </list>
     <ignored path="Editor2PDF.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -87,7 +129,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="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" />
+          <option name="history" value="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" />
         </TabState>
       </list>
     </option>
@@ -108,7 +150,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="org.campagnelab.Editor2PDF" pinned="false" current-in-tab="false">
+      <file leaf-file-name="org.campagnelab.Editor2PDF" pinned="false" current-in-tab="true">
         <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -116,73 +158,20 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="159" />
-                    <property name="caretXRelative" value="144" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_vny568_r0" cellNumber="0" isInList="false">
-                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <collapsed />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <collapsed />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="First root node" pinned="false" current-in-tab="true">
-        <entry file="mps://node://Playground/test/First root node">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="175" />
+                    <property name="caretXRelative" value="92" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
+                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <collapsed />
+                <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -200,20 +189,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -231,20 +208,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -262,20 +227,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -293,20 +246,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -334,20 +275,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -365,20 +294,8 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -392,24 +309,22 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="327" />
+                    <property name="caretXRelative" value="244" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)/4731970554580093575" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
+                <errorMarkers />
+                <collapsed />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -424,24 +339,22 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="81">
-                <selectionStack />
-                <errorMarkers />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="28" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="375" />
-                    <property name="selectionEnd" value="54" />
-                    <property name="caretXRelative" value="360" />
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="231" />
+                    <property name="caretXRelative" value="140" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="0" isInList="false">
-                      <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
+                <errorMarkers />
+                <collapsed />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <collapsed />
                 <enabledHints />
@@ -643,7 +556,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -651,14 +563,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/languages/org.campagnelab.mps.editor2pdf/languageModels/intentions.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -667,182 +571,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.jfreesvg/org.jfreesvg.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stubs" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains.mps.persistence.java.library.JavaClassStubModelDescriptor@736a7fc7" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Editor2PDF" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.jfreesvg/org.jfreesvg.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.campagnelab.mps.editor2pdf#8751972264247094546" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/../../Circles/mps_model_publishing/MPS_Model_Publishing/solutions/Playground/Playground.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/../../Circles/mps_model_publishing/MPS_Model_Publishing/solutions/Playground/Playground.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test) in IdeaFile{file:///Users/mas2182/Lab/Projects/Circles/mps_model_publishing/MPS_Model_Publishing/solutions/Playground/models/test.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.jfreesvg/org.jfreesvg.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stubs" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/languages/org.campagnelab.mps.editor2pdf/languageModels/behavior.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.campagnelab.mps.editor2pdf#8751972264247094546" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:5e0319ac-b4d4-48f2-91d9-9d49c39de5cd(org.campagnelab.mps.editor2pdf.generator.template.main@generator) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/languages/org.campagnelab.mps.editor2pdf/generator/template/main@generator.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.campagnelab.mps.editor2pdf#8751972264247094546" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.jfreesvg/org.jfreesvg.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stubs" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -860,7 +588,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps}" />
+              <option name="myItemId" value="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/3.3/Editor2PDF/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -870,35 +598,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2pdf.editor) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/languages/org.campagnelab.mps.editor2pdf/languageModels/editor.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6e8d7f79-6f95-4ed7-8c72-a5f71a40c29a(org.campagnelab.mps.editor2pdf.typesystem) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/Editor2PDF/languages/org.campagnelab.mps.editor2pdf/languageModels/typesystem.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)" />
+              <option name="myItemId" value="Editor2PDF" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -908,21 +612,26 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/../../Circles/mps_model_publishing/MPS_Model_Publishing/solutions/Playground/Playground.msd" />
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test) in IdeaFile{file:///Users/mas2182/Lab/Projects/Circles/mps_model_publishing/MPS_Model_Publishing/solutions/Playground/models/test.mps}" />
+              <option name="myItemId" value="Editor2PDF" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6490259584643933226" />
+              <option name="myItemId" value="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/3.3/Editor2PDF/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3009304464428357460" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -941,7 +650,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Build Script.org.campagnelab.Editor2PDF">
+    <configuration default="false" name="org.campagnelab.Editor2PDF" type="Build Script" factoryName="Build Script" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="3009304464428357460" />
+          <option name="myModelId" value="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)" />
+        </MyState>
+      </myNode>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Build Script" factoryName="Build Script">
       <MyState />
       <myNode>
@@ -959,40 +685,6 @@
       </mySettings>
       <method />
     </configuration>
-    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
-      <MyState />
-      <myJUnitSettings>
-        <MyState>
-          <option name="myModel" />
-          <option name="myModule" />
-          <option name="myLightExec" value="true" />
-          <option name="myReuseCaches" value="true" />
-          <option name="myDebug" value="false" />
-          <option name="myCachesPath" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/mps_test_dir0" />
-          <option name="myTestCases">
-            <list />
-          </option>
-          <option name="myTestMethods">
-            <list />
-          </option>
-          <option name="myRunType" value="0" />
-        </MyState>
-      </myJUnitSettings>
-      <myJavaRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myJavaRunParameters>
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <MyState>
         <option name="mySettings">
@@ -1007,36 +699,14 @@
       </MyState>
       <method />
     </configuration>
-    <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Build Script.org.campagnelab.Editor2PDF" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Build Script.org.campagnelab.Editor2PDF" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" myUseAcceleration="nothing">
@@ -1044,7 +714,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
@@ -1055,14 +725,14 @@
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263328" sideWeight="0.47735327" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3489499" sideWeight="0.5458842" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3489499" sideWeight="0.5458842" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.45884207" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3489499" sideWeight="0.4541158" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34814218" sideWeight="0.4541158" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6048218" sideWeight="0.4839389" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264095" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.49389523" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1346,6 +1016,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add groups to the SVG, according to which node is being rendered.&#10;Fixed build script.&#10;Added refresh for collection of diagrams, in PDF and SVG. &#10;We can now generate a set of diagrams, even when the editor is not open (using headless editor component, as suggested by PrintNodeRunnable and post in forum)." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://jetbrains.mps.lang.behavior/jetbrains.mps.lang.behavior.structure/LocalBehaviorMethodCall">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="327" />
+                <property name="caretXRelative" value="244" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)/4731970554580093575" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)/4731970554580093575" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/PdfCollection">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="231" />
+                <property name="caretXRelative" value="140" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://jetbrains.mps.lang.behavior/jetbrains.mps.lang.behavior.structure/LocalBehaviorMethodCall">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2619,13 +2345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/org.campagnelab.mps.editor2pdf/source_gen/org/campagnelab/mps/editor2pdf/behavior/EditorAnnotation__BehaviorDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13642214">
-          <caret line="218" column="4" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.campagnelab.mps.editor2pdf/org.campagnelab.mps.editor2pdf.structure/EditorAnnotation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2681,6 +2400,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="92" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://JDK/java.io@java_stub/Writer">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -2689,20 +2436,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2718,20 +2453,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2747,20 +2470,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2776,20 +2487,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2815,20 +2514,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2844,20 +2531,8 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2869,24 +2544,22 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <collapsed />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="327" />
+                <property name="caretXRelative" value="244" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)/4731970554580093575" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
@@ -2899,108 +2572,27 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="81">
-            <selectionStack />
-            <errorMarkers />
-            <collapsed />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="231" />
+                <property name="caretXRelative" value="140" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327280422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Editor2PDF.build-plugin/Editor2PDF.build-plugin/org.campagnelab.Editor2PDF">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="159" />
-                <property name="caretXRelative" value="144" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_vny568_r0" cellNumber="0" isInList="false">
-                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <collapsed />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <collapsed />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Playground/test/First root node">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <collapsed />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="28" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="375" />
-                <property name="selectionEnd" value="54" />
-                <property name="caretXRelative" value="360" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:3fdb4b4a-fef4-4077-b3e7-a0d8b047388d(test)/6490259584643933226" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <collapsed />
-            <enabledHints />
-          </inspectorMemento>
         </state>
       </provider>
     </entry>

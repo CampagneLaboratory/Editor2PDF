@@ -156,32 +156,6 @@
     <node concept="3b7kt6" id="2B3cBtBfXtm" role="10PD9s" />
     <node concept="398rNT" id="2B3cBtBfXtn" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="5WEs8MufTY3" role="398pKh">
-        <node concept="2Ry0Ak" id="5WEs8MufTY6" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5WEs8MufTY9" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5WEs8MufTYc" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="5WEs8MufTYf" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="5WEs8MufTYi" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="5WEs8MufTYn" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="5WEs8MufTYs" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 3.3.app" />
-                      <node concept="2Ry0Ak" id="5WEs8MufUzF" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2kB4xC" id="y5Izch8B7z" role="1l3spd">
       <property role="TrG5h" value="version" />
@@ -457,6 +431,12 @@
           <node concept="3bR9La" id="3WlLGfGFkRd" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1a408csaXud" role="3bR37C">
+          <node concept="3bR9La" id="1a408csaXue" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>

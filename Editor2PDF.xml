@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Editor2PDF" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3.app/Contents" />
+  <property name="mps_home" location="" />
   <property name="version" value="1.1.1" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -14,6 +14,8 @@
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
+  <property name="env.JAVA_HOME" value="${java.home}/.." />
+  <property name="jdk.home" value="${env.JAVA_HOME}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
