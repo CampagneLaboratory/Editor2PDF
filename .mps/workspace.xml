@@ -129,7 +129,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="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" />
+          <option name="history" value="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" />
         </TabState>
       </list>
     </option>
@@ -158,11 +158,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="175" />
-                    <property name="caretXRelative" value="92" />
+                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" />
+                    <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -170,7 +170,7 @@
                 <collapsed />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -189,7 +189,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -208,7 +208,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -227,7 +227,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -246,7 +246,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -275,7 +275,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -294,7 +294,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -323,7 +323,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -353,7 +353,7 @@
                 <errorMarkers />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <collapsed />
@@ -563,12 +563,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
               <option name="myItemType" value="" />
@@ -603,6 +597,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Editor2PDF" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,18 +685,38 @@
       </mySettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <MyState>
-        <option name="mySettings">
-          <RemoteConnectionSettings>
-            <option name="hostName" value="localhost" />
-            <option name="port" value="5005" />
-            <option name="sharedMemoryAddress" value="" />
-            <option name="suspend" value="false" />
-            <option name="useSockets" value="true" />
-          </RemoteConnectionSettings>
-        </option>
-      </MyState>
+    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
+      <MyState />
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModel" />
+          <option name="myModule" />
+          <option name="myLightExec" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/mps_test_dir0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="0" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
       <method />
     </configuration>
     <list size="1">
@@ -714,7 +734,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
@@ -732,7 +752,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34814218" sideWeight="0.4541158" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6048218" sideWeight="0.4839389" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.49389523" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1013,7 +1033,8 @@
     <MESSAGE value="Fixed build script.&#10;Added refresh for collection of diagrams, in PDF and SVG. We can now generate a set of diagrams, even when the editor is not open (using headless editor component, as suggested by PrintNodeRunnable and post in forum)." />
     <MESSAGE value="Add groups to the SVG, according to which node is being rendered." />
     <MESSAGE value="Add groups to the SVG, according to which node is being rendered.&#10;Fixed build script.&#10;Added refresh for collection of diagrams, in PDF and SVG. &#10;We can now generate a set of diagrams, even when the editor is not open (using headless editor component, as suggested by PrintNodeRunnable and post in forum)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add groups to the SVG, according to which node is being rendered.&#10;Fixed build script.&#10;Added refresh for collection of diagrams, in PDF and SVG. &#10;We can now generate a set of diagrams, even when the editor is not open (using headless editor component, as suggested by PrintNodeRunnable and post in forum)." />
+    <MESSAGE value="Remove default setting for mps_home in the build script." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove default setting for mps_home in the build script." />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://jetbrains.mps.lang.behavior/jetbrains.mps.lang.behavior.structure/LocalBehaviorMethodCall">
@@ -2407,11 +2428,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" />
+                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2419,7 +2440,7 @@
             <collapsed />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2436,7 +2457,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2453,7 +2474,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2470,7 +2491,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2487,7 +2508,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2514,7 +2535,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2531,7 +2552,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2558,7 +2579,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />
@@ -2586,7 +2607,7 @@
             <errorMarkers />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/632898799798703324" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <collapsed />

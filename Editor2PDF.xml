@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Editor2PDF" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
   <property name="mps_home" location="" />
-  <property name="version" value="1.1.1" />
+  <property name="version" value="1.2.0" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
