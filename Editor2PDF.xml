@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Editor2PDF" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3.3" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3.4.app" />
   <property name="version" value="1.2.2" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -36,7 +36,7 @@
         <version>${version}</version>
         <vendor url="https://github.com/CampagneLaboratory/Editor2PDF/">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="144.1" since-build="143.1" />
+        <idea-version until-build="145.128" since-build="145.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -294,9 +294,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.8.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -352,9 +352,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.8.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />

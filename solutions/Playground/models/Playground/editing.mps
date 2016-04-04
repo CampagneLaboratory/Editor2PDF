@@ -137,7 +137,7 @@
     <node concept="3Tm1VV" id="7_Pg6u6xWfE" role="1B3o_S" />
     <node concept="3ZW7eb" id="2q2uwvmrud7" role="lGtFl">
       <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="FIG" />
+      <property role="TrG5h" value="FIG34" />
       <ref role="KZaLW" node="4E_30JhWk7G" resolve="FIGURES" />
     </node>
   </node>
@@ -184,7 +184,7 @@
   <node concept="KZEPZ" id="3gGkzkuBEQa">
     <property role="TrG5h" value="MyFigures" />
     <node concept="KZEQP" id="3gGkzkuBEVg" role="KZEQR">
-      <ref role="KZEQO" node="2q2uwvmrud7" resolve="FIG" />
+      <ref role="KZEQO" node="2q2uwvmrud7" resolve="FIG34" />
     </node>
     <node concept="KZEQP" id="3gGkzkuBEVi" role="KZEQR">
       <ref role="KZEQO" node="3gGkzkuBF2n" resolve="Another" />
@@ -209,7 +209,7 @@
   <node concept="KZEPZ" id="3WlLGfGCXxN">
     <property role="TrG5h" value="collection" />
     <node concept="KZEQP" id="3WlLGfGCXxO" role="KZEQR">
-      <ref role="KZEQO" node="2q2uwvmrud7" resolve="FIG" />
+      <ref role="KZEQO" node="2q2uwvmrud7" resolve="FIG34" />
     </node>
     <node concept="KZEQP" id="3WlLGfGCXxQ" role="KZEQR">
       <ref role="KZEQO" node="3WlLGfGCNVL" resolve="build" />

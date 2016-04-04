@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="MigrationProperties">
+    <entry key="jetbrains.mps.cleanExp_3.4" value="executed" />
     <entry key="jetbrains.mps.cleanSrc" value="executed" />
     <entry key="jetbrains.mps.cleanSrc_3.3" value="executed" />
     <entry key="jetbrains.mps.fixLangVersions" value="executed" />

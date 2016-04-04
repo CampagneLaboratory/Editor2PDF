@@ -339,13 +339,13 @@
         <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="144.1" />
+            <property role="2pMdty" value="145.128" />
           </node>
         </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
-            <property role="2pMdty" value="143.1" />
+            <property role="2pMdty" value="145.1" />
           </node>
         </node>
       </node>
@@ -383,7 +383,7 @@
     <node concept="2G$12M" id="2B3cBtBfXtG" role="3989C9">
       <property role="TrG5h" value="Editor2PDF" />
       <node concept="1E1JtD" id="2B3cBtBfXt_" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.mps.editor2pdf" />
         <property role="3LESm3" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb" />
         <property role="2GAjPV" value="false" />
@@ -464,7 +464,7 @@
         </node>
       </node>
       <node concept="1E1JtA" id="2B3cBtBfXtF" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.itext" />
         <property role="3LESm3" value="fae75b6b-e1b0-446e-af11-a56ff9bea2b3" />
         <property role="2GAjPV" value="true" />
