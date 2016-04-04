@@ -169,8 +169,8 @@
                   <property role="2Ry0Am" value=".." />
                   <node concept="2Ry0Ak" id="6f6GnqNoMpc" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="7wyeUQbOg2W" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 3.3.3" />
+                    <node concept="2Ry0Ak" id="A3UHKNfO3t" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 3.3.4.app" />
                     </node>
                   </node>
                 </node>
