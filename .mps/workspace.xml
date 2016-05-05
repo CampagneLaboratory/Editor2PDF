@@ -110,8 +110,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen.caches/Editor2PDF/build-plugin/generated" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/org.campagnelab.Editor2PDF.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/source_gen/Editor2PDF/build-plugin/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/migration.xml" afterPath="$PROJECT_DIR$/.mps/migration.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Editor2PDF.xml" afterPath="$PROJECT_DIR$/Editor2PDF.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.refexample/models/editor.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/models/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.refexample/org.campagnelab.refexample.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.refexample/org.campagnelab.refexample.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" afterPath="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps" />
     </list>
     <ignored path="Editor2PDF.iws" />
@@ -129,7 +132,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="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" />
+          <option name="history" value="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" />
         </TabState>
       </list>
     </option>
@@ -158,21 +161,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="295" />
+                    <property name="caretXRelative" value="32" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
-                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                    <cellInfo cellId="property_text_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -187,11 +192,13 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -206,11 +213,13 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -225,11 +234,13 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -244,11 +255,13 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -273,11 +286,13 @@
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -292,11 +307,13 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -321,11 +338,13 @@
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -351,11 +370,13 @@
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
+                <transactionalProperties />
                 <collapsed />
                 <enabledHints />
               </inspectorMemento>
@@ -507,6 +528,44 @@
           <PluginState />
         </value>
       </option>
+      <option name="org.campagnelab.circles.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="org.campagnelab.circles.plugin.plugin.PublisherConnection_PreferencesComponent" />
+                  <params>
+                    <option name="url" />
+                    <option name="username" />
+                    <option name="password" />
+                    <option name="hostname" />
+                    <option name="port" value="0" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="org.campagnelab.cloud.preferences.plugin.Preferences_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="org.campagnelab.cloud.preferences.plugin.GridEngineCluster_PreferencesComponent" />
+                  <params>
+                    <option name="clientID" />
+                    <option name="projectID" />
+                    <option name="clientSecret" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
       <option name="org.campagnelab.editor.plugins.plugin.Plugins_ProjectPlugin">
         <value>
           <PluginState />
@@ -556,6 +615,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -563,8 +623,18 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Editor2PDF" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,16 +663,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Editor2PDF" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,23 +675,10 @@
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Editor2PDF.build-plugin/Editor2PDF.build-plugin.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Editor2PDF" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin) in IdeaFile{file:///Users/mas2182/Lab/Projects/MPS/3.3/Editor2PDF/solutions/Editor2PDF.build-plugin/models/Editor2PDF/build-plugin.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3009304464428357460" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,37 +777,35 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" myUseAcceleration="nothing">
-    <configuration useDefault="false">$org.campagnelab.workflow.work_dir$/.subversion</configuration>
+    <configuration useDefault="false">$ANTLR_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34814218" sideWeight="0.4541158" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6048218" sideWeight="0.4839389" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.49389523" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23040567" sideWeight="0.76820207" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263328" sideWeight="0.47735327" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3489499" sideWeight="0.5458842" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.45884207" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34814218" sideWeight="0.4541158" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6048218" sideWeight="0.4839389" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.49389523" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23040567" sideWeight="0.76820207" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.45884207" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,10 +814,12 @@
       <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Type System Performance Data" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4997367" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.46068308" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1053,11 +1100,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1081,11 +1130,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1109,11 +1160,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)/~Graphics2D.drawString%28java.text.AttributedCharacterIterator,int,int%29:void" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1137,11 +1190,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)/~Graphics2D.drawString%28java.text.AttributedCharacterIterator,int,int%29:void" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1277,11 +1332,13 @@
                 </parent>
               </errorMarker>
             </errorMarkers>
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/8751972264248785944" />
@@ -1304,11 +1361,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/1038661886547242993" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1332,11 +1391,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/1038661886547242993" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1483,11 +1544,13 @@
                 </parent>
               </errorMarker>
             </errorMarkers>
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509429" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1509,11 +1572,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/614101652699509429" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1536,11 +1601,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/3759470177047981450" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/893392931327136867" />
@@ -1563,11 +1630,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/1380214350862297356" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1589,11 +1658,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2pdf.editor)/893392931328115902" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1614,11 +1685,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/4545757943691485936" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1639,11 +1712,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/4545757943691485936" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1665,11 +1740,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)/~StyleAttributes.NAVIGATABLE_NODE" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)/893392931327268246" />
@@ -1694,6 +1771,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)/6697121896465002601" viewPositionX="0" viewPositionY="0">
@@ -1709,6 +1787,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1730,12 +1809,14 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </memento>
           <inspectorMemento currentlyEditedNode="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)/~StyleAttributes.PADDING_LEFT" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1757,6 +1838,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1209147315298" viewPositionX="167" viewPositionY="90">
@@ -1771,6 +1853,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1792,11 +1875,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:2af017c2-293f-4ebb-99f3-81e353b3d6e6(jetbrains.mps.editor.runtime)/4308172737966558903" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1818,11 +1903,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)/~EditorCell_Basic.getStyle%28%29:jetbrains.mps.openapi.editor.style.Style" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -1845,11 +1932,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4545757943692214811" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1871,11 +1960,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4545757943692220167" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)/7991857262602250026" />
@@ -1898,11 +1989,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4545757943692421251" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/1186402475462" />
@@ -1924,11 +2017,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/3759470177047981450" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1075376169046" />
@@ -1951,11 +2046,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/3759470177047982231" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -1979,12 +2076,14 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4545757943691427566" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -2006,11 +2105,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4545757943691427566" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -2031,11 +2132,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/7597241200646296617" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -2057,11 +2160,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4066661190245642790" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -2085,6 +2190,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:44be36aa-faa4-4ba7-8320-be557aaa1c86(org.campagnelab.refexample.editor)/4066661190245676742" viewPositionX="0" viewPositionY="0">
@@ -2100,6 +2206,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/7597241200646296617" />
@@ -2121,11 +2228,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:44be36aa-faa4-4ba7-8320-be557aaa1c86(org.campagnelab.refexample.editor)/4066661190245676885" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:bb92ee7f-8413-44e2-a971-e49f27dd2af5(jetbrains.mps.lang.editor.diagram.editor)/1094405431463762976" />
@@ -2148,11 +2257,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4066661190245750214" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)/1186404942965" />
@@ -2175,11 +2286,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4066661190245750215" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
         </state>
@@ -2201,11 +2314,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4066661190245750216" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1081790432906" />
@@ -2227,11 +2342,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:44be36aa-faa4-4ba7-8320-be557aaa1c86(org.campagnelab.refexample.editor)/4066661190245676885" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1241540912639" />
@@ -2254,11 +2371,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4545757943692180452" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2271,11 +2390,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/4727091828984846846" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2298,11 +2419,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6bb9f222-b46c-45b3-85b5-99e8faaeadce(org.campagnelab.mps.editor2pdf.intentions)/893392931327304682" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2326,11 +2449,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:6a66b146-ac09-46e7-a5cf-62b1c04652a3(Playground.editing)/4545757943691466870" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2354,11 +2479,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/893392931327733704" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2382,6 +2509,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
@@ -2397,6 +2525,7 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2410,11 +2539,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
           <inspectorMemento currentlyEditedNode="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)/8751972264248785944" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2428,21 +2559,23 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="295" />
+                <property name="caretXRelative" value="32" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_vny568_q0" cellNumber="0" isInList="false">
-                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" />
+                <cellInfo cellId="property_text_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2455,11 +2588,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2472,11 +2607,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2489,11 +2626,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2506,11 +2645,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2533,11 +2674,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2550,11 +2693,13 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2577,11 +2722,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
@@ -2605,11 +2752,13 @@
               </stackElement>
             </selectionStack>
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/6642819616994420687" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
+            <transactionalProperties />
             <collapsed />
             <enabledHints />
           </inspectorMemento>
