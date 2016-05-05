@@ -165,6 +165,7 @@
   </node>
   <node concept="1TIwiD" id="2GSP0Mv9R8y">
     <property role="TrG5h" value="Font" />
+    <property role="1pbfSe" value="899660242" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2GSP0Mv9R8z" role="1TKVEl">
       <property role="TrG5h" value="filename" />
