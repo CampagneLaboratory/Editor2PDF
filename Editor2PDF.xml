@@ -3,8 +3,8 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Editor2PDF" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Editor2PDF" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3.3" />
-  <property name="version" value="1.2.2" />
+  <property name="mps_home" location="" />
+  <property name="version" value="1.2.3" />
   <property name="org.campagnelab.editor2pdf.home" location="${basedir}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -268,7 +268,7 @@
   <target name="java.compile.org.campagnelab.mps.editor2pdf" depends="java.compile.org.jfreesvg, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="true" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/source_gen" />
@@ -325,7 +325,7 @@
   <target name="java.compile.org.campagnelab.mps.editor2pdf#8751972264247094546" depends="java.compile.org.campagnelab.mps.editor2pdf, java.compile.org.jfreesvg, fetchDependencies">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="true" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.editor2pdf#8751972264247094546" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/languages/org.campagnelab.mps.editor2pdf/generator/source_gen" />
@@ -382,7 +382,7 @@
   <target name="java.compile.org.jfreesvg">
     <mkdir dir="${org.campagnelab.editor2pdf.home}/solutions/org.jfreesvg/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.jfreesvg" />
-    <javac destdir="${build.tmp}/java/out/org.jfreesvg" fork="true" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.jfreesvg" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.editor2pdf.home}/solutions/org.jfreesvg/source_gen" />

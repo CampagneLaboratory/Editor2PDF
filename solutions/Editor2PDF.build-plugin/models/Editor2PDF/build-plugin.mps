@@ -156,36 +156,13 @@
     <node concept="3b7kt6" id="2B3cBtBfXtm" role="10PD9s" />
     <node concept="398rNT" id="2B3cBtBfXtn" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="6f6GnqNoM11" role="398pKh">
-        <node concept="2Ry0Ak" id="6f6GnqNoMnr" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6f6GnqNoMnu" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="6f6GnqNoMn$" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="6f6GnqNoMnD" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="6f6GnqNoMnJ" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="6f6GnqNoMpc" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="A3UHKNfO3t" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 3.3.4.app" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2kB4xC" id="y5Izch8B7z" role="1l3spd">
       <property role="TrG5h" value="version" />
       <node concept="aVJcg" id="y5Izch8BaR" role="aVJcv">
         <node concept="NbPM2" id="y5Izch8BaQ" role="aVJcq">
           <node concept="3Mxwew" id="y5Izch8BaP" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.2" />
+            <property role="3MwjfP" value="1.2.3" />
           </node>
         </node>
       </node>
