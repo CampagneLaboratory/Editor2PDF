@@ -2169,48 +2169,12 @@
                           <node concept="2ShNRf" id="3WlLGfGEKf0" role="33vP2m">
                             <node concept="1pGfFk" id="7G6SBGK4K_X" role="2ShVmc">
                               <ref role="37wK5l" to="7a0s:2qx2hw9gxhG" resolve="HeadlessEditorComponent" />
-                              <node concept="10Nm6u" id="4YY3UIkQNOE" role="37wK5m" />
+                              <node concept="37vLTw" id="4YY3UIkRT64" role="37wK5m">
+                                <ref role="3cqZAo" node="TE4nIlnXmI" resolve="node" />
+                              </node>
                               <node concept="37vLTw" id="7G6SBGK1K4l" role="37wK5m">
                                 <ref role="3cqZAo" node="7G6SBGK1JtU" resolve="repository" />
                               </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="7G6SBGK48Bm" role="3cqZAp">
-                        <node concept="2OqwBi" id="7G6SBGK49h4" role="3clFbG">
-                          <node concept="37vLTw" id="7G6SBGK48Bk" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3WlLGfGEJnz" resolve="editorComponent" />
-                          </node>
-                          <node concept="liA8E" id="7G6SBGK4aEh" role="2OqNvi">
-                            <ref role="37wK5l" to="dxuu:~JComponent.setFont(java.awt.Font):void" resolve="setFont" />
-                            <node concept="2ShNRf" id="4YY3UIkRc9m" role="37wK5m">
-                              <node concept="1pGfFk" id="4YY3UIkRoC6" role="2ShVmc">
-                                <ref role="37wK5l" to="z60i:~Font.&lt;init&gt;(java.lang.String,int,int)" resolve="Font" />
-                                <node concept="Xl_RD" id="4YY3UIkRoV9" role="37wK5m">
-                                  <property role="Xl_RC" value="Courier New" />
-                                </node>
-                                <node concept="10M0yZ" id="4YY3UIkRpvS" role="37wK5m">
-                                  <ref role="1PxDUh" to="z60i:~Font" resolve="Font" />
-                                  <ref role="3cqZAo" to="z60i:~Font.PLAIN" resolve="PLAIN" />
-                                </node>
-                                <node concept="3cmrfG" id="4YY3UIkRq1j" role="37wK5m">
-                                  <property role="3cmrfH" value="10" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="4YY3UIkQOkw" role="3cqZAp">
-                        <node concept="2OqwBi" id="4YY3UIkQPdU" role="3clFbG">
-                          <node concept="37vLTw" id="4YY3UIkQOku" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3WlLGfGEJnz" resolve="editorComponent" />
-                          </node>
-                          <node concept="liA8E" id="4YY3UIkQS15" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.editNode(org.jetbrains.mps.openapi.model.SNode):void" resolve="editNode" />
-                            <node concept="37vLTw" id="4YY3UIkQSgg" role="37wK5m">
-                              <ref role="3cqZAo" node="TE4nIlnXmI" resolve="node" />
                             </node>
                           </node>
                         </node>
