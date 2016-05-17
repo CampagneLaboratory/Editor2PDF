@@ -209,9 +209,6 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
@@ -1320,6 +1317,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2ZmwucfVHul" role="3cqZAp">
+          <node concept="2OqwBi" id="2ZmwucfVHJP" role="3clFbG">
+            <node concept="2OqwBi" id="2ZmwucfVH_a" role="2Oq$k0">
+              <node concept="37vLTw" id="2ZmwucfVHuj" role="2Oq$k0">
+                <ref role="3cqZAo" node="7OORWOlZWX1" resolve="component" />
+              </node>
+              <node concept="liA8E" id="2ZmwucfVHHw" role="2OqNvi">
+                <ref role="37wK5l" to="g51k:~EditorCell_Component.getComponent():javax.swing.JComponent" resolve="getComponent" />
+              </node>
+            </node>
+            <node concept="liA8E" id="43TgfRRSGeP" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.doLayout():void" resolve="doLayout" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7OORWOm0jcv" role="3cqZAp">
           <node concept="2OqwBi" id="7OORWOm0kh1" role="3clFbG">
             <node concept="2OqwBi" id="7OORWOm0jiq" role="2Oq$k0">
@@ -1951,32 +1963,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="1FWBPQDoohT" role="3cqZAp">
-              <node concept="3SKWN0" id="1FWBPQDoohU" role="3SKWNk">
-                <node concept="3clFbF" id="1FWBPQDmja3" role="3SKWNf">
-                  <node concept="2OqwBi" id="1FWBPQDmjaj" role="3clFbG">
-                    <node concept="37vLTw" id="1FWBPQDmjai" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7OORWOlZu8m" resolve="document" />
-                    </node>
-                    <node concept="liA8E" id="1FWBPQDmjak" role="2OqNvi">
-                      <ref role="37wK5l" to="gzyq:~Document.add(com.itextpdf.text.Element):boolean" resolve="add" />
-                      <node concept="2ShNRf" id="1FWBPQDmjal" role="37wK5m">
-                        <node concept="1pGfFk" id="1FWBPQDmjaE" role="2ShVmc">
-                          <ref role="37wK5l" to="gzyq:~Paragraph.&lt;init&gt;(com.itextpdf.text.Phrase)" resolve="Paragraph" />
-                          <node concept="2YIFZM" id="1FWBPQDmjaF" role="37wK5m">
-                            <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                            <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                            <node concept="Xl_RD" id="1FWBPQDmja7" role="37wK5m">
-                              <property role="Xl_RC" value="Font &gt;▶&lt; with encoding " />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="1FWBPQDoizt" role="3cqZAp">
               <node concept="2OqwBi" id="1FWBPQDoiZ9" role="3clFbG">
                 <node concept="37vLTw" id="1FWBPQDoizr" role="2Oq$k0">
@@ -1986,20 +1972,6 @@
                   <ref role="37wK5l" to="z60i:~Graphics.setFont(java.awt.Font):void" resolve="setFont" />
                   <node concept="BsUDl" id="1FWBPQDoxx8" role="37wK5m">
                     <ref role="37wK5l" node="1FWBPQDou_F" resolve="getFont" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="7OORWOlZu9g" role="3cqZAp">
-              <node concept="3SKWN0" id="7OORWOlZu9h" role="3SKWNk">
-                <node concept="3clFbF" id="7OORWOlZu9i" role="3SKWNf">
-                  <node concept="2OqwBi" id="7OORWOlZu9j" role="3clFbG">
-                    <node concept="37vLTw" id="7OORWOlZu9k" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7OORWOlZu77" resolve="editorCell" />
-                    </node>
-                    <node concept="liA8E" id="7OORWOlZu9l" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.relayout():void" resolve="relayout" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -2169,13 +2141,59 @@
                           <node concept="2ShNRf" id="3WlLGfGEKf0" role="33vP2m">
                             <node concept="1pGfFk" id="7G6SBGK4K_X" role="2ShVmc">
                               <ref role="37wK5l" to="7a0s:2qx2hw9gxhG" resolve="HeadlessEditorComponent" />
-                              <node concept="37vLTw" id="4YY3UIkRT64" role="37wK5m">
-                                <ref role="3cqZAo" node="TE4nIlnXmI" resolve="node" />
-                              </node>
+                              <node concept="10Nm6u" id="7npQjEnUvGr" role="37wK5m" />
                               <node concept="37vLTw" id="7G6SBGK1K4l" role="37wK5m">
                                 <ref role="3cqZAo" node="7G6SBGK1JtU" resolve="repository" />
                               </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7npQjEnUvXP" role="3cqZAp">
+                        <node concept="2OqwBi" id="7npQjEnUwfl" role="3clFbG">
+                          <node concept="37vLTw" id="7npQjEnUvXN" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3WlLGfGEJnz" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="7npQjEnUxoL" role="2OqNvi">
+                            <ref role="37wK5l" to="dxuu:~JComponent.setFont(java.awt.Font):void" resolve="setFont" />
+                            <node concept="2ShNRf" id="7npQjEnUxzK" role="37wK5m">
+                              <node concept="1pGfFk" id="7npQjEnUxzL" role="2ShVmc">
+                                <ref role="37wK5l" to="z60i:~Font.&lt;init&gt;(java.lang.String,int,int)" resolve="Font" />
+                                <node concept="Xl_RD" id="7npQjEnUxzM" role="37wK5m">
+                                  <property role="Xl_RC" value="Courier New" />
+                                </node>
+                                <node concept="10M0yZ" id="7npQjEnUxzN" role="37wK5m">
+                                  <ref role="1PxDUh" to="z60i:~Font" resolve="Font" />
+                                  <ref role="3cqZAo" to="z60i:~Font.PLAIN" resolve="PLAIN" />
+                                </node>
+                                <node concept="3cmrfG" id="7npQjEnUxzO" role="37wK5m">
+                                  <property role="3cmrfH" value="10" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7npQjEnUy8U" role="3cqZAp">
+                        <node concept="2OqwBi" id="7npQjEnUyrn" role="3clFbG">
+                          <node concept="37vLTw" id="7npQjEnUy8S" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3WlLGfGEJnz" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="7npQjEnUzBb" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.editNode(org.jetbrains.mps.openapi.model.SNode):void" resolve="editNode" />
+                            <node concept="37vLTw" id="7npQjEnUzOI" role="37wK5m">
+                              <ref role="3cqZAo" node="TE4nIlnXmI" resolve="node" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="2ZmwucfVZo6" role="3cqZAp">
+                        <node concept="2OqwBi" id="2ZmwucfVZDC" role="3clFbG">
+                          <node concept="37vLTw" id="2ZmwucfVZo4" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3WlLGfGEJnz" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="2ZmwucfW0Pp" role="2OqNvi">
+                            <ref role="37wK5l" to="z60i:~Container.doLayout():void" resolve="doLayout" />
                           </node>
                         </node>
                       </node>
@@ -2391,17 +2409,6 @@
                             <node concept="liA8E" id="6umjoCvY2_0" role="2OqNvi">
                               <ref role="37wK5l" to="3thx:~SVGGraphics2D.getSVGElement():java.lang.String" resolve="getSVGElement" />
                             </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="34ab3g" id="6umjoCvYaMt" role="3cqZAp">
-                        <property role="35gtTG" value="info" />
-                        <node concept="3cpWs3" id="7G6SBGJZPOT" role="34bqiv">
-                          <node concept="37vLTw" id="7G6SBGJZQ1n" role="3uHU7w">
-                            <ref role="3cqZAo" node="6umjoCvXmJ6" resolve="svg" />
-                          </node>
-                          <node concept="Xl_RD" id="7G6SBGJZNYQ" role="3uHU7B">
-                            <property role="Xl_RC" value="SVG rendering: " />
                           </node>
                         </node>
                       </node>
