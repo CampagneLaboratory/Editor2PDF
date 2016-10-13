@@ -2,7 +2,7 @@
 <model ref="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2pdf.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -81,7 +81,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="L_Y2cWAr$3" role="3EZMnx">
-        <ref role="1NtTu8" to="3t4d:L_Y2cWAlhv" />
+        <ref role="1NtTu8" to="3t4d:L_Y2cWAlhv" resolve="outputTo" />
         <node concept="1sVBvm" id="L_Y2cWAr$4" role="1sWHZn">
           <node concept="3F0A7n" id="L_Y2cWAr$n" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -133,7 +133,7 @@
     </node>
     <node concept="3EZMnI" id="6nPrS2k3GM2" role="6VMZX">
       <node concept="1iCGBv" id="6nPrS2k3GMf" role="3EZMnx">
-        <ref role="1NtTu8" to="3t4d:L_Y2cWAlhv" />
+        <ref role="1NtTu8" to="3t4d:L_Y2cWAlhv" resolve="outputTo" />
         <node concept="1sVBvm" id="6nPrS2k3GMg" role="1sWHZn">
           <node concept="3F0A7n" id="6nPrS2k3GMh" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -178,7 +178,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="2GSP0Mv9Y_I" role="3EZMnx">
-        <ref role="1NtTu8" to="3t4d:2GSP0Mv9R8A" />
+        <ref role="1NtTu8" to="3t4d:2GSP0Mv9R8A" resolve="font" />
       </node>
       <node concept="l2Vlx" id="L_Y2cWAjAO" role="2iSdaV" />
     </node>
@@ -205,7 +205,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="L_Y2cWAPnR" role="3EZMnx">
-        <ref role="1NtTu8" to="3t4d:L_Y2cWAPmk" />
+        <ref role="1NtTu8" to="3t4d:L_Y2cWAPmk" resolve="diagrams" />
         <node concept="l2Vlx" id="L_Y2cWAPnS" role="2czzBx" />
         <node concept="pj6Ft" id="L_Y2cWAPpx" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -219,7 +219,7 @@
     <node concept="3EZMnI" id="L_Y2cWE4j0" role="2wV5jI">
       <node concept="3XFhqQ" id="L_Y2cWE4j7" role="3EZMnx" />
       <node concept="1iCGBv" id="L_Y2cWE4jp" role="3EZMnx">
-        <ref role="1NtTu8" to="3t4d:L_Y2cWAPmn" />
+        <ref role="1NtTu8" to="3t4d:L_Y2cWAPmn" resolve="diagram" />
         <node concept="1sVBvm" id="L_Y2cWE4jq" role="1sWHZn">
           <node concept="3F0A7n" id="L_Y2cWE4jA" role="2wV5jI">
             <property role="1Intyy" value="true" />

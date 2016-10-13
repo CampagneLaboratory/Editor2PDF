@@ -2,7 +2,8 @@
 <model ref="r:7a57a805-2fc1-49f5-991a-6bd531b99008(org.campagnelab.mps.editor2pdf.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -32,9 +33,9 @@
         <child id="7588428831955550186" name="multiple" index="HhnKV" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
-        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -47,12 +48,14 @@
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -67,21 +70,24 @@
   </registry>
   <node concept="1TIwiD" id="7_Pg6u6xjfG">
     <property role="TrG5h" value="EditorAnnotation" />
-    <property role="1pbfSe" value="363437" />
+    <property role="EcuMT" value="8751972264247112684" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="4E_30JhV9JL" role="1TKVEl">
       <property role="TrG5h" value="outputFormat" />
+      <property role="IQ2nx" value="5378718574870043633" />
       <ref role="AX2Wp" node="4E_30JhV9Js" resolve="RenderingOutputFormat" />
     </node>
     <node concept="1TJgyj" id="7_Pg6u6z_YY" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="editor" />
+      <property role="IQ2ns" value="8751972264247713726" />
       <ref role="20lvS9" to="tpc2:gXXWOiD" resolve="AbstractComponent" />
     </node>
     <node concept="1TJgyj" id="L_Y2cWAlhv" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="outputTo" />
       <property role="20lbJX" value="0..1" />
+      <property role="IQ2ns" value="893392931327136863" />
       <ref role="20lvS9" node="L_Y2cWAj$C" resolve="DiagramOutputDirectory" />
     </node>
     <node concept="M6xJ_" id="7_Pg6u6xnWT" role="lGtFl">
@@ -102,15 +108,17 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Output" />
     <property role="R4oN_" value="Output directory for SVG Renderings" />
-    <property role="1pbfSe" value="1224683851" />
+    <property role="EcuMT" value="893392931327129896" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2GSP0Mv9R8A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="font" />
+      <property role="IQ2ns" value="3114472293001556518" />
       <ref role="20lvS9" node="2GSP0Mv9R8y" resolve="Font" />
     </node>
     <node concept="1TJgyi" id="L_Y2cWAj_$" role="1TKVEl">
       <property role="TrG5h" value="path" />
+      <property role="IQ2nx" value="893392931327129956" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="L_Y2cWAj_y" role="PzmwI">
@@ -119,7 +127,7 @@
   </node>
   <node concept="1TIwiD" id="L_Y2cWAlhy">
     <property role="TrG5h" value="DefaultOutputDirectory" />
-    <property role="1pbfSe" value="1224690821" />
+    <property role="EcuMT" value="893392931327136866" />
     <ref role="1TJDcQ" node="L_Y2cWAj$C" resolve="DiagramOutputDirectory" />
   </node>
   <node concept="1TIwiD" id="L_Y2cWAPls">
@@ -127,12 +135,13 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="pdf-collection" />
     <property role="R4oN_" value="Collection of PDF editor annotations" />
-    <property role="1pbfSe" value="1224822143" />
+    <property role="EcuMT" value="893392931327268188" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="L_Y2cWAPmk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="diagrams" />
       <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="893392931327268244" />
       <ref role="20lvS9" node="L_Y2cWAPmm" resolve="DiagramRef" />
     </node>
     <node concept="PrWs8" id="L_Y2cWAPmi" role="PzmwI">
@@ -141,12 +150,13 @@
   </node>
   <node concept="1TIwiD" id="L_Y2cWAPmm">
     <property role="TrG5h" value="DiagramRef" />
-    <property role="1pbfSe" value="1224822201" />
+    <property role="EcuMT" value="893392931327268246" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="L_Y2cWAPmn" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="diagram" />
       <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="893392931327268247" />
       <ref role="20lvS9" node="7_Pg6u6xjfG" resolve="EditorAnnotation" />
     </node>
   </node>
@@ -165,10 +175,11 @@
   </node>
   <node concept="1TIwiD" id="2GSP0Mv9R8y">
     <property role="TrG5h" value="Font" />
-    <property role="1pbfSe" value="899660242" />
+    <property role="EcuMT" value="3114472293001556514" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2GSP0Mv9R8z" role="1TKVEl">
       <property role="TrG5h" value="filename" />
+      <property role="IQ2nx" value="3114472293001556515" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

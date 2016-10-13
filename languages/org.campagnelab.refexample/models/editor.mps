@@ -2,7 +2,7 @@
 <model ref="r:44be36aa-faa4-4ba7-8320-be557aaa1c86(org.campagnelab.refexample.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -93,7 +93,7 @@
         <property role="3F0ifm" value="ref" />
       </node>
       <node concept="1iCGBv" id="3xJFGTMtvra" role="3EZMnx">
-        <ref role="1NtTu8" to="hkvc:3xJFGTMtvqW" />
+        <ref role="1NtTu8" to="hkvc:3xJFGTMtvqW" resolve="ref" />
         <node concept="1sVBvm" id="3xJFGTMtvrd" role="1sWHZn">
           <node concept="3F0A7n" id="3xJFGTMtvrf" role="2wV5jI">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -107,7 +107,7 @@
         </node>
       </node>
       <node concept="3yfXC2" id="3xJFGTMtvt6" role="3F10Kt">
-        <ref role="3ygfmf" to="hkvc:3xJFGTMtvqW" />
+        <ref role="3ygfmf" to="hkvc:3xJFGTMtvqW" resolve="ref" />
       </node>
     </node>
   </node>
