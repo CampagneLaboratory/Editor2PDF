@@ -2,8 +2,8 @@
 <model ref="r:117db92d-261b-4ba2-97fe-04df0369434b(org.campagnelab.mps.editor2pdf.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -36,6 +36,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
+    <import index="ksn4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel(MPS.Core/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -100,9 +101,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
@@ -222,6 +220,11 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+        <child id="5721587534047265375" name="throwable" index="9lYJj" />
+      </concept>
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
         <property id="1167228628751" name="hasException" index="34fQS0" />
         <property id="1167245565795" name="severity" index="35gtTG" />
@@ -698,18 +701,15 @@
                   <node concept="3cpWsn" id="3xJFGTMtt7e" role="3cpWs9">
                     <property role="TrG5h" value="referenceRole" />
                     <node concept="17QB3L" id="3xJFGTMtt79" role="1tU5fm" />
-                    <node concept="10QFUN" id="3xJFGTMttbQ" role="33vP2m">
-                      <node concept="17QB3L" id="3xJFGTMttdo" role="10QFUM" />
-                      <node concept="2OqwBi" id="3xJFGTMtn8z" role="10QFUP">
-                        <node concept="37vLTw" id="3xJFGTMtn8$" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3WlLGfGFFJ_" resolve="style" />
-                        </node>
-                        <node concept="liA8E" id="3xJFGTMtn8_" role="2OqNvi">
-                          <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
-                          <node concept="10M0yZ" id="3xJFGTMtn8A" role="37wK5m">
-                            <ref role="3cqZAo" to="5ueo:~StyleAttributes.NAVIGATABLE_REFERENCE" resolve="NAVIGATABLE_REFERENCE" />
-                            <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
-                          </node>
+                    <node concept="2OqwBi" id="3xJFGTMtn8z" role="33vP2m">
+                      <node concept="37vLTw" id="3xJFGTMtn8$" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3WlLGfGFFJ_" resolve="style" />
+                      </node>
+                      <node concept="liA8E" id="3xJFGTMtn8_" role="2OqNvi">
+                        <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                        <node concept="10M0yZ" id="3xJFGTMtn8A" role="37wK5m">
+                          <ref role="3cqZAo" to="5ueo:~StyleAttributes.NAVIGATABLE_REFERENCE" resolve="NAVIGATABLE_REFERENCE" />
+                          <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
                         </node>
                       </node>
                     </node>
@@ -2041,9 +2041,9 @@
                 </node>
               </node>
             </node>
-            <node concept="34ab3g" id="7OORWOlZu9J" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="7OORWOlZu9K" role="34bqiv">
+            <node concept="2xdQw9" id="4P9NnSOFhWA" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="7OORWOlZu9K" role="9lYJi">
                 <node concept="Xl_RD" id="7OORWOlZu9L" role="3uHU7B">
                   <property role="Xl_RC" value="Editor PDF rendered to " />
                 </node>
@@ -2066,13 +2066,12 @@
               </node>
             </node>
             <node concept="3clFbS" id="7OORWOlZu9S" role="TDEfX">
-              <node concept="34ab3g" id="7OORWOlZu9T" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="7OORWOlZu9U" role="34bqiv">
+              <node concept="2xdQw9" id="4P9NnSOFhLc" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="7OORWOlZu9U" role="9lYJi">
                   <property role="Xl_RC" value="Exception" />
                 </node>
-                <node concept="37vLTw" id="7OORWOlZu9V" role="34bMjA">
+                <node concept="37vLTw" id="7OORWOlZu9V" role="9lYJj">
                   <ref role="3cqZAo" node="7OORWOlZu9Q" resolve="e" />
                 </node>
               </node>
@@ -2327,8 +2326,8 @@
                           <node concept="liA8E" id="TE4nIlo8sn" role="2OqNvi">
                             <ref role="37wK5l" to="3thx:~SVGGraphics2D.setTransform(java.awt.geom.AffineTransform):void" resolve="setTransform" />
                             <node concept="2YIFZM" id="TE4nIlo8so" role="37wK5m">
-                              <ref role="37wK5l" to="fbzs:~AffineTransform.getTranslateInstance(double,double):java.awt.geom.AffineTransform" resolve="getTranslateInstance" />
                               <ref role="1Pybhc" to="fbzs:~AffineTransform" resolve="AffineTransform" />
+                              <ref role="37wK5l" to="fbzs:~AffineTransform.getTranslateInstance(double,double):java.awt.geom.AffineTransform" resolve="getTranslateInstance" />
                               <node concept="1ZRNhn" id="TE4nIlo8sp" role="37wK5m">
                                 <node concept="2OqwBi" id="TE4nIlo8sq" role="2$L3a6">
                                   <node concept="37vLTw" id="TE4nIlo8sr" role="2Oq$k0">
@@ -2361,8 +2360,8 @@
                           <node concept="liA8E" id="TE4nIlo8s$" role="2OqNvi">
                             <ref role="37wK5l" to="3thx:~SVGGraphics2D.setFont(java.awt.Font):void" resolve="setFont" />
                             <node concept="2YIFZM" id="TE4nIlo8s_" role="37wK5m">
-                              <ref role="1Pybhc" to="z60i:~Font" resolve="Font" />
                               <ref role="37wK5l" to="z60i:~Font.getFont(java.lang.String):java.awt.Font" resolve="getFont" />
+                              <ref role="1Pybhc" to="z60i:~Font" resolve="Font" />
                               <node concept="Xl_RD" id="TE4nIlo8sA" role="37wK5m">
                                 <property role="Xl_RC" value="Courier New" />
                               </node>
@@ -2444,10 +2443,9 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="TE4nIloDW$" role="TDEfX">
-                        <node concept="34ab3g" id="6RW8DBDbb75" role="3cqZAp">
-                          <property role="35gtTG" value="error" />
-                          <property role="34fQS0" value="true" />
-                          <node concept="3cpWs3" id="7G6SBGK2Sfg" role="34bqiv">
+                        <node concept="2xdQw9" id="4P9NnSOEOlu" role="3cqZAp">
+                          <property role="2xdLsb" value="error" />
+                          <node concept="3cpWs3" id="7G6SBGK2Sfg" role="9lYJi">
                             <node concept="2OqwBi" id="7G6SBGK2SCu" role="3uHU7w">
                               <node concept="37vLTw" id="7G6SBGK2SsH" role="2Oq$k0">
                                 <ref role="3cqZAo" node="TE4nIloDWw" resolve="e" />
@@ -2460,12 +2458,7 @@
                               <property role="Xl_RC" value="Failed to render: " />
                             </node>
                           </node>
-                          <node concept="37vLTw" id="6RW8DBDbb77" role="34bMjA">
-                            <ref role="3cqZAo" node="TE4nIloDWw" resolve="e" />
-                          </node>
-                        </node>
-                        <node concept="YS8fn" id="7G6SBGK32NJ" role="3cqZAp">
-                          <node concept="37vLTw" id="7G6SBGK332a" role="YScLw">
+                          <node concept="37vLTw" id="6RW8DBDbb77" role="9lYJj">
                             <ref role="3cqZAo" node="TE4nIloDWw" resolve="e" />
                           </node>
                         </node>
