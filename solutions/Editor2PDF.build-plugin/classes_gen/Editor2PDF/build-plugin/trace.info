@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root nodeRef="r:13380e80-c91d-4de0-973f-8cab3a823c97(Editor2PDF.build-plugin)/3009304464428357460">
     <file name="org.campagnelab.Editor2PDF.xml">
-      <unit id="3009304464428357460" at="1,0,357,10" name="Editor2PDF.build-plugin.org$campagnelab$Editor2PDF" />
+      <unit id="3009304464428357460" at="1,0,356,10" name="Editor2PDF.build-plugin.org$campagnelab$Editor2PDF" />
     </file>
   </root>
 </debug-info>

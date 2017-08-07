@@ -153,39 +153,13 @@
     <node concept="3b7kt6" id="2B3cBtBfXtm" role="10PD9s" />
     <node concept="398rNT" id="2B3cBtBfXtn" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="oLvTagZhJi" role="398pKh">
-        <node concept="2Ry0Ak" id="oLvTagZhKu" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="oLvTagZhLD" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="oLvTagZhMs" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="oLvTagZhVE" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="oLvTagZi7H" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="oLvTagZiaM" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="oLvTagZicn" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2017.1.app" />
-                      <node concept="2Ry0Ak" id="oLvTagZidW" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2kB4xC" id="y5Izch8B7z" role="1l3spd">
       <property role="TrG5h" value="version" />
       <node concept="aVJcg" id="y5Izch8BaR" role="aVJcv">
         <node concept="NbPM2" id="y5Izch8BaQ" role="aVJcq">
           <node concept="3Mxwew" id="y5Izch8BaP" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.7" />
+            <property role="3MwjfP" value="1.2.8" />
           </node>
         </node>
       </node>
@@ -339,7 +313,7 @@
         <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="171.10000" />
+            <property role="2pMdty" value="171.1127" />
           </node>
         </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">

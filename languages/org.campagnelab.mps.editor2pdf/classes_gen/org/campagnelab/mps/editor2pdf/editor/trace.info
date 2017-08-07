@@ -10,8 +10,12 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1153952380246:jetbrains.mps.baseLanguage.structure.TryStatement" />
   <root>
+    <file name="DiagramRef_SubstituteMenu.java">
+      <unit at="40,0,58,0" name="org.campagnelab.mps.editor2pdf.editor.DiagramRef_SubstituteMenu$SMP_ReferenceScope_a06p18_a" />
+      <unit at="18,0,59,0" name="org.campagnelab.mps.editor2pdf.editor.DiagramRef_SubstituteMenu" />
+    </file>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="15,0,39,0" name="org.campagnelab.mps.editor2pdf.editor.EditorAspectDescriptorImpl" />
+      <unit at="16,0,52,0" name="org.campagnelab.mps.editor2pdf.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:d002ba66-2d70-4764-a082-2db8090ec9a3(org.campagnelab.mps.editor2pdf.editor)/5588184421281377848">
@@ -908,8 +912,8 @@
       <node id="893392931328115902" at="58,39,59,132" concept="6" />
       <node id="893392931328115902" at="61,37,62,63" concept="1" />
       <node id="893392931328115902" at="62,63,63,45" concept="1" />
-      <node id="893392931328115902" at="63,45,64,46" concept="1" />
-      <node id="893392931328115902" at="64,46,65,20" concept="6" />
+      <node id="893392931328115902" at="63,45,64,58" concept="1" />
+      <node id="893392931328115902" at="64,58,65,20" concept="6" />
       <node id="893392931328115902" at="67,6,68,32" concept="1" />
       <node id="893392931328115902" at="68,32,69,45" concept="1" />
       <node id="893392931328115902" at="69,45,70,26" concept="5" />
