@@ -16,8 +16,8 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
 
   @Override
   public ConstraintsDescriptor getConstraints(SAbstractConcept concept) {
-    SAbstractConcept cncpt = concept;
-    switch (index_2qnle6_a0c.index(cncpt)) {
+    SAbstractConcept cncpt_a0c = concept;
+    switch (index_2qnle6_a0c.index(cncpt_a0c)) {
       case 0:
         return new EditorAnnotation_Constraints();
       default:

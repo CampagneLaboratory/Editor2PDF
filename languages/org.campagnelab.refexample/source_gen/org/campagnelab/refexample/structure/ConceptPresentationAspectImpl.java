@@ -4,14 +4,14 @@ package org.campagnelab.refexample.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptPresentationAspectBase;
 import jetbrains.mps.smodel.runtime.ConceptPresentation;
-import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private final ConceptPresentation props_NavigateToNode = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_RefTarget = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_WithRef = new ConceptPresentationBuilder().create();
+  private ConceptPresentation props_NavigateToNode;
+  private ConceptPresentation props_RefTarget;
+  private ConceptPresentation props_WithRef;
 
   @Override
   @Nullable
@@ -19,10 +19,25 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
       case LanguageConceptSwitch.NavigateToNode:
+        if (props_NavigateToNode == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_NavigateToNode = cpb.create();
+        }
         return props_NavigateToNode;
       case LanguageConceptSwitch.RefTarget:
+        if (props_RefTarget == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_RefTarget = cpb.create();
+        }
         return props_RefTarget;
       case LanguageConceptSwitch.WithRef:
+        if (props_WithRef == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_WithRef = cpb.create();
+        }
         return props_WithRef;
     }
     return null;

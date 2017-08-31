@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,31,0" name="org.campagnelab.refexample.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,46,0" name="org.campagnelab.refexample.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,32,0" name="org.campagnelab.refexample.structure.LanguageConceptSwitch" />
