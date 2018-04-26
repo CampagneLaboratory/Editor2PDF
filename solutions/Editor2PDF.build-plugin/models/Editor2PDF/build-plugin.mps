@@ -141,9 +141,6 @@
       <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
         <child id="4278635856200826394" name="path" index="1BurEY" />
       </concept>
-      <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
-        <reference id="4278635856200794928" name="language" index="1Busuk" />
-      </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
@@ -170,7 +167,7 @@
       <node concept="aVJcg" id="y5Izch8BaR" role="aVJcv">
         <node concept="NbPM2" id="y5Izch8BaQ" role="aVJcq">
           <node concept="3Mxwew" id="y5Izch8BaP" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.10" />
+            <property role="3MwjfP" value="1.3" />
           </node>
         </node>
       </node>
@@ -319,18 +316,18 @@
     </node>
     <node concept="m$_wf" id="2B3cBtBfXtH" role="3989C9">
       <property role="m$_wk" value="org.campagnelab.Editor2PDF" />
-      <node concept="2pNNFK" id="5KK2jWpWIqP" role="20twgj">
+      <node concept="2pNNFK" id="5ayKDoDhh1W" role="20twgj">
         <property role="2pNNFO" value="idea-version" />
-        <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
-          <property role="2pNUuO" value="until-build" />
-          <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="172.1256" />
+        <node concept="2pNUuL" id="5ayKDoDhh1X" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="5ayKDoDhh1Y" role="2pMdts">
+            <property role="2pMdty" value="181.1254" />
           </node>
         </node>
-        <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
-          <property role="2pNUuO" value="since-build" />
-          <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
-            <property role="2pMdty" value="172.1" />
+        <node concept="2pNUuL" id="5ayKDoDhh1Z" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="5ayKDoDhh20" role="2pMdts">
+            <property role="2pMdty" value="182.0000" />
           </node>
         </node>
       </node>
@@ -368,7 +365,7 @@
     <node concept="2G$12M" id="2B3cBtBfXtG" role="3989C9">
       <property role="TrG5h" value="Editor2PDF" />
       <node concept="1E1JtD" id="2B3cBtBfXt_" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.mps.editor2pdf" />
         <property role="3LESm3" value="93bc01ac-08ca-4f11-9c7d-614d04055dfb" />
         <property role="2GAjPV" value="false" />
@@ -389,12 +386,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2B3cBtBg1Kl" role="3bR37C">
-          <node concept="3bR9La" id="2B3cBtBg1Km" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:14x5$qAUbkb" resolve="jetbrains.mps.lang.access" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2B3cBtBg1Kn" role="3bR37C">
           <node concept="3bR9La" id="2B3cBtBg1Ko" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -411,11 +402,6 @@
           <node concept="3bR9La" id="2B3cBtBg2WR" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2B3cBtBg2WS" role="3bR37C">
-          <node concept="1Busua" id="2B3cBtBg2WT" role="1SiIV1">
-            <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
         <node concept="1SiIV0" id="z8wxFGLxGc" role="3bR37C">
@@ -436,30 +422,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4VCY1Pnni13" role="3bR37C">
-          <node concept="3bR9La" id="4VCY1Pnni14" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:29PG$Bf7_mc" resolve="jetbrains.mps.lang.editor.imageGen" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VCY1Pnni15" role="3bR37C">
-          <node concept="3bR9La" id="4VCY1Pnni16" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1ZViq9oppal" resolve="jetbrains.mps.make.facets" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VCY1Pnni17" role="3bR37C">
-          <node concept="3bR9La" id="4VCY1Pnni18" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:4Hc8TwAmyoE" resolve="jetbrains.mps.tool.builder" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VCY1Pnni19" role="3bR37C">
-          <node concept="3bR9La" id="4VCY1Pnni1a" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LgV" resolve="jetbrains.mps.make.runtime" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="5p5R_REXwmH" role="3bR31x">
           <node concept="3LXTmp" id="5p5R_REXwmI" role="3rtmxm">
             <node concept="3qWCbU" id="5p5R_REXwmJ" role="3LXTna">
@@ -477,7 +439,7 @@
         </node>
       </node>
       <node concept="1E1JtA" id="2B3cBtBfXtF" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.itext" />
         <property role="3LESm3" value="fae75b6b-e1b0-446e-af11-a56ff9bea2b3" />
         <property role="2GAjPV" value="true" />

@@ -143,7 +143,7 @@
   </node>
   <node concept="KZc4b" id="4E_30JhWk7G">
     <property role="TrG5h" value="FIGURES" />
-    <property role="KZc57" value="/Users/fac2003/MPSProjects/git/Editor2PDF" />
+    <property role="KZc57" value="/Users/mas2182/tmp/Editor2PDF" />
   </node>
   <node concept="312cEu" id="3gGkzkuBEVv">
     <property role="TrG5h" value="SomeOtherClass" />
